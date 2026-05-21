@@ -1,0 +1,18 @@
+# Base de datos local del backoffice (NO subir al repo)
+backoffice/ventas.db
+
+# Configuración local con el token de GitHub (NO subir al repo)
+backoffice/config.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
