@@ -15,6 +15,10 @@ const CONFIG = {
     // Reemplazá con tu token después de seguir los pasos del README.
     LOGS_TOKEN: 'REEMPLAZAR_CON_TU_TOKEN_GITHUB',
 
+    // Mensaje de promoción predefinido para WhatsApp.
+    // Usá {nombre} para insertar el primer nombre del cliente.
+    PROMO_MSG: 'Hola {nombre}! 👋 Te contactamos desde *MAROMEGA*. Tenemos una promoción exclusiva para vos. ¿Puedo contarte los detalles? 😊',
+
     get RAW_BASE() {
         return `https://raw.githubusercontent.com/${this.GITHUB_USER}/${this.GITHUB_REPO}/${this.GITHUB_BRANCH}`;
     },

@@ -89,6 +89,9 @@ class BackofficeApp(tk.Tk):
         self._build_tab_sincronizar(nb)
         self._build_tab_reportes(nb)
 
+        # Poblar los comboboxes de sucursal ahora que todos los tabs están construidos
+        self._sync_branch_combos()
+
     # ─── TAB: SUCURSALES ──────────────────────────────────────────────────────
 
     def _build_tab_sucursales(self, nb):

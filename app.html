@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Ventas Telefónicas</title>
+    <title>MAROMEGA · Ventas</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- Header fijo -->
     <header class="app-header">
-        <div class="header-info">
-            <div class="branch-name" id="branchName">Cargando...</div>
-            <div class="user-name" id="userName"></div>
+        <div class="header-left">
+            <div class="app-brand">MAROMEGA</div>
+            <div class="app-branch" id="branchName">...</div>
         </div>
-        <button class="btn-logout" onclick="logout()">Salir</button>
+        <div class="header-right">
+            <span class="app-user" id="userName"></span>
+            <button class="btn-logout" onclick="logout()">Salir</button>
+        </div>
     </header>
 
     <!-- Barra de búsqueda -->

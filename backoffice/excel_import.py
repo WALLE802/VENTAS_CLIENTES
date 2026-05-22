@@ -41,14 +41,23 @@ def import_excel(filepath: str, branch: str) -> int:
     if not all_rows:
         raise ValueError("El archivo Excel está vacío.")
 
-    # Primera fila = encabezados
-    raw_headers = [_normalize_header(h) if h is not None else '' for h in all_rows[0]]
+    # Buscar la fila de encabezados: puede estar en la fila 0 o desplazada
+    # (algunos Excel tienen una fila de título antes de los encabezados reales)
+    header_row_idx = 0
+    for i, row in enumerate(all_rows[:5]):  # buscar en las primeras 5 filas
+        normalized = [_normalize_header(h) for h in row if h is not None]
+        if any(h in _COL_MAP for h in normalized):
+            header_row_idx = i
+            break
+
+    raw_headers = [_normalize_header(h) if h is not None else '' for h in all_rows[header_row_idx]]
     headers = [_COL_MAP.get(h, None) for h in raw_headers]  # None = columna ignorada
+    all_rows = all_rows[header_row_idx + 1:]  # datos a partir de la fila siguiente
 
     conn = get_conn()
     count = 0
 
-    for row in all_rows[1:]:
+    for row in all_rows:
         if not any(cell is not None for cell in row):
             continue  # fila vacía
 
