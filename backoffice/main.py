@@ -536,9 +536,10 @@ class BackofficeApp(tk.Tk):
         def run():
             import subprocess
             repo_dir = os.path.normpath(os.path.join(os.path.dirname(__file__), '..'))
+            branch = self.cfg.get('github_branch', 'main')
             try:
-                self._log_sync('⏳ Ejecutando git add + commit + push...')
-                # Stage todos los archivos del frontend
+                self._log_sync('⏳ Preparando archivos...')
+                # Stage archivos del proyecto
                 subprocess.run(
                     ['git', 'add', 'index.html', 'app.html',
                      'css/style.css', 'js/app.js', 'js/config.js',
@@ -546,7 +547,7 @@ class BackofficeApp(tk.Tk):
                     cwd=repo_dir, check=True,
                     capture_output=True, text=True
                 )
-                # Commit (puede no haber cambios nuevos)
+                # Commit
                 result = subprocess.run(
                     ['git', 'commit', '-m', 'backoffice: actualizacion de datos y configuracion'],
                     cwd=repo_dir, capture_output=True, text=True
@@ -558,17 +559,32 @@ class BackofficeApp(tk.Tk):
                 else:
                     self._log_sync(result.stdout.strip())
 
-                # Push
-                push = subprocess.run(
-                    ['git', 'pull', '--rebase', '--autostash', 'origin', self.cfg.get('github_branch', 'main')],
+                # Guardar cualquier cambio restante para no bloquear el pull
+                stash = subprocess.run(
+                    ['git', 'stash'],
                     cwd=repo_dir, capture_output=True, text=True
                 )
-                if push.returncode != 0:
-                    raise RuntimeError(f"Error en git pull:\n{push.stderr or push.stdout}")
+                stashed = 'No local changes' not in stash.stdout
+
+                # Integrar cambios del remote
+                self._log_sync('⬇️  Sincronizando con remote...')
+                pull = subprocess.run(
+                    ['git', 'pull', '--rebase', 'origin', branch],
+                    cwd=repo_dir, capture_output=True, text=True
+                )
+                if pull.returncode != 0:
+                    if stashed:
+                        subprocess.run(['git', 'stash', 'pop'], cwd=repo_dir, capture_output=True)
+                    raise RuntimeError(f"Error en git pull:\n{pull.stderr or pull.stdout}")
                 self._log_sync('⬇️  Pull completado.')
 
+                # Restaurar cambios guardados
+                if stashed:
+                    subprocess.run(['git', 'stash', 'pop'], cwd=repo_dir, capture_output=True)
+
+                # Push
                 push = subprocess.run(
-                    ['git', 'push', 'origin', self.cfg.get('github_branch', 'main')],
+                    ['git', 'push', 'origin', branch],
                     cwd=repo_dir, capture_output=True, text=True
                 )
                 if push.returncode != 0:
