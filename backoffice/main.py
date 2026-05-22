@@ -560,7 +560,7 @@ class BackofficeApp(tk.Tk):
 
                 # Push
                 push = subprocess.run(
-                    ['git', 'pull', '--rebase', 'origin', self.cfg.get('github_branch', 'main')],
+                    ['git', 'pull', '--rebase', '--autostash', 'origin', self.cfg.get('github_branch', 'main')],
                     cwd=repo_dir, capture_output=True, text=True
                 )
                 if push.returncode != 0:
