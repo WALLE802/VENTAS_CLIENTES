@@ -6,6 +6,7 @@ clientes, usuarios y sincronizar con GitHub Pages.
 import csv
 import json
 import os
+import re
 import sys
 import threading
 import tkinter as tk
@@ -87,6 +88,7 @@ class BackofficeApp(tk.Tk):
         self._build_tab_clientes(nb)
         self._build_tab_usuarios(nb)
         self._build_tab_sincronizar(nb)
+        self._build_tab_mensaje(nb)
         self._build_tab_reportes(nb)
 
         # Poblar los comboboxes de sucursal ahora que todos los tabs están construidos
@@ -472,7 +474,10 @@ class BackofficeApp(tk.Tk):
                   text='Sube todos los datos (sucursales, clientes, usuarios) al repositorio de GitHub.\n'
                        'Los operadores verán los cambios inmediatamente.',
                   wraplength=600).pack(padx=10, pady=8)
-        ttk.Button(sync_frame, text='🚀 Sincronizar ahora', command=self._sync_now).pack(pady=(0, 10))
+        btn_row = ttk.Frame(sync_frame)
+        btn_row.pack(pady=(0, 10))
+        ttk.Button(btn_row, text='🚀 Sincronizar ahora', command=self._sync_now).pack(side='left', padx=6)
+        ttk.Button(btn_row, text='📤 Git Push', command=self._git_push).pack(side='left', padx=6)
 
         # Log
         log_frame = ttk.LabelFrame(tab, text='Resultado')
@@ -522,6 +527,142 @@ class BackofficeApp(tk.Tk):
                 messagebox.showerror("Error de sincronización", str(e), parent=self)
 
         threading.Thread(target=run, daemon=True).start()
+
+    def _git_push(self):
+        self.sync_log.config(state='normal')
+        self.sync_log.delete('1.0', 'end')
+        self.sync_log.config(state='disabled')
+
+        def run():
+            import subprocess
+            repo_dir = os.path.normpath(os.path.join(os.path.dirname(__file__), '..'))
+            try:
+                self._log_sync('⏳ Ejecutando git add + commit + push...')
+                # Stage todos los archivos del frontend
+                subprocess.run(
+                    ['git', 'add', 'index.html', 'app.html',
+                     'css/style.css', 'js/app.js', 'js/config.js',
+                     'js/auth.js', 'backoffice/main.py'],
+                    cwd=repo_dir, check=True,
+                    capture_output=True, text=True
+                )
+                # Commit (puede no haber cambios nuevos)
+                result = subprocess.run(
+                    ['git', 'commit', '-m', 'backoffice: actualizacion de datos y configuracion'],
+                    cwd=repo_dir, capture_output=True, text=True
+                )
+                if result.returncode not in (0, 1):
+                    raise RuntimeError(result.stderr or result.stdout)
+                if 'nothing to commit' in result.stdout:
+                    self._log_sync('ℹ️  No hay cambios nuevos en los archivos de código.')
+                else:
+                    self._log_sync(result.stdout.strip())
+
+                # Push
+                push = subprocess.run(
+                    ['git', 'push', 'origin', self.cfg.get('github_branch', 'main')],
+                    cwd=repo_dir, capture_output=True, text=True
+                )
+                if push.returncode != 0:
+                    raise RuntimeError(push.stderr or push.stdout)
+                self._log_sync(push.stderr.strip() or push.stdout.strip())
+                self._log_sync('\n✅ Git push completado.')
+            except Exception as e:
+                self._log_sync(f'\n❌ Error: {e}')
+
+        threading.Thread(target=run, daemon=True).start()
+
+    # ─── TAB: MENSAJE WHATSAPP ──────────────────────────────────────────────────
+
+    def _build_tab_mensaje(self, nb):
+        tab = ttk.Frame(nb)
+        nb.add(tab, text='💬  Mensaje WA')
+
+        info = ttk.LabelFrame(tab, text='Mensaje de promoción (WhatsApp)')
+        info.pack(fill='x', padx=15, pady=12)
+        ttk.Label(
+            info,
+            text='Usá {nombre} donde quieras insertar el nombre del cliente.\n'
+                 'Ejemplo: "Hola {nombre}! 👋 Tenemos una promo exclusiva para vos."',
+            foreground='#555'
+        ).pack(padx=10, pady=8, anchor='w')
+
+        editor_frame = ttk.LabelFrame(tab, text='Mensaje')
+        editor_frame.pack(fill='both', expand=True, padx=15, pady=0)
+
+        self.promo_text = tk.Text(
+            editor_frame, height=6, wrap='word',
+            font=('Segoe UI', 11), padx=8, pady=8
+        )
+        sb = ttk.Scrollbar(editor_frame, command=self.promo_text.yview)
+        self.promo_text.configure(yscrollcommand=sb.set)
+        self.promo_text.pack(side='left', fill='both', expand=True, padx=(5, 0), pady=5)
+        sb.pack(side='right', fill='y', pady=5)
+        self.promo_text.bind('<KeyRelease>', lambda _: self._update_promo_preview())
+
+        preview_frame = ttk.LabelFrame(tab, text='Vista previa  (nombre de ejemplo: "María")')
+        preview_frame.pack(fill='x', padx=15, pady=10)
+        self.promo_preview = tk.Label(
+            preview_frame, text='', wraplength=700, justify='left',
+            font=('Segoe UI', 10), foreground='#1a73e8'
+        )
+        self.promo_preview.pack(padx=10, pady=8, anchor='w')
+
+        btn_frame = ttk.Frame(tab)
+        btn_frame.pack(fill='x', padx=15, pady=(0, 12))
+        ttk.Button(btn_frame, text='💾  Guardar mensaje',
+                   command=self._save_promo_msg).pack(side='left')
+        ttk.Label(
+            btn_frame,
+            text='  ⚠️  Después de guardar, sincronizá para publicar los cambios.',
+            foreground='#e65100', font=('Segoe UI', 9)
+        ).pack(side='left', padx=10)
+
+        self._load_promo_msg()
+
+    def _config_js_path(self) -> str:
+        return os.path.normpath(
+            os.path.join(os.path.dirname(__file__), '..', 'js', 'config.js')
+        )
+
+    def _load_promo_msg(self):
+        try:
+            content = open(self._config_js_path(), encoding='utf-8').read()
+            m = re.search(r'PROMO_MSG:\s*[\'"](.+?)[\'"],', content)
+            if m:
+                msg = m.group(1).replace('\\\\', '\\').replace('\\"', '"').replace("\\'", "'")
+                self.promo_text.delete('1.0', 'end')
+                self.promo_text.insert('1.0', msg)
+                self._update_promo_preview()
+        except Exception:
+            pass
+
+    def _update_promo_preview(self):
+        msg = self.promo_text.get('1.0', 'end-1c')
+        self.promo_preview.config(text=msg.replace('{nombre}', 'María'))
+
+    def _save_promo_msg(self):
+        msg = self.promo_text.get('1.0', 'end-1c').strip()
+        if not msg:
+            messagebox.showwarning('Atención', 'El mensaje no puede estar vacío.', parent=self)
+            return
+        path = self._config_js_path()
+        try:
+            content = open(path, encoding='utf-8').read()
+            escaped = msg.replace('\\', '\\\\').replace('"', '\\"')
+            new_line = f'    PROMO_MSG: "{escaped}",'
+            content = re.sub(r'    PROMO_MSG:.*', new_line, content)
+            with open(path, 'w', encoding='utf-8') as f:
+                f.write(content)
+            messagebox.showinfo(
+                'Listo',
+                '✅ Mensaje guardado en config.js\n\n'
+                'Sincronizá los datos (☁️ Sincronizar) y luego hacé\n'
+                'git push para que el cambio se vea en la página web.',
+                parent=self
+            )
+        except Exception as e:
+            messagebox.showerror('Error', str(e), parent=self)
 
     # ─── TAB: REPORTES ────────────────────────────────────────────────────────
 

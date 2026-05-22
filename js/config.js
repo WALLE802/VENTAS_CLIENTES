@@ -17,7 +17,9 @@ const CONFIG = {
 
     // Mensaje de promoción predefinido para WhatsApp.
     // Usá {nombre} para insertar el primer nombre del cliente.
-    PROMO_MSG: 'Hola {nombre}! 👋 Te contactamos desde *MAROMEGA*. Tenemos una promoción exclusiva para vos. ¿Puedo contarte los detalles? 😊',
+    PROMO_MSG: "Hola {nombre}! 👋 Te contactamos desde MARATHON DEPORTES. Tenemos una promoción exclusiva para vos!
+3 Cuotas sin interes  con tu credito personal en marcas seleccionadas!!
+entre al link  https://catalogo.maromega.com.ar/  y descubri mas promociones!!",
 
     get RAW_BASE() {
         return `https://raw.githubusercontent.com/${this.GITHUB_USER}/${this.GITHUB_REPO}/${this.GITHUB_BRANCH}`;
