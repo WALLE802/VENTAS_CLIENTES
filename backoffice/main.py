@@ -538,8 +538,18 @@ class BackofficeApp(tk.Tk):
             repo_dir = os.path.normpath(os.path.join(os.path.dirname(__file__), '..'))
             branch = self.cfg.get('github_branch', 'main')
             try:
-                self._log_sync('⏳ Preparando archivos...')
-                # Stage archivos del proyecto
+                # 1. Fetch remoto ANTES de hacer cualquier commit
+                self._log_sync('⬇️  Descargando cambios del remote (fetch)...')
+                fetch = subprocess.run(
+                    ['git', 'fetch', 'origin'],
+                    cwd=repo_dir, capture_output=True, text=True
+                )
+                if fetch.returncode != 0:
+                    raise RuntimeError(f"Error en git fetch:\n{fetch.stderr or fetch.stdout}")
+                self._log_sync('   fetch OK')
+
+                # 2. Stage y commit de los archivos del proyecto
+                self._log_sync('📦 Commiteando archivos...')
                 subprocess.run(
                     ['git', 'add', 'index.html', 'app.html',
                      'css/style.css', 'js/app.js', 'js/config.js',
@@ -547,7 +557,6 @@ class BackofficeApp(tk.Tk):
                     cwd=repo_dir, check=True,
                     capture_output=True, text=True
                 )
-                # Commit
                 result = subprocess.run(
                     ['git', 'commit', '-m', 'backoffice: actualizacion de datos y configuracion'],
                     cwd=repo_dir, capture_output=True, text=True
@@ -555,41 +564,45 @@ class BackofficeApp(tk.Tk):
                 if result.returncode not in (0, 1):
                     raise RuntimeError(result.stderr or result.stdout)
                 if 'nothing to commit' in result.stdout:
-                    self._log_sync('ℹ️  No hay cambios nuevos en los archivos de código.')
+                    self._log_sync('ℹ️  Sin cambios nuevos en archivos de código.')
                 else:
                     self._log_sync(result.stdout.strip())
 
-                # Guardar cualquier cambio restante para no bloquear el pull
+                # 3. Stash de cualquier cambio restante
                 stash = subprocess.run(
                     ['git', 'stash'],
                     cwd=repo_dir, capture_output=True, text=True
                 )
                 stashed = 'No local changes' not in stash.stdout
+                if stashed:
+                    self._log_sync(f'   stash: {stash.stdout.strip()}')
 
-                # Integrar cambios del remote
-                self._log_sync('⬇️  Sincronizando con remote...')
-                pull = subprocess.run(
-                    ['git', 'pull', '--rebase', 'origin', branch],
+                # 4. Rebase sobre origin/branch (ya fetcheado)
+                self._log_sync(f'🔁 Rebase sobre origin/{branch}...')
+                rebase = subprocess.run(
+                    ['git', 'rebase', f'origin/{branch}'],
                     cwd=repo_dir, capture_output=True, text=True
                 )
-                if pull.returncode != 0:
+                self._log_sync(f'   rebase salida: {(rebase.stdout or rebase.stderr).strip()[:200]}')
+                if rebase.returncode != 0:
+                    subprocess.run(['git', 'rebase', '--abort'], cwd=repo_dir, capture_output=True)
                     if stashed:
                         subprocess.run(['git', 'stash', 'pop'], cwd=repo_dir, capture_output=True)
-                    raise RuntimeError(f"Error en git pull:\n{pull.stderr or pull.stdout}")
-                self._log_sync('⬇️  Pull completado.')
+                    raise RuntimeError(f"Error en rebase:\n{rebase.stderr or rebase.stdout}")
 
-                # Restaurar cambios guardados
+                # 5. Restaurar stash
                 if stashed:
                     subprocess.run(['git', 'stash', 'pop'], cwd=repo_dir, capture_output=True)
 
-                # Push
+                # 6. Push
+                self._log_sync('📤 Haciendo push...')
                 push = subprocess.run(
                     ['git', 'push', 'origin', branch],
                     cwd=repo_dir, capture_output=True, text=True
                 )
+                self._log_sync(f'   push salida: {(push.stderr or push.stdout).strip()[:300]}')
                 if push.returncode != 0:
                     raise RuntimeError(push.stderr or push.stdout)
-                self._log_sync(push.stderr.strip() or push.stdout.strip())
                 self._log_sync('\n✅ Git push completado.')
             except Exception as e:
                 self._log_sync(f'\n❌ Error: {e}')
