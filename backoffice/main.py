@@ -560,6 +560,14 @@ class BackofficeApp(tk.Tk):
 
                 # Push
                 push = subprocess.run(
+                    ['git', 'pull', '--rebase', 'origin', self.cfg.get('github_branch', 'main')],
+                    cwd=repo_dir, capture_output=True, text=True
+                )
+                if push.returncode != 0:
+                    raise RuntimeError(f"Error en git pull:\n{push.stderr or push.stdout}")
+                self._log_sync('⬇️  Pull completado.')
+
+                push = subprocess.run(
                     ['git', 'push', 'origin', self.cfg.get('github_branch', 'main')],
                     cwd=repo_dir, capture_output=True, text=True
                 )
