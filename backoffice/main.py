@@ -665,13 +665,16 @@ class BackofficeApp(tk.Tk):
     def _load_promo_msg(self):
         try:
             content = open(self._config_js_path(), encoding='utf-8').read()
-            m = re.search(r'PROMO_MSG:\s*[\'"](.+?)[\'"],', content)
+            # Coincide con PROMO_MSG: "..." o '...' incluyendo saltos de línea reales
+            m = re.search(r'PROMO_MSG:\s*"((?:[^"\\]|\\.)*)"', content, re.DOTALL)
+            if not m:
+                m = re.search(r"PROMO_MSG:\s*'((?:[^'\\]|\\.)*)'", content, re.DOTALL)
             if m:
                 msg = (m.group(1)
-                       .replace('\\\\', '\\')
+                       .replace('\\n', '\n')
                        .replace('\\"', '"')
                        .replace("\\'", "'")
-                       .replace('\\n', '\n'))
+                       .replace('\\\\', '\\'))
                 self.promo_text.delete('1.0', 'end')
                 self.promo_text.insert('1.0', msg)
                 self._update_promo_preview()
@@ -689,18 +692,25 @@ class BackofficeApp(tk.Tk):
             return
         path = self._config_js_path()
         try:
-            content = open(path, encoding='utf-8').read()
-            # Escapar backslashes, comillas dobles y saltos de línea para JS
+            with open(path, 'r', encoding='utf-8') as f:
+                content = f.read()
+            # Escapar para JS: backslashes, comillas y saltos de línea
             escaped = (msg
                        .replace('\\', '\\\\')
                        .replace('"', '\\"')
                        .replace('\r\n', '\\n')
                        .replace('\n', '\\n')
                        .replace('\r', '\\n'))
-            new_line = f'    PROMO_MSG: "{escaped}",'
-            content = re.sub(r'    PROMO_MSG:.*', new_line, content)
+            # Reemplazar PROMO_MSG con su valor (soporta saltos reales y escapes)
+            new_content = re.sub(
+                r'PROMO_MSG:\s*"(?:[^"\\]|\\.)*"',
+                f'PROMO_MSG: "{escaped}"',
+                content, flags=re.DOTALL
+            )
+            if new_content == content:
+                raise ValueError('No se encontró PROMO_MSG en config.js')
             with open(path, 'w', encoding='utf-8') as f:
-                f.write(content)
+                f.write(new_content)
             messagebox.showinfo(
                 'Listo',
                 '✅ Mensaje guardado en config.js\n\n'
