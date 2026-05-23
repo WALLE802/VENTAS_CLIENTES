@@ -667,7 +667,11 @@ class BackofficeApp(tk.Tk):
             content = open(self._config_js_path(), encoding='utf-8').read()
             m = re.search(r'PROMO_MSG:\s*[\'"](.+?)[\'"],', content)
             if m:
-                msg = m.group(1).replace('\\\\', '\\').replace('\\"', '"').replace("\\'", "'")
+                msg = (m.group(1)
+                       .replace('\\\\', '\\')
+                       .replace('\\"', '"')
+                       .replace("\\'", "'")
+                       .replace('\\n', '\n'))
                 self.promo_text.delete('1.0', 'end')
                 self.promo_text.insert('1.0', msg)
                 self._update_promo_preview()
@@ -686,7 +690,13 @@ class BackofficeApp(tk.Tk):
         path = self._config_js_path()
         try:
             content = open(path, encoding='utf-8').read()
-            escaped = msg.replace('\\', '\\\\').replace('"', '\\"')
+            # Escapar backslashes, comillas dobles y saltos de línea para JS
+            escaped = (msg
+                       .replace('\\', '\\\\')
+                       .replace('"', '\\"')
+                       .replace('\r\n', '\\n')
+                       .replace('\n', '\\n')
+                       .replace('\r', '\\n'))
             new_line = f'    PROMO_MSG: "{escaped}",'
             content = re.sub(r'    PROMO_MSG:.*', new_line, content)
             with open(path, 'w', encoding='utf-8') as f:
