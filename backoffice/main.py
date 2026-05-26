@@ -701,14 +701,12 @@ class BackofficeApp(tk.Tk):
                        .replace('\r\n', '\\n')
                        .replace('\n', '\\n')
                        .replace('\r', '\\n'))
-            # Reemplazar PROMO_MSG con su valor (soporta saltos reales y escapes)
-            new_content = re.sub(
-                r'PROMO_MSG:\s*"(?:[^"\\]|\\.)*"',
-                f'PROMO_MSG: "{escaped}"',
-                content, flags=re.DOTALL
-            )
-            if new_content == content:
+            # Usar anchors fijos para reemplazar todo el bloque PROMO_MSG
+            start = content.find('    PROMO_MSG:')
+            end   = content.find('    get RAW_BASE')
+            if start == -1 or end == -1:
                 raise ValueError('No se encontró PROMO_MSG en config.js')
+            new_content = content[:start] + f'    PROMO_MSG: "{escaped}",\n\n' + content[end:]
             with open(path, 'w', encoding='utf-8') as f:
                 f.write(new_content)
             messagebox.showinfo(
