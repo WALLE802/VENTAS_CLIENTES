@@ -299,7 +299,9 @@ function handleContact(clientIdx, phone, type) {
                 : digits.startsWith('54')  ? digits
                 : digits.startsWith('0')   ? `549${digits.slice(1)}`
                 : `549${digits}`;
-            window.open(`https://wa.me/${normalized}`, '_blank');
+            const firstName  = (client.nombre || '').split(/\s+/)[0];
+            const msg        = CONFIG.PROMO_MSG.replace(/{nombre}/gi, firstName);
+            window.open(`https://wa.me/${normalized}?text=${encodeURIComponent(msg)}`, '_blank');
         }
     }, 80);
 }
