@@ -559,12 +559,11 @@ function handleContact(clientIdx, phone, type) {
             window.location.href = `sms:${cleanPhone}`;
         } else if (type === 'whatsapp') {
             const digits = cleanPhone.replace(/\D/g, '');
-            // Prefijo Argentina: 549 + número sin 0 inicial
-            const normalized = digits.startsWith('549') ? digits
-                : digits.startsWith('54')  ? digits
-                : digits.startsWith('0')   ? `549${digits.slice(1)}`
-                : `549${digits}`;
-            window.open(`https://wa.me/${normalized}`, '_blank');
+            const local  = digits.startsWith('0') ? digits.slice(1) : digits;
+            const number = '54' + local;
+            const nombre = (client.nombre || '').trim();
+            const msg = 'Hola ' + nombre + ' te hablamos de MARATHON DEPORTES ,hace tiempo que no compras con credito personal y tenemos una promocion para ofrecerte!!\n3 Cuotas sin interes en marcas seleccionadas!! \nEntra a este link y descubri mas promociones para vos!! https://catalogo.maromega.com.ar/';
+            window.open('https://wa.me/' + number + '?text=' + encodeURIComponent(msg), '_blank');
         }
     }, 80);
 }
