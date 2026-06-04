@@ -14,14 +14,18 @@ from datetime import date
 from tkinter import filedialog, messagebox, simpledialog, ttk
 
 # Asegurar que el directorio actual sea el del script
-os.chdir(os.path.dirname(os.path.abspath(__file__)))
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+if getattr(sys, 'frozen', False):
+    _BASE_DIR = os.path.dirname(sys.executable)
+else:
+    _BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    sys.path.insert(0, _BASE_DIR)
+os.chdir(_BASE_DIR)
 
 from database import get_conn, hash_password, init_db
 from excel_import import import_excel
 from github_sync import GitHubSync
 
-CONFIG_FILE = os.path.join(os.path.dirname(__file__), 'config.json')
+CONFIG_FILE = os.path.join(_BASE_DIR, 'config.json')
 
 
 # ─── Configuración local ──────────────────────────────────────────────────────
@@ -32,6 +36,7 @@ def load_config() -> dict:
         'github_user':   'WALLE802',
         'github_repo':   'VENTAS_CLIENTES',
         'github_branch': 'main',
+        'git_repo_path': '',
     }
     if os.path.exists(CONFIG_FILE):
         with open(CONFIG_FILE, encoding='utf-8') as f:
@@ -79,6 +84,20 @@ class BackofficeApp(tk.Tk):
             bar, text="📞  Backoffice · Ventas Telefónicas",
             bg='#1a73e8', fg='white', font=('Segoe UI', 13, 'bold')
         ).pack(side='left', padx=16, pady=10)
+        tk.Button(
+            bar, text="🌐  Ver página web",
+            bg='#1557b0', fg='white', font=('Segoe UI', 9, 'bold'),
+            relief='flat', cursor='hand2', activebackground='#0d47a1',
+            activeforeground='white', bd=0, padx=10,
+            command=self._open_website
+        ).pack(side='right', padx=16, pady=10)
+
+    def _open_website(self):
+        import webbrowser
+        user = self.cfg.get('github_user', 'WALLE802')
+        repo = self.cfg.get('github_repo', 'VENTAS_CLIENTES')
+        url = f"https://{user.lower()}.github.io/{repo}/"
+        webbrowser.open(url)
 
     def _build_notebook(self):
         nb = ttk.Notebook(self)
@@ -455,10 +474,24 @@ class BackofficeApp(tk.Tk):
             e.grid(row=row_idx, column=1, sticky='ew', padx=5, pady=3)
             self._cfg_entries[key] = e
 
-        ttk.Label(grid, text='Token GitHub:').grid(row=len(fields), column=0, sticky='w', padx=5, pady=3)
+        # Ruta del repositorio git local (para Git Push)
+        repo_row = len(fields)
+        ttk.Label(grid, text='Ruta repo git:').grid(row=repo_row, column=0, sticky='w', padx=5, pady=3)
+        repo_frame = ttk.Frame(grid)
+        repo_frame.grid(row=repo_row, column=1, sticky='ew', padx=5, pady=3)
+        self.git_repo_entry = ttk.Entry(repo_frame, width=36)
+        self.git_repo_entry.insert(0, self.cfg.get('git_repo_path', ''))
+        self.git_repo_entry.pack(side='left', fill='x', expand=True)
+        ttk.Button(
+            repo_frame, text='📁',
+            command=lambda: self._browse_repo_path()
+        ).pack(side='left', padx=(4, 0))
+        self._cfg_entries['git_repo_path'] = self.git_repo_entry
+
+        ttk.Label(grid, text='Token GitHub:').grid(row=repo_row + 1, column=0, sticky='w', padx=5, pady=3)
         self.token_entry = ttk.Entry(grid, width=50, show='*')
         self.token_entry.insert(0, self.cfg.get('github_token', ''))
-        self.token_entry.grid(row=len(fields), column=1, sticky='ew', padx=5, pady=3)
+        self.token_entry.grid(row=repo_row + 1, column=1, sticky='ew', padx=5, pady=3)
         grid.columnconfigure(1, weight=1)
 
         ttk.Label(cfg_frame,
@@ -486,6 +519,15 @@ class BackofficeApp(tk.Tk):
                                 font=('Courier New', 9), bg='#1e1e1e', fg='#d4d4d4',
                                 insertbackground='white')
         self.sync_log.pack(fill='both', expand=True, padx=5, pady=5)
+
+    def _browse_repo_path(self):
+        path = filedialog.askdirectory(
+            title='Seleccioná la carpeta raíz del repositorio git',
+            parent=self
+        )
+        if path:
+            self.git_repo_entry.delete(0, 'end')
+            self.git_repo_entry.insert(0, path)
 
     def _save_cfg(self):
         for key, entry in self._cfg_entries.items():
@@ -535,7 +577,18 @@ class BackofficeApp(tk.Tk):
 
         def run():
             import subprocess
-            repo_dir = os.path.normpath(os.path.join(os.path.dirname(__file__), '..'))
+            # Preferir la ruta configurada; si no, autodetectar
+            configured = self.cfg.get('git_repo_path', '').strip()
+            if configured and os.path.isdir(configured):
+                repo_dir = configured
+            elif getattr(sys, 'frozen', False):
+                self._log_sync(
+                    '❌ Error: configurá la "Ruta repo git" en la pestaña Sincronizar\n'
+                    '   (carpeta raíz del repositorio clonado en esta PC)'
+                )
+                return
+            else:
+                repo_dir = os.path.normpath(os.path.join(os.path.dirname(__file__), '..'))
             branch = self.cfg.get('github_branch', 'main')
             try:
                 # 1. Fetch remoto ANTES de hacer cualquier commit
@@ -658,6 +711,8 @@ class BackofficeApp(tk.Tk):
         self._load_promo_msg()
 
     def _config_js_path(self) -> str:
+        if getattr(sys, 'frozen', False):
+            return os.path.join(os.path.dirname(sys.executable), 'js', 'config.js')
         return os.path.normpath(
             os.path.join(os.path.dirname(__file__), '..', 'js', 'config.js')
         )
