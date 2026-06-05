@@ -8,5 +8,10 @@
     "username": "con1",
     "password_hash": "db10fb9ef93da28d219bf8ac435fc76ff4cac1753793871398813f5ed8648b1c",
     "branch": "con1"
+  },
+  {
+    "username": "tafi",
+    "password_hash": "7f471258b904c5a1cc82db124f293a4819ae93f9417c5a07dfac46723931f576",
+    "branch": "tafi"
   }
 ]
