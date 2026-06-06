@@ -780,24 +780,57 @@ class BackofficeApp(tk.Tk):
         tab = ttk.Frame(nb)
         nb.add(tab, text='📊  Reportes')
 
+        # Fila superior: filtros
         top = ttk.Frame(tab)
-        top.pack(fill='x', padx=10, pady=8)
+        top.pack(fill='x', padx=10, pady=6)
 
-        ttk.Label(top, text='Fecha:').pack(side='left')
-        self.rpt_date = ttk.Entry(top, width=12)
-        self.rpt_date.insert(0, date.today().strftime('%Y-%m-%d'))
-        self.rpt_date.pack(side='left', padx=(4, 10))
+        ttk.Label(top, text='Desde:').pack(side='left')
+        self.rpt_date_from = ttk.Entry(top, width=12)
+        self.rpt_date_from.insert(0, date.today().strftime('%Y-%m-%d'))
+        self.rpt_date_from.pack(side='left', padx=(4, 6))
 
-        ttk.Button(top, text='🔍 Ver registros',  command=self._load_report).pack(side='left', padx=3)
-        ttk.Button(top, text='💾 Exportar CSV',   command=self._export_csv).pack(side='left', padx=3)
+        ttk.Label(top, text='Hasta:').pack(side='left')
+        self.rpt_date_to = ttk.Entry(top, width=12)
+        self.rpt_date_to.insert(0, date.today().strftime('%Y-%m-%d'))
+        self.rpt_date_to.pack(side='left', padx=(4, 10))
+
+        ttk.Label(top, text='Usuario:').pack(side='left')
+        self.rpt_user_var = tk.StringVar()
+        self.rpt_user_cb = ttk.Combobox(top, textvariable=self.rpt_user_var,
+                                        state='readonly', width=14)
+        self.rpt_user_cb.pack(side='left', padx=(4, 10))
+
+        ttk.Label(top, text='Sucursal:').pack(side='left')
+        self.rpt_branch_var = tk.StringVar()
+        self.rpt_branch_cb = ttk.Combobox(top, textvariable=self.rpt_branch_var,
+                                          state='readonly', width=14)
+        self.rpt_branch_cb.pack(side='left', padx=(4, 10))
+        self._branch_combos.append(self.rpt_branch_cb)
+
+        # Fila de botones
+        btn_row = ttk.Frame(tab)
+        btn_row.pack(fill='x', padx=10, pady=(0, 4))
+        ttk.Button(btn_row, text='🔍 Ver registros',
+                   command=self._load_report).pack(side='left', padx=3)
+        ttk.Button(btn_row, text='☁️ Importar de GitHub',
+                   command=self._import_logs_from_github).pack(side='left', padx=3)
+        ttk.Button(btn_row, text='💾 Exportar CSV',
+                   command=self._export_csv).pack(side='left', padx=3)
+
+        # Barra de progreso de importación (oculta por defecto)
+        self.rpt_progress_frame = ttk.Frame(tab)
+        self.rpt_progress = ttk.Progressbar(self.rpt_progress_frame, mode='determinate')
+        self.rpt_progress.pack(fill='x', padx=5, pady=2)
+        self.rpt_progress_lbl = ttk.Label(self.rpt_progress_frame, text='')
+        self.rpt_progress_lbl.pack()
 
         # Tabla
         frame = ttk.Frame(tab)
         frame.pack(fill='both', expand=True, padx=10, pady=(0, 5))
 
-        cols = ('Hora', 'Usuario', 'Sucursal', 'DNI', 'Nombre', 'Tipo', 'Teléfono')
+        cols = ('Fecha', 'Hora', 'Usuario', 'Sucursal', 'DNI', 'Nombre', 'Tipo', 'Teléfono')
         self.rpt_tree = ttk.Treeview(frame, columns=cols, show='headings')
-        widths = (60, 100, 100, 90, 180, 90, 120)
+        widths = (90, 55, 100, 90, 90, 180, 90, 120)
         for col, w in zip(cols, widths):
             self.rpt_tree.heading(col, text=col)
             self.rpt_tree.column(col, width=w, minwidth=50)
@@ -815,16 +848,78 @@ class BackofficeApp(tk.Tk):
         self.rpt_status.pack(pady=2)
         self._rpt_data: list[dict] = []
 
+        # Cargar usuarios disponibles
+        self._refresh_rpt_users()
+
+    def _refresh_rpt_users(self):
+        conn = get_conn()
+        users = [r['username'] for r in conn.execute(
+            "SELECT DISTINCT username FROM contacts ORDER BY username"
+        ).fetchall()]
+        conn.close()
+        self.rpt_user_cb['values'] = ['(todos)'] + users
+        self.rpt_user_cb.set('(todos)')
+        current_branch = self.rpt_branch_var.get()
+        if not current_branch:
+            self.rpt_branch_cb.set('(todas)')
+
     def _load_report(self):
+        date_from = self.rpt_date_from.get().strip()
+        date_to   = self.rpt_date_to.get().strip()
+        username  = self.rpt_user_var.get()
+        branch    = self.rpt_branch_var.get()
+
+        self.rpt_tree.delete(*self.rpt_tree.get_children())
+        self._rpt_data = []
+
+        conn = get_conn()
+        query  = "SELECT date, time, username, branch, client_dni, client_name, contact_type, phone_used FROM contacts WHERE 1=1"
+        params = []
+        if date_from:
+            query += " AND date >= ?"
+            params.append(date_from)
+        if date_to:
+            query += " AND date <= ?"
+            params.append(date_to)
+        if username and username != '(todos)':
+            query += " AND username = ?"
+            params.append(username)
+        if branch and branch not in ('(todas)', ''):
+            query += " AND branch = ?"
+            params.append(branch)
+        query += " ORDER BY date DESC, time DESC"
+
+        rows = conn.execute(query, params).fetchall()
+        conn.close()
+
+        for r in rows:
+            entry = {
+                'date':         r['date'],
+                'time':         r['time'],
+                'username':     r['username'],
+                'branch':       r['branch'],
+                'client_dni':   r['client_dni']   or '',
+                'client_name':  r['client_name']  or '',
+                'contact_type': r['contact_type'],
+                'phone_used':   r['phone_used']   or '',
+            }
+            self._rpt_data.append(entry)
+            self.rpt_tree.insert('', 'end', values=(
+                r['date'], r['time'], r['username'], r['branch'],
+                r['client_dni'] or '', r['client_name'] or '',
+                r['contact_type'], r['phone_used'] or '',
+            ))
+
+        self.rpt_status.config(text=f"{len(rows)} registro(s) encontrado(s)")
+
+    def _import_logs_from_github(self):
         token = self.cfg.get('github_token', '') or self.token_entry.get().strip()
         if not token:
             messagebox.showwarning("Atención",
                                    "Configurá el token de GitHub en la pestaña Sincronizar.", parent=self)
             return
 
-        date_str = self.rpt_date.get().strip()
-        self.rpt_tree.delete(*self.rpt_tree.get_children())
-        self._rpt_data = []
+        self.rpt_progress_frame.pack(fill='x', padx=10, pady=2, before=self.rpt_tree.master)
 
         def run():
             try:
@@ -834,21 +929,65 @@ class BackofficeApp(tk.Tk):
                     repo=self.cfg.get('github_repo',   'VENTAS_CLIENTES'),
                     branch=self.cfg.get('github_branch', 'main'),
                 )
-                logs = syncer.get_logs(date_str)
-                self._rpt_data = logs
-                for e in logs:
-                    self.rpt_tree.insert('', 'end', values=(
-                        e.get('time', ''),
-                        e.get('username', ''),
-                        e.get('branch', ''),
-                        e.get('client_dni', ''),
-                        e.get('client_name', ''),
-                        e.get('contact_type', ''),
-                        e.get('phone_used', ''),
-                    ))
-                self.rpt_status.config(text=f"{len(logs)} registro(s) para {date_str}")
+                self.rpt_progress_lbl.config(text='Obteniendo fechas disponibles...')
+                dates = syncer.list_log_dates()
+                if not dates:
+                    self.after(0, lambda: messagebox.showinfo(
+                        "Sin datos", "No hay logs en el repositorio.", parent=self))
+                    return
+
+                total      = len(dates)
+                imported   = 0
+                duplicates = 0
+                conn = get_conn()
+                for i, d in enumerate(dates, 1):
+                    self.rpt_progress['value'] = (i / total) * 100
+                    self.rpt_progress_lbl.config(text=f'Importando {d}  ({i}/{total})')
+                    self.update_idletasks()
+                    try:
+                        logs = syncer.get_logs(d)
+                    except Exception:
+                        continue
+                    for e in logs:
+                        try:
+                            conn.execute(
+                                """INSERT OR IGNORE INTO contacts
+                                   (date, time, username, branch, client_dni,
+                                    client_name, contact_type, phone_used)
+                                   VALUES (?,?,?,?,?,?,?,?)""",
+                                (
+                                    e.get('date', d),
+                                    e.get('time', ''),
+                                    e.get('username', ''),
+                                    e.get('branch', ''),
+                                    e.get('client_dni', ''),
+                                    e.get('client_name', ''),
+                                    e.get('contact_type', ''),
+                                    e.get('phone_used', ''),
+                                )
+                            )
+                            if conn.execute("SELECT changes()").fetchone()[0]:
+                                imported += 1
+                            else:
+                                duplicates += 1
+                        except Exception:
+                            pass
+                conn.commit()
+                conn.close()
+
+                self.rpt_progress_lbl.config(text='¡Importación completada!')
+                self.after(200, lambda: self.rpt_progress_frame.pack_forget())
+                self._refresh_rpt_users()
+                self._load_report()
+                self.after(0, lambda: messagebox.showinfo(
+                    "Importación completada",
+                    f"✅ {imported} registro(s) nuevos importados.\n"
+                    f"   {duplicates} duplicado(s) omitidos.",
+                    parent=self
+                ))
             except Exception as e:
-                messagebox.showerror("Error", str(e), parent=self)
+                self.after(200, lambda: self.rpt_progress_frame.pack_forget())
+                self.after(0, lambda: messagebox.showerror("Error", str(e), parent=self))
 
         threading.Thread(target=run, daemon=True).start()
 
@@ -856,15 +995,17 @@ class BackofficeApp(tk.Tk):
         if not self._rpt_data:
             messagebox.showwarning("Atención", "No hay datos para exportar.", parent=self)
             return
+        date_label = self.rpt_date_from.get().strip()
         path = filedialog.asksaveasfilename(
             defaultextension='.csv',
             filetypes=[('CSV', '*.csv')],
-            initialfile=f"reporte_{self.rpt_date.get()}.csv",
+            initialfile=f"reporte_{date_label}.csv",
             parent=self
         )
         if not path:
             return
-        fields = ['time', 'username', 'branch', 'client_dni', 'client_name', 'contact_type', 'phone_used']
+        fields = ['date', 'time', 'username', 'branch', 'client_dni',
+                  'client_name', 'contact_type', 'phone_used']
         with open(path, 'w', newline='', encoding='utf-8-sig') as f:
             writer = csv.DictWriter(f, fieldnames=fields, extrasaction='ignore')
             writer.writeheader()
