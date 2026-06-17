@@ -1,5 +1,10 @@
 [
   {
+    "username": "aguilares",
+    "password_hash": "781b314a484949a166bc99851dcb4e9ec335555fce4222090a9e612f5530e195",
+    "branch": "aguilares"
+  },
+  {
     "username": "bajo",
     "password_hash": "961fe025be6ec60e2d9bbe185098548a8898d8c50679b7058dd205936b109fc8",
     "branch": "bajo"
