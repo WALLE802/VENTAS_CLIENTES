@@ -814,8 +814,29 @@ class BackofficeApp(tk.Tk):
                    command=self._load_report).pack(side='left', padx=3)
         ttk.Button(btn_row, text='☁️ Importar de GitHub',
                    command=self._import_logs_from_github).pack(side='left', padx=3)
-        ttk.Button(btn_row, text='💾 Exportar CSV',
-                   command=self._export_csv).pack(side='left', padx=3)
+        ttk.Button(btn_row, text='� Exportar Excel',
+                   command=self._export_excel).pack(side='left', padx=3)
+
+        # Tarjetas de resumen (ocultas hasta cargar datos)
+        self.rpt_stats_frame = ttk.LabelFrame(tab, text='Resumen del período')
+        self._stat_labels: dict[str, tk.StringVar] = {}
+        stat_defs = [
+            ('total',    'Total gestiones'),
+            ('llamada',  '📞 Llamadas'),
+            ('whatsapp', '💬 WhatsApp'),
+            ('sms',      '✉️ SMS'),
+            ('promo',    '🎁 Promos'),
+            ('usuarios', '👤 Usuarios activos'),
+            ('clientes', '🧑 Clientes únicos'),
+        ]
+        for key, label in stat_defs:
+            var = tk.StringVar(value='—')
+            self._stat_labels[key] = var
+            card = ttk.Frame(self.rpt_stats_frame, relief='groove', borderwidth=1)
+            card.pack(side='left', padx=6, pady=6, ipadx=10, ipady=4)
+            ttk.Label(card, text=label, font=('Segoe UI', 8)).pack()
+            ttk.Label(card, textvariable=var, font=('Segoe UI', 18, 'bold'),
+                      foreground='#1a73e8').pack()
 
         # Barra de progreso de importación (oculta por defecto)
         self.rpt_progress_frame = ttk.Frame(tab)
@@ -911,6 +932,33 @@ class BackofficeApp(tk.Tk):
             ))
 
         self.rpt_status.config(text=f"{len(rows)} registro(s) encontrado(s)")
+        self._update_stats()
+
+    def _update_stats(self):
+        from collections import Counter
+        data = self._rpt_data
+        if not data:
+            for var in self._stat_labels.values():
+                var.set('0')
+            self.rpt_stats_frame.pack_forget()
+            return
+
+        tipos = Counter(e['contact_type'] for e in data)
+        promos = sum(v for k, v in tipos.items() if 'promo' in k.lower())
+
+        self._stat_labels['total'].set(str(len(data)))
+        self._stat_labels['llamada'].set(str(tipos.get('llamada', 0)))
+        self._stat_labels['whatsapp'].set(str(tipos.get('whatsapp', 0)))
+        self._stat_labels['sms'].set(str(tipos.get('sms', 0)))
+        self._stat_labels['promo'].set(str(promos))
+        self._stat_labels['usuarios'].set(str(len(set(e['username'] for e in data))))
+        self._stat_labels['clientes'].set(str(len(set(
+            e['client_dni'] for e in data if e['client_dni']
+        ))))
+
+        # Mostrar el frame de stats justo antes de la barra de progreso
+        self.rpt_stats_frame.pack(fill='x', padx=10, pady=(0, 4),
+                                   before=self.rpt_progress_frame)
 
     def _import_logs_from_github(self):
         token = self.cfg.get('github_token', '') or self.token_entry.get().strip()
@@ -990,6 +1038,112 @@ class BackofficeApp(tk.Tk):
                 self.after(0, lambda: messagebox.showerror("Error", str(e), parent=self))
 
         threading.Thread(target=run, daemon=True).start()
+
+    def _export_excel(self):
+        if not self._rpt_data:
+            messagebox.showwarning("Atención", "No hay datos para exportar.", parent=self)
+            return
+
+        from collections import Counter
+        import openpyxl
+        from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
+        from openpyxl.utils import get_column_letter
+
+        date_label = self.rpt_date_from.get().strip()
+        path = filedialog.asksaveasfilename(
+            defaultextension='.xlsx',
+            filetypes=[('Excel', '*.xlsx')],
+            initialfile=f"reporte_{date_label}.xlsx",
+            parent=self
+        )
+        if not path:
+            return
+
+        wb = openpyxl.Workbook()
+
+        # ── Hoja 1: Resumen ──────────────────────────────────────────────────
+        ws_r = wb.active  # type: ignore[assignment]
+        assert ws_r is not None
+        ws_r.title = 'Resumen'
+
+        header_fill = PatternFill('solid', fgColor='1a73e8')
+        header_font = Font(bold=True, color='FFFFFF', size=11)
+        bold        = Font(bold=True)
+        center      = Alignment(horizontal='center')
+        thin_border = Border(
+            left=Side(style='thin'), right=Side(style='thin'),
+            top=Side(style='thin'), bottom=Side(style='thin')
+        )
+
+        def hdr(ws, row, col, text):
+            c = ws.cell(row=row, column=col, value=text)
+            c.font = header_font; c.fill = header_fill
+            c.alignment = center; c.border = thin_border
+
+        def cell(ws, row, col, value):
+            c = ws.cell(row=row, column=col, value=value)
+            c.border = thin_border; c.alignment = center
+
+        data = self._rpt_data
+        tipos = Counter(e['contact_type'] for e in data)
+        usuarios = Counter(e['username'] for e in data)
+        sucursales = Counter(e['branch'] for e in data)
+
+        # Bloque: totales por tipo
+        hdr(ws_r, 1, 1, 'Tipo de gestión');  hdr(ws_r, 1, 2, 'Cantidad')
+        for i, (tipo, cnt) in enumerate(sorted(tipos.items()), start=2):
+            cell(ws_r, i, 1, tipo); cell(ws_r, i, 2, cnt)
+        row_sep = len(tipos) + 3
+
+        # Bloque: totales por usuario
+        hdr(ws_r, row_sep, 1, 'Usuario');    hdr(ws_r, row_sep, 2, 'Gestiones')
+        for i, (usr, cnt) in enumerate(sorted(usuarios.items(), key=lambda x: -x[1]), start=1):
+            cell(ws_r, row_sep + i, 1, usr); cell(ws_r, row_sep + i, 2, cnt)
+        row_sep2 = row_sep + len(usuarios) + 2
+
+        # Bloque: totales por sucursal
+        hdr(ws_r, row_sep2, 1, 'Sucursal');  hdr(ws_r, row_sep2, 2, 'Gestiones')
+        for i, (suc, cnt) in enumerate(sorted(sucursales.items(), key=lambda x: -x[1]), start=1):
+            cell(ws_r, row_sep2 + i, 1, suc); cell(ws_r, row_sep2 + i, 2, cnt)
+
+        # Total general
+        ws_r.cell(row=1, column=4, value='Total gestiones').font = bold
+        ws_r.cell(row=2, column=4, value=len(data)).font = Font(bold=True, size=16, color='1a73e8')
+        ws_r.cell(row=3, column=4, value='Usuarios activos').font = bold
+        ws_r.cell(row=4, column=4, value=len(usuarios)).font = Font(bold=True, size=14)
+        ws_r.cell(row=5, column=4, value='Clientes únicos').font = bold
+        ws_r.cell(row=6, column=4, value=len(set(
+            e['client_dni'] for e in data if e['client_dni']
+        ))).font = Font(bold=True, size=14)
+
+        ws_r.column_dimensions['A'].width = 22
+        ws_r.column_dimensions['B'].width = 14
+        ws_r.column_dimensions['D'].width = 18
+
+        # ── Hoja 2: Detalle ──────────────────────────────────────────────────
+        ws_d = wb.create_sheet('Detalle')
+        headers = ['Fecha', 'Hora', 'Usuario', 'Sucursal', 'DNI',
+                   'Nombre cliente', 'Tipo gestión', 'Teléfono']
+        col_widths = [12, 8, 18, 14, 14, 28, 14, 16]
+        for col, (h, w) in enumerate(zip(headers, col_widths), start=1):
+            c = ws_d.cell(row=1, column=col, value=h)
+            c.font = header_font; c.fill = header_fill
+            c.alignment = center; c.border = thin_border
+            ws_d.column_dimensions[get_column_letter(col)].width = w
+
+        for row_i, e in enumerate(data, start=2):
+            for col_i, key in enumerate(
+                ('date', 'time', 'username', 'branch',
+                 'client_dni', 'client_name', 'contact_type', 'phone_used'),
+                start=1
+            ):
+                cell(ws_d, row_i, col_i, e.get(key, ''))
+
+        ws_d.freeze_panes = 'A2'
+        ws_d.auto_filter.ref = f"A1:{get_column_letter(len(headers))}1"
+
+        wb.save(path)
+        messagebox.showinfo("Listo", f"Excel exportado:\n{path}", parent=self)
 
     def _export_csv(self):
         if not self._rpt_data:

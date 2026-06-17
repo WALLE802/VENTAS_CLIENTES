@@ -259,6 +259,19 @@ function sendPromo(clientIdx) {
 
     markContacted(clientIdx, 'promo-WA', phone);
     renderClients();
+
+    const entry = {
+        date:         new Date().toISOString().split('T')[0],
+        time:         new Date().toLocaleTimeString('es-AR', { hour: '2-digit', minute: '2-digit', hour12: false }),
+        username:     session.username,
+        branch:       session.branch,
+        client_dni:   client.dni    || '',
+        client_name:  client.nombre || '',
+        contact_type: 'promo-WA',
+        phone_used:   phone
+    };
+    writeLog(entry).catch(err => console.warn('No se pudo guardar el log (promo):', err));
+
     setTimeout(() => {
         window.open('https://wa.me/' + number + '?text=' + encodeURIComponent(msg), '_blank');
     }, 80);
