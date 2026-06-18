@@ -13,7 +13,7 @@ const CONFIG = {
 
     // Token para escribir registros de contacto en data/logs/
     // Reemplazá con tu token después de seguir los pasos del README.
-    LOGS_TOKEN: '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',
+    LOGS_TOKEN: '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',
 
     // Mensaje de promoción predefinido para WhatsApp.
     // Usá {nombre} para insertar el primer nombre del cliente.
