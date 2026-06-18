@@ -26,9 +26,13 @@
                     <button type="button" class="toggle-pass" onclick="togglePassword()" tabindex="-1">👁</button>
                 </div>
             </div>
-            <div class="form-group" id="tokenGroup" style="display:none">
-                <label for="ghToken">🔑 Token de acceso <span style="font-size:11px;color:#888">(solo la primera vez)</span></label>
-                <input type="password" id="ghToken" placeholder="github_pat_..." autocomplete="off" autocorrect="off" spellcheck="false">
+            <div class="form-group" id="tokenGroup">
+                <label for="ghToken" style="display:flex;justify-content:space-between;align-items:center">
+                    <span>🔑 Token de acceso</span>
+                    <span id="tokenStatus" style="font-size:11px;color:#2e7d32;font-weight:normal"></span>
+                </label>
+                <input type="password" id="ghToken" placeholder="github_pat_... (dejar vacío si ya está guardado)" autocomplete="off" autocorrect="off" spellcheck="false">
+                <button type="button" id="clearTokenBtn" onclick="clearToken()" style="display:none;margin-top:4px;font-size:11px;color:#c62828;background:none;border:none;cursor:pointer;padding:0">✕ Borrar token guardado</button>
             </div>
             <button type="submit" class="btn-primary" id="loginBtn">
                 <span id="loginBtnText">Ingresar</span>
@@ -74,9 +78,18 @@
             input.type = input.type === 'password' ? 'text' : 'password';
         }
 
-        // Mostrar campo de token si no está guardado en este dispositivo
-        if (!localStorage.getItem('vt_logs_token')) {
-            document.getElementById('tokenGroup').style.display = 'block';
+        function clearToken() {
+            localStorage.removeItem('vt_logs_token');
+            document.getElementById('tokenStatus').textContent = '';
+            document.getElementById('clearTokenBtn').style.display = 'none';
+            document.getElementById('ghToken').placeholder = 'github_pat_...';
+        }
+
+        // Mostrar estado del token guardado
+        if (localStorage.getItem('vt_logs_token')) {
+            document.getElementById('tokenStatus').textContent = '✅ guardado en este dispositivo';
+            document.getElementById('clearTokenBtn').style.display = 'block';
+            document.getElementById('ghToken').placeholder = 'Dejar vacío para usar el guardado';
         }
 
         // Redirect if already logged in
