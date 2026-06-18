@@ -318,8 +318,8 @@ function handleContact(clientIdx, phone, type) {
 // ─── Log a GitHub API ─────────────────────────────────────────────────────────
 
 async function writeLog(entry) {
-    const token = CONFIG.LOGS_TOKEN;
-    if (!token || token.startsWith('REEMPLAZAR')) return;
+    const token = localStorage.getItem('vt_logs_token') || '';
+    if (!token) return;
 
     const path    = `data/logs/${entry.date}.json`;
     const apiUrl  = `${CONFIG.API_BASE}/${path}`;
@@ -584,8 +584,8 @@ function handleContact(clientIdx, phone, type) {
 // ─── Log a GitHub API ─────────────────────────────────────────────────────────
 
 async function writeLog(entry) {
-    const token = CONFIG.LOGS_TOKEN;
-    if (!token || token.startsWith('REEMPLAZAR')) return; // token no configurado
+    const token = localStorage.getItem('vt_logs_token') || '';
+    if (!token) return;
 
     const path   = `data/logs/${entry.date}.json`;
     const apiUrl = `${CONFIG.API_BASE}/${path}`;

@@ -13,7 +13,7 @@ const CONFIG = {
 
     // Token para escribir registros de contacto en data/logs/
     // Reemplazá con tu token después de seguir los pasos del README.
-    LOGS_TOKEN: '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',
+    LOGS_TOKEN: '', // El token se guarda en cada dispositivo — no poner aquí
 
     // Mensaje de promoción predefinido para WhatsApp.
     // Usá {nombre} para insertar el primer nombre del cliente.
