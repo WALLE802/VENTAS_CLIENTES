@@ -1011,8 +1011,9 @@ class BackofficeApp(tk.Tk):
                     parent=self
                 ))
             except Exception as e:
+                err_msg = str(e)
                 self.after(200, lambda: self.rpt_progress_frame.pack_forget())
-                self.after(0, lambda: messagebox.showerror("Error", str(e), parent=self))
+                self.after(0, lambda m=err_msg: messagebox.showerror("Error", m, parent=self))
 
         threading.Thread(target=run, daemon=True).start()
 
