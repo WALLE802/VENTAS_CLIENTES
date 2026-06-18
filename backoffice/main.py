@@ -591,15 +591,19 @@ class BackofficeApp(tk.Tk):
                 repo_dir = os.path.normpath(os.path.join(os.path.dirname(__file__), '..'))
             branch = self.cfg.get('github_branch', 'main')
             try:
-                # 1. Fetch remoto ANTES de hacer cualquier commit
-                self._log_sync('⬇️  Descargando cambios del remote (fetch)...')
+                # 1. Fetch + reset al remote (toma los cambios remotos sin conflictos)
+                self._log_sync('⬇️  Sincronizando con remote...')
                 fetch = subprocess.run(
                     ['git', 'fetch', 'origin'],
                     cwd=repo_dir, capture_output=True, text=True
                 )
                 if fetch.returncode != 0:
                     raise RuntimeError(f"Error en git fetch:\n{fetch.stderr or fetch.stdout}")
-                self._log_sync('   fetch OK')
+                subprocess.run(
+                    ['git', 'reset', '--soft', f'origin/{branch}'],
+                    cwd=repo_dir, capture_output=True, text=True
+                )
+                self._log_sync('   sync OK')
 
                 # 2. Stage y commit de los archivos del proyecto
                 self._log_sync('📦 Commiteando archivos...')
@@ -607,8 +611,7 @@ class BackofficeApp(tk.Tk):
                     ['git', 'add', 'index.html', 'app.html',
                      'css/style.css', 'js/app.js', 'js/config.js',
                      'js/auth.js', 'backoffice/main.py'],
-                    cwd=repo_dir, check=True,
-                    capture_output=True, text=True
+                    cwd=repo_dir, capture_output=True, text=True
                 )
                 result = subprocess.run(
                     ['git', 'commit', '-m', 'backoffice: actualizacion de datos y configuracion'],
@@ -621,39 +624,13 @@ class BackofficeApp(tk.Tk):
                 else:
                     self._log_sync(result.stdout.strip())
 
-                # 3. Stash de cualquier cambio restante
-                stash = subprocess.run(
-                    ['git', 'stash'],
-                    cwd=repo_dir, capture_output=True, text=True
-                )
-                stashed = 'No local changes' not in stash.stdout
-                if stashed:
-                    self._log_sync(f'   stash: {stash.stdout.strip()}')
-
-                # 4. Rebase sobre origin/branch (ya fetcheado)
-                self._log_sync(f'🔁 Rebase sobre origin/{branch}...')
-                rebase = subprocess.run(
-                    ['git', 'rebase', f'origin/{branch}'],
-                    cwd=repo_dir, capture_output=True, text=True
-                )
-                self._log_sync(f'   rebase salida: {(rebase.stdout or rebase.stderr).strip()[:200]}')
-                if rebase.returncode != 0:
-                    subprocess.run(['git', 'rebase', '--abort'], cwd=repo_dir, capture_output=True)
-                    if stashed:
-                        subprocess.run(['git', 'stash', 'pop'], cwd=repo_dir, capture_output=True)
-                    raise RuntimeError(f"Error en rebase:\n{rebase.stderr or rebase.stdout}")
-
-                # 5. Restaurar stash
-                if stashed:
-                    subprocess.run(['git', 'stash', 'pop'], cwd=repo_dir, capture_output=True)
-
-                # 6. Push
+                # 3. Push
                 self._log_sync('📤 Haciendo push...')
                 push = subprocess.run(
                     ['git', 'push', 'origin', branch],
                     cwd=repo_dir, capture_output=True, text=True
                 )
-                self._log_sync(f'   push salida: {(push.stderr or push.stdout).strip()[:300]}')
+                self._log_sync(f'   {(push.stderr or push.stdout).strip()[:300]}')
                 if push.returncode != 0:
                     raise RuntimeError(push.stderr or push.stdout)
                 self._log_sync('\n✅ Git push completado.')
