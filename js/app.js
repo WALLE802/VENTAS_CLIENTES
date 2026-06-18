@@ -251,8 +251,8 @@ function sendPromo(clientIdx) {
     const phone = client.telefono || client.tel2 || client.tel3;
     if (!phone) { showToast('Este cliente no tiene teléfono registrado'); return; }
 
-    const nombre = (client.nombre || '').trim();
-    const msg = 'Hola ' + nombre + ' te hablamos de MARATHON DEPORTES ,hace tiempo que no compras con credito personal y tenemos una promocion para ofrecerte!!\n3 Cuotas sin interes en marcas seleccionadas!! \nEntra a este link y descubri mas promociones para vos!! https://catalogo.maromega.com.ar/';
+    const nombre = (client.nombre || '').trim().split(' ')[0];
+    const msg = (CONFIG.PROMO_MSG || '').replace('{nombre}', nombre);
     const digits = phone.replace(/\D/g, '');
     const local  = digits.startsWith('0') ? digits.slice(1) : digits;
     const number = '54' + local;
@@ -308,8 +308,8 @@ function handleContact(clientIdx, phone, type) {
             const digits = cleanPhone.replace(/\D/g, '');
             const local  = digits.startsWith('0') ? digits.slice(1) : digits;
             const number = '54' + local;
-            const nombre = (client.nombre || '').trim();
-            const msg = 'Hola ' + nombre + ' te hablamos de MARATHON DEPORTES ,hace tiempo que no compras con credito personal y tenemos una promocion para ofrecerte!!\n3 Cuotas sin interes en marcas seleccionadas!! \nEntra a este link y descubri mas promociones para vos!! https://catalogo.maromega.com.ar/';
+            const nombre = (client.nombre || '').trim().split(' ')[0];
+            const msg = (CONFIG.PROMO_MSG || '').replace('{nombre}', nombre);
             window.open('https://wa.me/' + number + '?text=' + encodeURIComponent(msg), '_blank');
         }
     }, 80);
@@ -574,8 +574,8 @@ function handleContact(clientIdx, phone, type) {
             const digits = cleanPhone.replace(/\D/g, '');
             const local  = digits.startsWith('0') ? digits.slice(1) : digits;
             const number = '54' + local;
-            const nombre = (client.nombre || '').trim();
-            const msg = 'Hola ' + nombre + ' te hablamos de MARATHON DEPORTES ,hace tiempo que no compras con credito personal y tenemos una promocion para ofrecerte!!\n3 Cuotas sin interes en marcas seleccionadas!! \nEntra a este link y descubri mas promociones para vos!! https://catalogo.maromega.com.ar/';
+            const nombre = (client.nombre || '').trim().split(' ')[0];
+            const msg = (CONFIG.PROMO_MSG || '').replace('{nombre}', nombre);
             window.open('https://wa.me/' + number + '?text=' + encodeURIComponent(msg), '_blank');
         }
     }, 80);
