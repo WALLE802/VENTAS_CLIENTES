@@ -6,22 +6,17 @@
   },
   {
     "username": "bajo",
-    "password_hash": "9124dac35dbe67499ebdb43934e7377e17222ef51376a108e8a940488cb12658",
+    "password_hash": "961fe025be6ec60e2d9bbe185098548a8898d8c50679b7058dd205936b109fc8",
     "branch": "bajo"
   },
   {
     "username": "con1",
-    "password_hash": "6f00be409cca55c287cdc9b8a2671ff19cf9b564f49b78bfd65553b5c0bcd75f",
+    "password_hash": "db10fb9ef93da28d219bf8ac435fc76ff4cac1753793871398813f5ed8648b1c",
     "branch": "con1"
-  },
-  {
-    "username": "monteros",
-    "password_hash": "ebd6013f74932ea9bd43b0ae64d50c20eee7af2d54503255f78774bffbaa9fda",
-    "branch": "monteros"
   },
   {
     "username": "tafi",
     "password_hash": "7f471258b904c5a1cc82db124f293a4819ae93f9417c5a07dfac46723931f576",
-    "branch": "monteros"
+    "branch": "tafi"
   }
 ]

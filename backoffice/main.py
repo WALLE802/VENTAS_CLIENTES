@@ -373,6 +373,14 @@ class BackofficeApp(tk.Tk):
         self.usr_name.delete(0, 'end')
         self.usr_name.insert(0, vals[0])
         self.usr_pass.delete(0, 'end')
+        # Mostrar contraseña guardada en texto plano
+        conn = get_conn()
+        row = conn.execute(
+            "SELECT password_plain FROM users WHERE id = ?", (sel[0],)
+        ).fetchone()
+        conn.close()
+        if row and row['password_plain']:
+            self.usr_pass.insert(0, row['password_plain'])
         self.usr_branch.set(vals[1] if vals[1] else '')
 
     def _add_user(self):
@@ -388,8 +396,8 @@ class BackofficeApp(tk.Tk):
         conn = get_conn()
         try:
             conn.execute(
-                "INSERT INTO users (username, password_hash, branch) VALUES (?, ?, ?)",
-                (username, hash_password(username, password), branch)
+                "INSERT INTO users (username, password_hash, password_plain, branch) VALUES (?, ?, ?, ?)",
+                (username, hash_password(username, password), password, branch)
             )
             conn.commit()
             messagebox.showinfo("Listo", f"Usuario '{username}' creado.", parent=self)
@@ -415,8 +423,8 @@ class BackofficeApp(tk.Tk):
         conn = get_conn()
         if password:
             conn.execute(
-                "UPDATE users SET username=?, password_hash=?, branch=? WHERE id=?",
-                (username, hash_password(username, password), branch or None, uid)
+                "UPDATE users SET username=?, password_hash=?, password_plain=?, branch=? WHERE id=?",
+                (username, hash_password(username, password), password, branch or None, uid)
             )
         else:
             conn.execute(
