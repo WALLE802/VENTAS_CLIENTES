@@ -34,8 +34,9 @@ def load_config() -> dict:
     defaults = {
         'github_token':  '',
         'github_user':   'WALLE802',
-        'github_repo':   'VENTAS_CLIENTES',
+        'github_repo':   'walle802.github.io',
         'github_branch': 'main',
+        'github_path_prefix': 'VENTAS_CLIENTES',
         'git_repo_path': '',
     }
     if os.path.exists(CONFIG_FILE):
@@ -473,6 +474,7 @@ class BackofficeApp(tk.Tk):
             ('Usuario GitHub:',  'github_user'),
             ('Repositorio:',     'github_repo'),
             ('Rama (branch):',   'github_branch'),
+            ('Carpeta en repo:', 'github_path_prefix'),
         ]
         self._cfg_entries: dict[str, ttk.Entry] = {}
         for row_idx, (label, key) in enumerate(fields):
@@ -566,8 +568,9 @@ class BackofficeApp(tk.Tk):
                 syncer = GitHubSync(
                     token=token,
                     user=self.cfg.get('github_user',   'WALLE802'),
-                    repo=self.cfg.get('github_repo',   'VENTAS_CLIENTES'),
+                    repo=self.cfg.get('github_repo',   'walle802.github.io'),
                     branch=self.cfg.get('github_branch', 'main'),
+                    path_prefix=self.cfg.get('github_path_prefix', 'VENTAS_CLIENTES'),
                 )
                 self._log_sync("⏳ Conectando con GitHub...")
                 syncer.sync_all(log_callback=self._log_sync)
@@ -959,8 +962,9 @@ class BackofficeApp(tk.Tk):
                 syncer = GitHubSync(
                     token=token,
                     user=self.cfg.get('github_user',   'WALLE802'),
-                    repo=self.cfg.get('github_repo',   'VENTAS_CLIENTES'),
+                    repo=self.cfg.get('github_repo',   'walle802.github.io'),
                     branch=self.cfg.get('github_branch', 'main'),
+                    path_prefix=self.cfg.get('github_path_prefix', 'VENTAS_CLIENTES'),
                 )
                 self.rpt_progress_lbl.config(text='Obteniendo fechas disponibles...')
                 dates = syncer.list_log_dates()
