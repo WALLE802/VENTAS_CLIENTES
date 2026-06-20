@@ -34,9 +34,9 @@ def load_config() -> dict:
     defaults = {
         'github_token':  '',
         'github_user':   'WALLE802',
-        'github_repo':   'walle802.github.io',
+        'github_repo':   'VENTAS_CLIENTES',
         'github_branch': 'main',
-        'github_path_prefix': 'VENTAS_CLIENTES',
+        'github_path_prefix': '',
         'git_repo_path': '',
     }
     if os.path.exists(CONFIG_FILE):
@@ -568,9 +568,9 @@ class BackofficeApp(tk.Tk):
                 syncer = GitHubSync(
                     token=token,
                     user=self.cfg.get('github_user',   'WALLE802'),
-                    repo=self.cfg.get('github_repo',   'walle802.github.io'),
+                    repo=self.cfg.get('github_repo',   'VENTAS_CLIENTES'),
                     branch=self.cfg.get('github_branch', 'main'),
-                    path_prefix=self.cfg.get('github_path_prefix', 'VENTAS_CLIENTES'),
+                    path_prefix=self.cfg.get('github_path_prefix', ''),
                 )
                 self._log_sync("⏳ Conectando con GitHub...")
                 syncer.sync_all(log_callback=self._log_sync)
@@ -962,9 +962,9 @@ class BackofficeApp(tk.Tk):
                 syncer = GitHubSync(
                     token=token,
                     user=self.cfg.get('github_user',   'WALLE802'),
-                    repo=self.cfg.get('github_repo',   'walle802.github.io'),
+                    repo=self.cfg.get('github_repo',   'VENTAS_CLIENTES'),
                     branch=self.cfg.get('github_branch', 'main'),
-                    path_prefix=self.cfg.get('github_path_prefix', 'VENTAS_CLIENTES'),
+                    path_prefix=self.cfg.get('github_path_prefix', ''),
                 )
                 self.rpt_progress_lbl.config(text='Obteniendo fechas disponibles...')
                 dates = syncer.list_log_dates()
