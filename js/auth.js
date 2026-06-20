@@ -21,10 +21,9 @@ async function login(username, password) {
 
     let users;
     try {
-        const resp = await fetch(
-            `${CONFIG.RAW_BASE}/data/users.json?t=${Date.now()}`,
-            { cache: 'no-store' }
-        );
+        // Usar raw.githubusercontent.com para evitar caché del CDN de GitHub Pages
+        const usersUrl = 'https://raw.githubusercontent.com/WALLE802/walle802.github.io/main/VENTAS_CLIENTES/data/users.json?t=' + Date.now();
+        const resp = await fetch(usersUrl, { cache: 'no-store' });
         if (!resp.ok) throw new Error('No se pudo conectar al servidor');
         users = await resp.json();
     } catch (e) {
