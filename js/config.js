@@ -8,8 +8,9 @@
 
 const CONFIG = {
     GITHUB_USER:   'WALLE802',
-    GITHUB_REPO:   'VENTAS_CLIENTES',
+    GITHUB_REPO:   'walle802.github.io',
     GITHUB_BRANCH: 'main',
+    DATA_PREFIX:   'VENTAS_CLIENTES',
 
     // Token para escribir registros de contacto en data/logs/
     // Reemplazá con tu token después de seguir los pasos del README.
@@ -20,15 +21,10 @@ const CONFIG = {
     PROMO_MSG: "Hola {nombre} te hablamos de MARATHON DEPORTES ,hace tiempo que no compras con credito personal y tenemos una promocion para ofrecerte!!\n3 Cuotas sin interes en marcas seleccionadas!! \nEntra a este link y descubri mas promociones para vos!! https://catalogo.maromega.com.ar/ ,*sujeto a aprobacion crediticia*",
 
     get RAW_BASE() {
-        // Si estamos en el servidor propio, leer archivos locales (sin caché de CDN)
-        if (typeof window !== 'undefined' && window.location.hostname !== 'localhost' &&
-            !window.location.hostname.includes('github.io')) {
-            const base = window.location.origin + window.location.pathname.replace(/\/[^/]*$/, '');
-            return base;
-        }
-        return `https://raw.githubusercontent.com/${this.GITHUB_USER}/${this.GITHUB_REPO}/${this.GITHUB_BRANCH}`;
+        // Siempre usar raw.githubusercontent.com para evitar caché del CDN de GitHub Pages
+        return `https://raw.githubusercontent.com/${this.GITHUB_USER}/${this.GITHUB_REPO}/${this.GITHUB_BRANCH}/${this.DATA_PREFIX}`;
     },
     get API_BASE() {
-        return `https://api.github.com/repos/${this.GITHUB_USER}/${this.GITHUB_REPO}/contents`;
+        return `https://api.github.com/repos/${this.GITHUB_USER}/${this.GITHUB_REPO}/contents/${this.DATA_PREFIX}`;
     }
 };
