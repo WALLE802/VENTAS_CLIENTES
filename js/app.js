@@ -189,7 +189,10 @@ function handleContact(clientIdx, phone, type) {
         contact_type: type,
         phone_used:   phone
     };
-    writeLog(entry).catch(err => console.warn('No se pudo guardar el log:', err));
+    writeLog(entry).catch(err => {
+        console.warn('No se pudo guardar el log:', err);
+        showToast('⚠️ No se pudo registrar la gestión en GitHub', 4000);
+    });
 
     // Abrir la app correspondiente
     const cleanPhone = phone.replace(/\s/g, '');
@@ -212,8 +215,11 @@ function handleContact(clientIdx, phone, type) {
 // ─── Log a GitHub API ─────────────────────────────────────────────────────────
 
 async function writeLog(entry) {
-    const token = localStorage.getItem('vt_logs_token') || '';
-    if (!token) return;
+    const token = localStorage.getItem('vt_logs_token') || CONFIG.LOGS_TOKEN || '';
+    if (!token) {
+        console.warn('writeLog: no hay token configurado, el registro no se guardará.');
+        return;
+    }
 
     const path   = `data/logs/${entry.date}.json`;
     const apiUrl = `${CONFIG.API_BASE}/${path}`;
