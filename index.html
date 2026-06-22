@@ -28,10 +28,10 @@
             </div>
             <div class="form-group" id="tokenGroup">
                 <label for="ghToken" style="display:flex;justify-content:space-between;align-items:center">
-                    <span>🔑 Token de acceso</span>
+                    <span>🔑 Token de acceso <span id="tokenRequired" style="color:#c62828;font-size:11px">(requerido la primera vez)</span></span>
                     <span id="tokenStatus" style="font-size:11px;color:#2e7d32;font-weight:normal"></span>
                 </label>
-                <input type="password" id="ghToken" placeholder="github_pat_... (dejar vacío si ya está guardado)" autocomplete="off" autocorrect="off" spellcheck="false">
+                <input type="password" id="ghToken" placeholder="github_pat_... (obligatorio si no está guardado)" autocomplete="off" autocorrect="off" spellcheck="false">
                 <button type="button" id="clearTokenBtn" onclick="clearToken()" style="display:none;margin-top:4px;font-size:11px;color:#c62828;background:none;border:none;cursor:pointer;padding:0">✕ Borrar token guardado</button>
             </div>
             <button type="submit" class="btn-primary" id="loginBtn">
@@ -60,8 +60,15 @@
             try {
                 const username = document.getElementById('username').value.trim();
                 const password = document.getElementById('password').value;
-                await login(username, password);
                 const tok = document.getElementById('ghToken').value.trim();
+                const tokenGuardado = localStorage.getItem('vt_logs_token');
+
+                // Requerir token si no hay uno guardado
+                if (!tok && !tokenGuardado) {
+                    throw new Error('Ingresá el token de acceso para poder registrar gestiones.');
+                }
+
+                await login(username, password);
                 if (tok) localStorage.setItem('vt_logs_token', tok);
                 window.location.replace('app.html');
             } catch (err) {
@@ -90,6 +97,7 @@
             document.getElementById('tokenStatus').textContent = '✅ guardado en este dispositivo';
             document.getElementById('clearTokenBtn').style.display = 'block';
             document.getElementById('ghToken').placeholder = 'Dejar vacío para usar el guardado';
+            document.getElementById('tokenRequired').style.display = 'none';
         }
 
         // Redirect if already logged in
