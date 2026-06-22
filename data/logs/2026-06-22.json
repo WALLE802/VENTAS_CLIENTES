@@ -58,5 +58,15 @@
     "client_name": "ABREGU MARIA ROSA*",
     "contact_type": "whatsapp",
     "phone_used": "3865401728"
+  },
+  {
+    "date": "2026-06-22",
+    "time": "18:32",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "43966913",
+    "client_name": "AGUIRRE PAULA MELINA",
+    "contact_type": "llamada",
+    "phone_used": "3815776273"
   }
 ]
