@@ -38,5 +38,15 @@
     "client_name": "ABDALA MARIA CELESTE",
     "contact_type": "sms",
     "phone_used": "3815076690"
+  },
+  {
+    "date": "2026-06-22",
+    "time": "17:11",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "26579774",
+    "client_name": "ABREGU MARIA ROSA*",
+    "contact_type": "whatsapp",
+    "phone_used": "3865401728"
   }
 ]
