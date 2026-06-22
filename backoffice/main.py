@@ -800,9 +800,11 @@ class BackofficeApp(tk.Tk):
         btn_row.pack(fill='x', padx=10, pady=(0, 4))
         ttk.Button(btn_row, text='🔍 Ver registros',
                    command=self._load_report).pack(side='left', padx=3)
-        ttk.Button(btn_row, text='☁️ Importar de GitHub',
+        ttk.Button(btn_row, text='☁️ Importar TODO de GitHub',
                    command=self._import_logs_from_github).pack(side='left', padx=3)
-        ttk.Button(btn_row, text='� Exportar Excel',
+        ttk.Button(btn_row, text='📥 Importar HOY',
+                   command=self._import_today_logs).pack(side='left', padx=3)
+        ttk.Button(btn_row, text='📤 Exportar Excel',
                    command=self._export_excel).pack(side='left', padx=3)
 
         # Tarjetas de resumen (ocultas hasta cargar datos)
@@ -949,6 +951,7 @@ class BackofficeApp(tk.Tk):
                                    before=self.rpt_progress_frame)
 
     def _import_logs_from_github(self):
+        """Importa TODOS los logs de GitHub a SQLite (operación completa)."""
         token = self.cfg.get('github_token', '') or self.token_entry.get().strip()
         if not token:
             messagebox.showwarning("Atención",
@@ -967,64 +970,114 @@ class BackofficeApp(tk.Tk):
                     path_prefix=self.cfg.get('github_path_prefix', ''),
                 )
                 self.rpt_progress_lbl.config(text='Obteniendo fechas disponibles...')
-                dates = syncer.list_log_dates()
-                if not dates:
+
+                # Usar el nuevo método centralizado
+                def cb(msg):
+                    self.rpt_progress_lbl.config(text=msg)
+                    self.update_idletasks()
+
+                result = syncer.import_logs_to_db(log_callback=cb)
+
+                if result['dates'] == 0:
                     self.after(0, lambda: messagebox.showinfo(
                         "Sin datos", "No hay logs en el repositorio.", parent=self))
+                    self.after(200, lambda: self.rpt_progress_frame.pack_forget())
                     return
 
-                total      = len(dates)
-                imported   = 0
-                duplicates = 0
-                conn = get_conn()
-                for i, d in enumerate(dates, 1):
-                    self.rpt_progress['value'] = (i / total) * 100
-                    self.rpt_progress_lbl.config(text=f'Importando {d}  ({i}/{total})')
-                    self.update_idletasks()
-                    try:
-                        logs = syncer.get_logs(d)
-                    except Exception:
-                        continue
-                    for e in logs:
-                        try:
-                            conn.execute(
-                                """INSERT OR IGNORE INTO contacts
-                                   (date, time, username, branch, client_dni,
-                                    client_name, contact_type, phone_used)
-                                   VALUES (?,?,?,?,?,?,?,?)""",
-                                (
-                                    e.get('date', d),
-                                    e.get('time', ''),
-                                    e.get('username', ''),
-                                    e.get('branch', ''),
-                                    e.get('client_dni', ''),
-                                    e.get('client_name', ''),
-                                    e.get('contact_type', ''),
-                                    e.get('phone_used', ''),
-                                )
-                            )
-                            if conn.execute("SELECT changes()").fetchone()[0]:
-                                imported += 1
-                            else:
-                                duplicates += 1
-                        except Exception:
-                            pass
-                conn.commit()
-                conn.close()
-
+                imported   = result['imported']
+                duplicates = result['duplicates']
                 self.rpt_progress_lbl.config(text='¡Importación completada!')
                 self.after(200, lambda: self.rpt_progress_frame.pack_forget())
-                self._refresh_rpt_users()
-                self._load_report()
+                self.after(0, self._refresh_rpt_users)
+                self.after(0, self._load_report)
                 self.after(0, lambda: messagebox.showinfo(
                     "Importación completada",
                     f"✅ {imported} registro(s) nuevos importados.\n"
-                    f"   {duplicates} duplicado(s) omitidos.",
+                    f"   {duplicates} duplicado(s) ya estaban en la base de datos.",
                     parent=self
                 ))
             except Exception as e:
                 err_msg = str(e)
                 self.after(200, lambda: self.rpt_progress_frame.pack_forget())
+                self.after(0, lambda m=err_msg: messagebox.showerror("Error", m, parent=self))
+
+        threading.Thread(target=run, daemon=True).start()
+
+    def _import_today_logs(self):
+        """Importa solo los logs de HOY desde GitHub a SQLite."""
+        token = self.cfg.get('github_token', '') or self.token_entry.get().strip()
+        if not token:
+            messagebox.showwarning("Atención",
+                                   "Configurá el token de GitHub en la pestaña Sincronizar.", parent=self)
+            return
+
+        self.rpt_progress_frame.pack(fill='x', padx=10, pady=2, before=self.rpt_tree.master)
+
+        def run():
+            try:
+                syncer = GitHubSync(
+                    token=token,
+                    user=self.cfg.get('github_user',   'WALLE802'),
+                    repo=self.cfg.get('github_repo',   'VENTAS_CLIENTES'),
+                    branch=self.cfg.get('github_branch', 'main'),
+                    path_prefix=self.cfg.get('github_path_prefix', ''),
+                )
+                today = date.today().strftime('%Y-%m-%d')
+                self.rpt_progress_lbl.config(text=f'Importando gestiones de {today}...')
+                self.update_idletasks()
+
+                entries = syncer.get_logs(today)
+                imported = 0
+                duplicates = 0
+                conn = get_conn()
+                for e in entries:
+                    try:
+                        conn.execute(
+                            """INSERT OR IGNORE INTO contacts
+                               (date, time, username, branch, client_dni,
+                                client_name, contact_type, phone_used)
+                               VALUES (?,?,?,?,?,?,?,?)""",
+                            (
+                                e.get('date', today),
+                                e.get('time', ''),
+                                e.get('username', ''),
+                                e.get('branch', ''),
+                                e.get('client_dni', ''),
+                                e.get('client_name', ''),
+                                e.get('contact_type', ''),
+                                e.get('phone_used', ''),
+                            )
+                        )
+                        if conn.execute("SELECT changes()").fetchone()[0]:
+                            imported += 1
+                        else:
+                            duplicates += 1
+                    except Exception:
+                        pass
+                conn.commit()
+                conn.close()
+
+                self.rpt_progress_lbl.config(text='¡Listo!')
+                self.after(500, lambda: self.rpt_progress_frame.pack_forget())
+                self.after(0, self._refresh_rpt_users)
+                # Poner fecha de hoy en los filtros y recargar
+                self.after(0, lambda: (
+                    self.rpt_date_from.delete(0, 'end'),
+                    self.rpt_date_from.insert(0, today),
+                    self.rpt_date_to.delete(0, 'end'),
+                    self.rpt_date_to.insert(0, today),
+                    self._load_report()
+                ))
+                self.after(0, lambda: messagebox.showinfo(
+                    f"Gestiones de hoy ({today})",
+                    f"✅ {imported} gestión(es) nueva(s) importada(s).\n"
+                    f"   {duplicates} ya estaban guardadas.\n"
+                    f"   Total hoy: {imported + duplicates}",
+                    parent=self
+                ))
+            except Exception as e:
+                err_msg = str(e)
+                self.after(500, lambda: self.rpt_progress_frame.pack_forget())
                 self.after(0, lambda m=err_msg: messagebox.showerror("Error", m, parent=self))
 
         threading.Thread(target=run, daemon=True).start()
