@@ -78,5 +78,15 @@
     "client_name": "ACOSTA SERGIO ADRIAN",
     "contact_type": "whatsapp",
     "phone_used": "3812527559"
+  },
+  {
+    "date": "2026-06-22",
+    "time": "19:00",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "14127376",
+    "client_name": "ABREGU OSCAR ALFREDO",
+    "contact_type": "whatsapp",
+    "phone_used": "3865298140"
   }
 ]
