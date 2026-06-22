@@ -8,13 +8,13 @@
 
 const CONFIG = {
     GITHUB_USER:   'WALLE802',
-    GITHUB_REPO:   'walle802.github.io',
+    GITHUB_REPO:   'VENTAS_CLIENTES',
     GITHUB_BRANCH: 'main',
-    DATA_PREFIX:   'VENTAS_CLIENTES',
+    DATA_PREFIX:   '',
 
-    // Token para escribir registros de contacto en data/logs/
-    // Reemplazá con tu token después de seguir los pasos del README.
-    LOGS_TOKEN: '', // El token se guarda en cada dispositivo — no poner aquí
+    // Token compartido para escribir registros de contacto en data/logs/
+    // Se guarda en cada dispositivo al hacer login — no poner aquí por seguridad.
+    LOGS_TOKEN: '',
 
     // Mensaje de promoción predefinido para WhatsApp.
     // Usá {nombre} para insertar el primer nombre del cliente.
@@ -22,9 +22,9 @@ const CONFIG = {
 
     get RAW_BASE() {
         // Siempre usar raw.githubusercontent.com para evitar caché del CDN de GitHub Pages
-        return `https://raw.githubusercontent.com/${this.GITHUB_USER}/${this.GITHUB_REPO}/${this.GITHUB_BRANCH}/${this.DATA_PREFIX}`;
+        return `https://raw.githubusercontent.com/${this.GITHUB_USER}/${this.GITHUB_REPO}/${this.GITHUB_BRANCH}`;
     },
     get API_BASE() {
-        return `https://api.github.com/repos/${this.GITHUB_USER}/${this.GITHUB_REPO}/contents/${this.DATA_PREFIX}`;
+        return `https://api.github.com/repos/${this.GITHUB_USER}/${this.GITHUB_REPO}/contents`;
     }
 };
