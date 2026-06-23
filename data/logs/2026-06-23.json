@@ -308,5 +308,15 @@
     "client_name": "ALONSO RUBEN ANTONIO",
     "contact_type": "llamada",
     "phone_used": "3815499705"
+  },
+  {
+    "date": "2026-06-23",
+    "time": "20:00",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "25421325",
+    "client_name": "AMAYA CLAUDIO RODOLFO",
+    "contact_type": "llamada",
+    "phone_used": "3816602275"
   }
 ]
