@@ -258,5 +258,15 @@
     "client_name": "VERA FLORENCIA GABRIELA",
     "contact_type": "llamada",
     "phone_used": "3812392955"
+  },
+  {
+    "date": "2026-06-23",
+    "time": "18:57",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "17170299",
+    "client_name": "VILLACORTA MARIO ROBERTO",
+    "contact_type": "llamada",
+    "phone_used": "3815683071"
   }
 ]
