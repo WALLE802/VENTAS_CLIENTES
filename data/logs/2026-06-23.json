@@ -188,5 +188,15 @@
     "client_name": "RUIZ JUANA ROSA",
     "contact_type": "llamada",
     "phone_used": "3815994326"
+  },
+  {
+    "date": "2026-06-23",
+    "time": "18:31",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "39731226",
+    "client_name": "RUIZ ROMINA SOLEDAD",
+    "contact_type": "llamada",
+    "phone_used": "3813923204"
   }
 ]
