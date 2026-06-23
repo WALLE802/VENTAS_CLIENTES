@@ -468,5 +468,15 @@
     "client_name": "LOPEZ GALARZA JUAN CARLOS",
     "contact_type": "llamada",
     "phone_used": "3812160464"
+  },
+  {
+    "date": "2026-06-23",
+    "time": "20:45",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "14039195",
+    "client_name": "VILLAGRA HECTOR HUGO",
+    "contact_type": "llamada",
+    "phone_used": "3813323047"
   }
 ]
