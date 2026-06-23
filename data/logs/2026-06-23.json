@@ -138,5 +138,15 @@
     "client_name": "PERALTA YANINA GABRIELA",
     "contact_type": "sms",
     "phone_used": "3815190303"
+  },
+  {
+    "date": "2026-06-23",
+    "time": "18:20",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "27370389",
+    "client_name": "PONCE ELSA ESTER",
+    "contact_type": "llamada",
+    "phone_used": "3812392758"
   }
 ]
