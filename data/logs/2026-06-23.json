@@ -438,5 +438,15 @@
     "client_name": "HERRERA MAXIMILIANO GABRIEL",
     "contact_type": "sms",
     "phone_used": "3813686226"
+  },
+  {
+    "date": "2026-06-23",
+    "time": "20:39",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "45186441",
+    "client_name": "LOPEZ ALEXIS EMANUEL",
+    "contact_type": "llamada",
+    "phone_used": "3813386048"
   }
 ]
