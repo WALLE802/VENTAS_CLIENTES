@@ -118,5 +118,15 @@
     "client_name": "MOYA DANTE GUSTAVO",
     "contact_type": "sms",
     "phone_used": "3814679930"
+  },
+  {
+    "date": "2026-06-23",
+    "time": "18:17",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "32116349",
+    "client_name": "PERALTA YANINA GABRIELA",
+    "contact_type": "llamada",
+    "phone_used": "3815190303"
   }
 ]
