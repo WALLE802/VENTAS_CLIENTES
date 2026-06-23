@@ -198,5 +198,15 @@
     "client_name": "RUIZ ROMINA SOLEDAD",
     "contact_type": "llamada",
     "phone_used": "3813923204"
+  },
+  {
+    "date": "2026-06-23",
+    "time": "18:37",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "45231544",
+    "client_name": "SORIA VALENTINA",
+    "contact_type": "llamada",
+    "phone_used": "3816252109"
   }
 ]
