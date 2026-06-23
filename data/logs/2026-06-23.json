@@ -328,5 +328,15 @@
     "client_name": "AMAYA CLAUDIO RODOLFO",
     "contact_type": "sms",
     "phone_used": "3816602275"
+  },
+  {
+    "date": "2026-06-23",
+    "time": "20:03",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "26853679",
+    "client_name": "ARBALO GABRIELA DEL VALLE",
+    "contact_type": "llamada",
+    "phone_used": "3815696863"
   }
 ]
