@@ -288,5 +288,15 @@
     "client_name": "ALANIS CYNTIA MABEL",
     "contact_type": "llamada",
     "phone_used": "3815183989"
+  },
+  {
+    "date": "2026-06-23",
+    "time": "19:54",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "17185891",
+    "client_name": "ALBORNOZ OLGA EMILIA",
+    "contact_type": "llamada",
+    "phone_used": "3813673176"
   }
 ]
