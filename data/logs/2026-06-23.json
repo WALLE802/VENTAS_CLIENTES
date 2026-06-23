@@ -398,5 +398,15 @@
     "client_name": "FERNANDEZ RUBEN ANTONIO",
     "contact_type": "llamada",
     "phone_used": "3815723243"
+  },
+  {
+    "date": "2026-06-23",
+    "time": "20:35",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "35921125",
+    "client_name": "FERNANDEZ RUBEN ANTONIO",
+    "contact_type": "sms",
+    "phone_used": "3815723243"
   }
 ]
