@@ -248,5 +248,15 @@
     "client_name": "VAZQUEZ WALTER JUAN ENRIQUE",
     "contact_type": "llamada",
     "phone_used": "3815232438"
+  },
+  {
+    "date": "2026-06-23",
+    "time": "18:54",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "45279081",
+    "client_name": "VERA FLORENCIA GABRIELA",
+    "contact_type": "llamada",
+    "phone_used": "3812392955"
   }
 ]
