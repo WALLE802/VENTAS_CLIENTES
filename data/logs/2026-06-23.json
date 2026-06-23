@@ -218,5 +218,15 @@
     "client_name": "TRUJILLO VERONICA ELIZABETH",
     "contact_type": "llamada",
     "phone_used": "3816441767"
+  },
+  {
+    "date": "2026-06-23",
+    "time": "18:41",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "21622237",
+    "client_name": "TRUJILLO VERONICA ELIZABETH",
+    "contact_type": "sms",
+    "phone_used": "3816441767"
   }
 ]
