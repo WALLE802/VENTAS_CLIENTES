@@ -348,5 +348,15 @@
     "client_name": "BACILE CLAUDIA VERONICA",
     "contact_type": "llamada",
     "phone_used": "3813276000"
+  },
+  {
+    "date": "2026-06-23",
+    "time": "20:12",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "22995623",
+    "client_name": "CANSECO VIVIANA DEL VALLE",
+    "contact_type": "llamada",
+    "phone_used": "3816412848"
   }
 ]
