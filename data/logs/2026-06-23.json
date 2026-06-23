@@ -368,5 +368,15 @@
     "client_name": "CORDOBA LUCAS GEREMIAS",
     "contact_type": "llamada",
     "phone_used": "3816411630"
+  },
+  {
+    "date": "2026-06-23",
+    "time": "20:16",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "30770032",
+    "client_name": "CORONEL DANIELA CAROLINA",
+    "contact_type": "llamada",
+    "phone_used": "3814749103"
   }
 ]
