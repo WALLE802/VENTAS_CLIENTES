@@ -108,5 +108,15 @@
     "client_name": "MOYA DANTE GUSTAVO",
     "contact_type": "llamada",
     "phone_used": "3814679930"
+  },
+  {
+    "date": "2026-06-23",
+    "time": "18:14",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "29081836",
+    "client_name": "MOYA DANTE GUSTAVO",
+    "contact_type": "sms",
+    "phone_used": "3814679930"
   }
 ]
