@@ -68,5 +68,15 @@
     "client_name": "AGUIRRE MAIRA ANTONELLA",
     "contact_type": "llamada",
     "phone_used": "3865544867"
+  },
+  {
+    "date": "2026-06-23",
+    "time": "12:39",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "20581053",
+    "client_name": "ALBARRACIN VICTOR HUGO",
+    "contact_type": "llamada",
+    "phone_used": "3816542672"
   }
 ]
