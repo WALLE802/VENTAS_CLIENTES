@@ -78,5 +78,15 @@
     "client_name": "ALBARRACIN VICTOR HUGO",
     "contact_type": "llamada",
     "phone_used": "3816542672"
+  },
+  {
+    "date": "2026-06-23",
+    "time": "18:00",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "40357397",
+    "client_name": "MARQUEZ EUGENIO DAVID",
+    "contact_type": "llamada",
+    "phone_used": "3816472238"
   }
 ]
