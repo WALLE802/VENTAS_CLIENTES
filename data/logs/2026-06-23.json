@@ -358,5 +358,15 @@
     "client_name": "CANSECO VIVIANA DEL VALLE",
     "contact_type": "llamada",
     "phone_used": "3816412848"
+  },
+  {
+    "date": "2026-06-23",
+    "time": "20:14",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "44703114",
+    "client_name": "CORDOBA LUCAS GEREMIAS",
+    "contact_type": "llamada",
+    "phone_used": "3816411630"
   }
 ]
