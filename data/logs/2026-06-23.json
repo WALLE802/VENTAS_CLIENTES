@@ -298,5 +298,15 @@
     "client_name": "ALBORNOZ OLGA EMILIA",
     "contact_type": "llamada",
     "phone_used": "3813673176"
+  },
+  {
+    "date": "2026-06-23",
+    "time": "19:55",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "29114333",
+    "client_name": "ALONSO RUBEN ANTONIO",
+    "contact_type": "llamada",
+    "phone_used": "3815499705"
   }
 ]
