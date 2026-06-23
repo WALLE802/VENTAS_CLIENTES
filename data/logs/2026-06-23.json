@@ -448,5 +448,15 @@
     "client_name": "LOPEZ ALEXIS EMANUEL",
     "contact_type": "llamada",
     "phone_used": "3813386048"
+  },
+  {
+    "date": "2026-06-23",
+    "time": "20:40",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "45186441",
+    "client_name": "LOPEZ ALEXIS EMANUEL",
+    "contact_type": "sms",
+    "phone_used": "3813386048"
   }
 ]
