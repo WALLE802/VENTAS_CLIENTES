@@ -168,5 +168,15 @@
     "client_name": "ROMANO NATALIA SARA VERONICA",
     "contact_type": "llamada",
     "phone_used": "3815807247"
+  },
+  {
+    "date": "2026-06-23",
+    "time": "18:25",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "25421670",
+    "client_name": "ROMANO NATALIA SARA VERONICA",
+    "contact_type": "sms",
+    "phone_used": "3815807247"
   }
 ]
