@@ -148,5 +148,15 @@
     "client_name": "PONCE ELSA ESTER",
     "contact_type": "llamada",
     "phone_used": "3812392758"
+  },
+  {
+    "date": "2026-06-23",
+    "time": "18:22",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "39359621",
+    "client_name": "RODRIGUEZ CINTHIA DANIELA",
+    "contact_type": "llamada",
+    "phone_used": "3814889592"
   }
 ]
