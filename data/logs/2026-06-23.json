@@ -378,5 +378,15 @@
     "client_name": "CORONEL DANIELA CAROLINA",
     "contact_type": "llamada",
     "phone_used": "3814749103"
+  },
+  {
+    "date": "2026-06-23",
+    "time": "20:17",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "30770032",
+    "client_name": "CORONEL DANIELA CAROLINA",
+    "contact_type": "sms",
+    "phone_used": "3814749103"
   }
 ]
