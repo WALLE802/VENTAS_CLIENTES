@@ -38,5 +38,15 @@
     "client_name": "AGUIRRE MAIRA ANTONELLA",
     "contact_type": "llamada",
     "phone_used": "3865544867"
+  },
+  {
+    "date": "2026-06-23",
+    "time": "10:34",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "39479294",
+    "client_name": "AGUIRRE MAIRA ANTONELLA",
+    "contact_type": "whatsapp",
+    "phone_used": "3865544867"
   }
 ]
