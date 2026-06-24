@@ -68,5 +68,15 @@
     "client_name": "ALBORNOZ DANIEL MARCELO",
     "contact_type": "llamada",
     "phone_used": "3834777585"
+  },
+  {
+    "date": "2026-06-24",
+    "time": "17:14",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "11485389",
+    "client_name": "ALBORNOZ LORENZO ANTONIO",
+    "contact_type": "llamada",
+    "phone_used": "3816512061"
   }
 ]
