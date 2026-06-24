@@ -155,8 +155,18 @@
     "username": "aguilares",
     "branch": "aguilares",
     "client_dni": "27496930",
-    "client_name": "ARGAÑARAZ DAIANA MARIA",
+    "client_name": "ARGAÃARAZ DAIANA MARIA",
     "contact_type": "llamada",
     "phone_used": "3865266154"
+  },
+  {
+    "date": "2026-06-24",
+    "time": "18:29",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "25667516",
+    "client_name": "ARRASCAETA JOSE ANTONIO",
+    "contact_type": "llamada",
+    "phone_used": "3865627164"
   }
 ]
