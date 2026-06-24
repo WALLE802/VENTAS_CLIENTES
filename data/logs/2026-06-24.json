@@ -155,7 +155,7 @@
     "username": "aguilares",
     "branch": "aguilares",
     "client_dni": "27496930",
-    "client_name": "ARGAÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂARAZ DAIANA MARIA",
+    "client_name": "ARGAÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂARAZ DAIANA MARIA",
     "contact_type": "llamada",
     "phone_used": "3865266154"
   },
@@ -208,5 +208,15 @@
     "client_name": "AVILA MARIANA VANESA",
     "contact_type": "llamada",
     "phone_used": "3865226293"
+  },
+  {
+    "date": "2026-06-24",
+    "time": "19:39",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "13311076",
+    "client_name": "BANEGA GRACIELA ANTONIA",
+    "contact_type": "llamada",
+    "phone_used": "3865703575"
   }
 ]
