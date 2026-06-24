@@ -88,5 +88,15 @@
     "client_name": "ALBORNOZ ROSA ALEJANDRA",
     "contact_type": "llamada",
     "phone_used": "3865578166"
+  },
+  {
+    "date": "2026-06-24",
+    "time": "17:21",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "11733121",
+    "client_name": "ALDERETE MERCEDES DEL VALLE",
+    "contact_type": "llamada",
+    "phone_used": "3865585162"
   }
 ]
