@@ -155,7 +155,7 @@
     "username": "aguilares",
     "branch": "aguilares",
     "client_dni": "27496930",
-    "client_name": "ARGAÃARAZ DAIANA MARIA",
+    "client_name": "ARGAÃÂARAZ DAIANA MARIA",
     "contact_type": "llamada",
     "phone_used": "3865266154"
   },
@@ -168,5 +168,15 @@
     "client_name": "ARRASCAETA JOSE ANTONIO",
     "contact_type": "llamada",
     "phone_used": "3865627164"
+  },
+  {
+    "date": "2026-06-24",
+    "time": "18:46",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "16383618",
+    "client_name": "ARREGUEZ HUMBERTO ARGENTINO",
+    "contact_type": "llamada",
+    "phone_used": "3865312561"
   }
 ]
