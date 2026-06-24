@@ -138,5 +138,15 @@
     "client_name": "ANDRADA YONATAN ARIEL",
     "contact_type": "llamada",
     "phone_used": "3865603002"
+  },
+  {
+    "date": "2026-06-24",
+    "time": "17:32",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "23172647",
+    "client_name": "ARARIQUE ANTONIO NOLBERTO",
+    "contact_type": "llamada",
+    "phone_used": "3865216500"
   }
 ]
