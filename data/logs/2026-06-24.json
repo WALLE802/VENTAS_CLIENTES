@@ -108,5 +108,15 @@
     "client_name": "ALLENDE SILVIA HAIDE",
     "contact_type": "llamada",
     "phone_used": "3813387601"
+  },
+  {
+    "date": "2026-06-24",
+    "time": "17:25",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "23019898",
+    "client_name": "ALVA MARIA BELEN",
+    "contact_type": "llamada",
+    "phone_used": "3865606050"
   }
 ]
