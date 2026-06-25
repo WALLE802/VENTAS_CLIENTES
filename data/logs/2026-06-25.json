@@ -155,7 +155,7 @@
     "username": "aguilares",
     "branch": "aguilares",
     "client_dni": "27496930",
-    "client_name": "ARGAÃÂÃÂÃÂÃÂARAZ DAIANA MARIA",
+    "client_name": "ARGAÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂARAZ DAIANA MARIA",
     "contact_type": "llamada",
     "phone_used": "3865266154"
   },
@@ -198,5 +198,15 @@
     "client_name": "ASENCIO ROMINA PAMELA",
     "contact_type": "llamada",
     "phone_used": "3865445780"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "10:24",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "13311076",
+    "client_name": "BANEGA GRACIELA ANTONIA",
+    "contact_type": "llamada",
+    "phone_used": "3865703575"
   }
 ]
