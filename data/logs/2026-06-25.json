@@ -228,5 +228,15 @@
     "client_name": "AMAYA AIDA NOEMI",
     "contact_type": "whatsapp",
     "phone_used": "03863481431"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "10:58",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "17394636",
+    "client_name": "ANDRADA GLADYS ENCARNACION",
+    "contact_type": "llamada",
+    "phone_used": "3865440648"
   }
 ]
