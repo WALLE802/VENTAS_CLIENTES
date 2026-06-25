@@ -448,5 +448,15 @@
     "client_name": "ANGEL MARCELA EMILCE",
     "contact_type": "whatsapp",
     "phone_used": "3816058776"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "11:30",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "23616640",
+    "client_name": "BURGOS RAMIRO DANIEL",
+    "contact_type": "llamada",
+    "phone_used": "3865607293"
   }
 ]
