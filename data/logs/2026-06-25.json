@@ -338,5 +338,15 @@
     "client_name": "BRIZUELA GABRIEL ALEJANDRO",
     "contact_type": "llamada",
     "phone_used": "3865668087"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "11:10",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "42719417",
+    "client_name": "ALI LAZCOUR ROCIO MARISOL",
+    "contact_type": "llamada",
+    "phone_used": "3812462140"
   }
 ]
