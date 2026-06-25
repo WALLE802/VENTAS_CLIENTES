@@ -548,5 +548,15 @@
     "client_name": "BORQUEZ ANDREA CAROLINA DE LOS ANGELES",
     "contact_type": "llamada",
     "phone_used": "3815508310"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "12:04",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "28147408",
+    "client_name": "BORQUEZ ANDREA CAROLINA DE LOS ANGELES",
+    "contact_type": "sms",
+    "phone_used": "3815508310"
   }
 ]
