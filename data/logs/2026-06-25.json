@@ -268,5 +268,15 @@
     "client_name": "ANDRADA MARIA JOSE.",
     "contact_type": "llamada",
     "phone_used": "3865536750"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "11:02",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "38742340",
+    "client_name": "ALBORNOZ CARLA FERNANDA",
+    "contact_type": "llamada",
+    "phone_used": "3816614292"
   }
 ]
