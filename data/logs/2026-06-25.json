@@ -25,8 +25,18 @@
     "username": "con1",
     "branch": "con1",
     "client_dni": "36218401",
-    "client_name": "AGÜERO JAQUELINE SOLEDAD",
+    "client_name": "AGÃERO JAQUELINE SOLEDAD",
     "contact_type": "llamada",
     "phone_used": "3865321896"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "09:38",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "14645459",
+    "client_name": "ALBORNOZ AMANDA ROSA",
+    "contact_type": "llamada",
+    "phone_used": "3865648233"
   }
 ]
