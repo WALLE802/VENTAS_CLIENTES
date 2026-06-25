@@ -508,5 +508,15 @@
     "client_name": "ARMAS GRISELDA",
     "contact_type": "sms",
     "phone_used": "3816509764"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "11:55",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "45060208",
+    "client_name": "BAZAN DANIEL GUILLERMO",
+    "contact_type": "llamada",
+    "phone_used": "3814560988"
   }
 ]
