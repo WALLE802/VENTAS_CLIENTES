@@ -678,5 +678,15 @@
     "client_name": "CARETI MARIA MAGDALENA",
     "contact_type": "llamada",
     "phone_used": "3816141986"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "12:33",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "30497448",
+    "client_name": "CARRAZAN MONICA DEL VALLE",
+    "contact_type": "llamada",
+    "phone_used": "3815576494"
   }
 ]
