@@ -418,5 +418,15 @@
     "client_name": "ALZOGARAY MIGUEL ANGEL",
     "contact_type": "llamada",
     "phone_used": "3815631413"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "11:19",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "45859032",
+    "client_name": "AMAYA LEILAROCIO",
+    "contact_type": "llamada",
+    "phone_used": "3814433796"
   }
 ]
