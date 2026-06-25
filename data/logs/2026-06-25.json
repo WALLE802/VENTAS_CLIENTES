@@ -668,5 +668,15 @@
     "client_name": "CARABAJAL PATRICIA DEL VALLE",
     "contact_type": "sms",
     "phone_used": "3815054647"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "12:32",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "22631355",
+    "client_name": "CARETI MARIA MAGDALENA",
+    "contact_type": "llamada",
+    "phone_used": "3816141986"
   }
 ]
