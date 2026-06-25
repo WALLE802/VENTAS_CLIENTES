@@ -328,5 +328,15 @@
     "client_name": "ALDERETE CRISTINA DEL VALLE",
     "contact_type": "sms",
     "phone_used": "3814028932"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "11:09",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "36997971",
+    "client_name": "BRIZUELA GABRIEL ALEJANDRO",
+    "contact_type": "llamada",
+    "phone_used": "3865668087"
   }
 ]
