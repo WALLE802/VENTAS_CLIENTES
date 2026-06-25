@@ -68,5 +68,15 @@
     "client_name": "ALEGRE JOSE PEDRO ALFREDO *",
     "contact_type": "whatsapp",
     "phone_used": "3865226477"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "10:44",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "43362711",
+    "client_name": "ACUAS EVELYN LOHANA STEFANIA",
+    "contact_type": "llamada",
+    "phone_used": "3815403150"
   }
 ]
