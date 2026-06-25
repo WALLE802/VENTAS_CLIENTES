@@ -25,7 +25,7 @@
     "username": "con1",
     "branch": "con1",
     "client_dni": "36218401",
-    "client_name": "AGÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂERO JAQUELINE SOLEDAD",
+    "client_name": "AGÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂERO JAQUELINE SOLEDAD",
     "contact_type": "llamada",
     "phone_used": "3865321896"
   },
@@ -95,8 +95,18 @@
     "username": "con1",
     "branch": "con1",
     "client_dni": "36218401",
-    "client_name": "AGÜERO JAQUELINE SOLEDAD",
+    "client_name": "AGÃERO JAQUELINE SOLEDAD",
     "contact_type": "whatsapp",
     "phone_used": "3865321896"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "09:51",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "42665580",
+    "client_name": "AGUIRRE LUCIANO AGUSTIN",
+    "contact_type": "whatsapp",
+    "phone_used": "3865342049"
   }
 ]
