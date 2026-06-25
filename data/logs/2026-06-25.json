@@ -798,5 +798,15 @@
     "client_name": "COMAN LUIS SEBASTIAN",
     "contact_type": "llamada",
     "phone_used": "3815437662"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "17:18",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "30496970",
+    "client_name": "COMAN LUIS SEBASTIAN",
+    "contact_type": "sms",
+    "phone_used": "3815437662"
   }
 ]
