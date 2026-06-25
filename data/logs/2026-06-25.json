@@ -438,5 +438,15 @@
     "client_name": "ANDRADE MARTA NORMA",
     "contact_type": "llamada",
     "phone_used": "3814094589"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "11:29",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "30835410",
+    "client_name": "ANGEL MARCELA EMILCE",
+    "contact_type": "whatsapp",
+    "phone_used": "3816058776"
   }
 ]
