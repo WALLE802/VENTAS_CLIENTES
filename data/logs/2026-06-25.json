@@ -388,5 +388,15 @@
     "client_name": "ALORNOZ HILDA DEL VALLE",
     "contact_type": "sms",
     "phone_used": "3815866780"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "11:14",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "13291061",
+    "client_name": "ALTAMIRANDA GRACIELA BEATRIZ",
+    "contact_type": "llamada",
+    "phone_used": "3814805943"
   }
 ]
