@@ -588,5 +588,15 @@
     "client_name": "BRITO JEREMY ALAN",
     "contact_type": "llamada",
     "phone_used": "3815766800"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "12:14",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "42371946",
+    "client_name": "BRITO LEILA AYELN",
+    "contact_type": "llamada",
+    "phone_used": "3815218953"
   }
 ]
