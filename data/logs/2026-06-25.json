@@ -148,5 +148,15 @@
     "client_name": "AHUMADA DIEGO GERMAN",
     "contact_type": "sms",
     "phone_used": "3815266475"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "10:53",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "18469581",
+    "client_name": "ALVAREZ NORMA BEATRIZ*",
+    "contact_type": "llamada",
+    "phone_used": "3865398993"
   }
 ]
