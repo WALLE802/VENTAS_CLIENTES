@@ -1008,5 +1008,15 @@
     "client_name": "BURGOS RAMONA IRMA",
     "contact_type": "llamada",
     "phone_used": "3865227705"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "17:55",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "6244350",
+    "client_name": "BUSTAMANTE ANTONIA BERTA",
+    "contact_type": "llamada",
+    "phone_used": "3865560957"
   }
 ]
