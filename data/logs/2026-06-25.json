@@ -848,5 +848,15 @@
     "client_name": "CORONEL OMAR ORLANDO",
     "contact_type": "llamada",
     "phone_used": "3816322081"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "17:25",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "12607269",
+    "client_name": "CORONEL OMAR ORLANDO",
+    "contact_type": "sms",
+    "phone_used": "3816322081"
   }
 ]
