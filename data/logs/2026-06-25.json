@@ -288,5 +288,15 @@
     "client_name": "ANDRADA MARIA JOSE.",
     "contact_type": "whatsapp",
     "phone_used": "3865536750"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "11:04",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "23616799",
+    "client_name": "BARROSO PATRICIA GABRIELA",
+    "contact_type": "llamada",
+    "phone_used": "3865466382"
   }
 ]
