@@ -728,5 +728,15 @@
     "client_name": "CASTILLO JUSTO MANUEL",
     "contact_type": "llamada",
     "phone_used": "3813548250"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "12:46",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "43965279",
+    "client_name": "CASTILLO VIRGINIA NAZARENA",
+    "contact_type": "llamada",
+    "phone_used": "3813502448"
   }
 ]
