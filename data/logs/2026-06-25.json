@@ -858,5 +858,15 @@
     "client_name": "CORONEL OMAR ORLANDO",
     "contact_type": "sms",
     "phone_used": "3816322081"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "17:28",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "16450151",
+    "client_name": "CRUZ ADRIANA MARTINA",
+    "contact_type": "llamada",
+    "phone_used": "3815174457"
   }
 ]
