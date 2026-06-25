@@ -1028,5 +1028,15 @@
     "client_name": "BUSTOS MARTA BEATRIZ",
     "contact_type": "llamada",
     "phone_used": "3865740473"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "18:07",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "18007955",
+    "client_name": "CABELLO MARIO DANIEL",
+    "contact_type": "llamada",
+    "phone_used": "3865466921"
   }
 ]
