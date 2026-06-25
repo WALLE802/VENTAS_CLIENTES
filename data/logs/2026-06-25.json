@@ -298,5 +298,15 @@
     "client_name": "BARROSO PATRICIA GABRIELA",
     "contact_type": "llamada",
     "phone_used": "3865466382"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "11:06",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "17218403",
+    "client_name": "BIANCHINI RICARDO ALBERTO",
+    "contact_type": "llamada",
+    "phone_used": "3865601240"
   }
 ]
