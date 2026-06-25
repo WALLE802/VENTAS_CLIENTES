@@ -998,5 +998,15 @@
     "client_name": "DUBERTI BLANCA EMILIA",
     "contact_type": "sms",
     "phone_used": "3815810129"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "17:54",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "25471932",
+    "client_name": "BURGOS RAMONA IRMA",
+    "contact_type": "llamada",
+    "phone_used": "3865227705"
   }
 ]
