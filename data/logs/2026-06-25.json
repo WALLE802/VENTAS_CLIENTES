@@ -758,5 +758,15 @@
     "client_name": "CATIVA LUCIA",
     "contact_type": "llamada",
     "phone_used": "3816786666"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "12:53",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "12449357",
+    "client_name": "CEDAN RAMON ANGEL",
+    "contact_type": "llamada",
+    "phone_used": "3813012149"
   }
 ]
