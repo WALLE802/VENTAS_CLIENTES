@@ -698,5 +698,15 @@
     "client_name": "CARRAZANA VICTOR OSCAR",
     "contact_type": "llamada",
     "phone_used": "3813349590"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "12:38",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "41650427",
+    "client_name": "CARRIZO GABRIEL",
+    "contact_type": "llamada",
+    "phone_used": "3813314371"
   }
 ]
