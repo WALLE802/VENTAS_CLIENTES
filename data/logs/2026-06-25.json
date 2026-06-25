@@ -808,5 +808,15 @@
     "client_name": "COMAN LUIS SEBASTIAN",
     "contact_type": "sms",
     "phone_used": "3815437662"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "17:20",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "38243365",
+    "client_name": "CORONEL NOELIA ANABEL",
+    "contact_type": "llamada",
+    "phone_used": "3813199899"
   }
 ]
