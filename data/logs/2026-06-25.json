@@ -498,5 +498,15 @@
     "client_name": "ARMAS GRISELDA",
     "contact_type": "llamada",
     "phone_used": "3816509764"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "11:51",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "39972308",
+    "client_name": "ARMAS GRISELDA",
+    "contact_type": "sms",
+    "phone_used": "3816509764"
   }
 ]
