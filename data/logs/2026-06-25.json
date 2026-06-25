@@ -238,5 +238,15 @@
     "client_name": "ANDRADA GLADYS ENCARNACION",
     "contact_type": "llamada",
     "phone_used": "3865440648"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "11:00",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "32163493",
+    "client_name": "ALBARRACIN LUIS MIGUEL",
+    "contact_type": "llamada",
+    "phone_used": "3816425913"
   }
 ]
