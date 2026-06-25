@@ -528,5 +528,15 @@
     "client_name": "BEVACQUA JULIO LAURINDO",
     "contact_type": "llamada",
     "phone_used": "3814651001"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "12:00",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "16540805",
+    "client_name": "BOBI MARINA DE LOS ANGELES",
+    "contact_type": "llamada",
+    "phone_used": "3815670422"
   }
 ]
