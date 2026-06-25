@@ -818,5 +818,15 @@
     "client_name": "CORONEL NOELIA ANABEL",
     "contact_type": "llamada",
     "phone_used": "3813199899"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "17:21",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "38243365",
+    "client_name": "CORONEL NOELIA ANABEL",
+    "contact_type": "sms",
+    "phone_used": "3813199899"
   }
 ]
