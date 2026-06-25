@@ -28,5 +28,15 @@
     "client_name": "ACOSTA SERGIO ADRIAN",
     "contact_type": "llamada",
     "phone_used": "3812527559"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "10:23",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "39479294",
+    "client_name": "AGUIRRE MAIRA ANTONELLA",
+    "contact_type": "llamada",
+    "phone_used": "3865544867"
   }
 ]
