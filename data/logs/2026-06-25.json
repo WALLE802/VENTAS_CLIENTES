@@ -748,5 +748,15 @@
     "client_name": "CASTILLO VIRGINIA NAZARENA",
     "contact_type": "sms",
     "phone_used": "3813502448"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "12:50",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "31274564",
+    "client_name": "CATIVA LUCIA",
+    "contact_type": "llamada",
+    "phone_used": "3816786666"
   }
 ]
