@@ -608,5 +608,15 @@
     "client_name": "BUSTAMANTE , HUGO ALBERTO",
     "contact_type": "llamada",
     "phone_used": "3813648106"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "12:19",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "35815794",
+    "client_name": "BUSTAMANTE MARIA CRISTINA",
+    "contact_type": "llamada",
+    "phone_used": "3815766057"
   }
 ]
