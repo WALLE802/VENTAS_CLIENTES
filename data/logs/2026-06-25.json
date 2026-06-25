@@ -258,5 +258,15 @@
     "client_name": "ALBARRACIN LUIS MIGUEL",
     "contact_type": "sms",
     "phone_used": "3816425913"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "11:01",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "28718086",
+    "client_name": "ANDRADA MARIA JOSE.",
+    "contact_type": "llamada",
+    "phone_used": "3865536750"
   }
 ]
