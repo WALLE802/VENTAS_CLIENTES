@@ -158,5 +158,15 @@
     "client_name": "ALVAREZ NORMA BEATRIZ*",
     "contact_type": "llamada",
     "phone_used": "3865398993"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "10:54",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "18469581",
+    "client_name": "ALVAREZ NORMA BEATRIZ*",
+    "contact_type": "whatsapp",
+    "phone_used": "3865398993"
   }
 ]
