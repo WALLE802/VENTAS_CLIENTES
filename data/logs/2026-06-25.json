@@ -598,5 +598,15 @@
     "client_name": "BRITO LEILA AYELN",
     "contact_type": "llamada",
     "phone_used": "3815218953"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "12:15",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "17947884",
+    "client_name": "BUSTAMANTE , HUGO ALBERTO",
+    "contact_type": "llamada",
+    "phone_used": "3813648106"
   }
 ]
