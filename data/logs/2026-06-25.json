@@ -878,5 +878,15 @@
     "client_name": "CRUZ ADRIANA MARTINA",
     "contact_type": "sms",
     "phone_used": "3815174457"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "17:30",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "20239768",
+    "client_name": "CRUZ JESUS CARLOTA",
+    "contact_type": "llamada",
+    "phone_used": "3815297476"
   }
 ]
