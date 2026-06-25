@@ -25,7 +25,7 @@
     "username": "con1",
     "branch": "con1",
     "client_dni": "36218401",
-    "client_name": "AGÃERO JAQUELINE SOLEDAD",
+    "client_name": "AGÃÂERO JAQUELINE SOLEDAD",
     "contact_type": "llamada",
     "phone_used": "3865321896"
   },
@@ -38,5 +38,15 @@
     "client_name": "ALBORNOZ AMANDA ROSA",
     "contact_type": "llamada",
     "phone_used": "3865648233"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "09:40",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "10566152",
+    "client_name": "ALCARAZ HECTOR EMILIO",
+    "contact_type": "llamada",
+    "phone_used": "3865254976"
   }
 ]
