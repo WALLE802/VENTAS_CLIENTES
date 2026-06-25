@@ -958,5 +958,15 @@
     "client_name": "DIAZ RAMOS CRISTHIAN MARTIN",
     "contact_type": "llamada",
     "phone_used": "3812150194"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "17:41",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "45438815",
+    "client_name": "DIAZ RAMOS CRISTHIAN MARTIN",
+    "contact_type": "sms",
+    "phone_used": "3812150194"
   }
 ]
