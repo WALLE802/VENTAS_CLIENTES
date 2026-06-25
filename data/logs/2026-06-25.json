@@ -98,5 +98,15 @@
     "client_name": "ALDERETE MERCEDES DEL VALLE",
     "contact_type": "llamada",
     "phone_used": "3865585162"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "10:23",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "20721568",
+    "client_name": "ALLENDE SILVIA HAIDE",
+    "contact_type": "llamada",
+    "phone_used": "3813387601"
   }
 ]
