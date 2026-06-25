@@ -978,5 +978,15 @@
     "client_name": "DIAZ YANINA NOELIA",
     "contact_type": "llamada",
     "phone_used": "3814580296"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "17:46",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "5727179",
+    "client_name": "DUBERTI BLANCA EMILIA",
+    "contact_type": "llamada",
+    "phone_used": "3815810129"
   }
 ]
