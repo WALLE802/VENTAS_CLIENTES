@@ -98,5 +98,15 @@
     "client_name": "ALEGRE NESTOR ALFREDO",
     "contact_type": "llamada",
     "phone_used": "3812478413"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "10:46",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "44186568",
+    "client_name": "BARROS JIMENA CAMILA",
+    "contact_type": "llamada",
+    "phone_used": "3865825004"
   }
 ]
