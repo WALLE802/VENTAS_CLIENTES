@@ -918,5 +918,15 @@
     "client_name": "CUELLAR RITA DEL VALLE",
     "contact_type": "llamada",
     "phone_used": "3813996494"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "17:35",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "20580580",
+    "client_name": "CUELLAR RITA DEL VALLE",
+    "contact_type": "sms",
+    "phone_used": "3813996494"
   }
 ]
