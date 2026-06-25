@@ -168,5 +168,15 @@
     "client_name": "ALVAREZ NORMA BEATRIZ*",
     "contact_type": "whatsapp",
     "phone_used": "3865398993"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "10:54",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "24671010",
+    "client_name": "ALARCON MARIA BEATRIZ",
+    "contact_type": "llamada",
+    "phone_used": "3813927075"
   }
 ]
