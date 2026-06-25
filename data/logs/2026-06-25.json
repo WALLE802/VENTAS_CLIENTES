@@ -308,5 +308,15 @@
     "client_name": "BIANCHINI RICARDO ALBERTO",
     "contact_type": "llamada",
     "phone_used": "3865601240"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "11:06",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "29878517",
+    "client_name": "ALDERETE CRISTINA DEL VALLE",
+    "contact_type": "llamada",
+    "phone_used": "3814028932"
   }
 ]
