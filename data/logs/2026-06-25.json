@@ -1018,5 +1018,15 @@
     "client_name": "BUSTAMANTE ANTONIA BERTA",
     "contact_type": "llamada",
     "phone_used": "3865560957"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "17:58",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "13356429",
+    "client_name": "BUSTOS MARTA BEATRIZ",
+    "contact_type": "llamada",
+    "phone_used": "3865740473"
   }
 ]
