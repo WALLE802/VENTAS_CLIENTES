@@ -118,5 +118,15 @@
     "client_name": "AGUILAR MIGUEL ARNALDO",
     "contact_type": "llamada",
     "phone_used": "3816970664"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "10:51",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "27945395",
+    "client_name": "AHUMADA DIEGO GERMAN",
+    "contact_type": "llamada",
+    "phone_used": "3815266475"
   }
 ]
