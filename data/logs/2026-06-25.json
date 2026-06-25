@@ -968,5 +968,15 @@
     "client_name": "DIAZ RAMOS CRISTHIAN MARTIN",
     "contact_type": "sms",
     "phone_used": "3812150194"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "17:43",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "35518002",
+    "client_name": "DIAZ YANINA NOELIA",
+    "contact_type": "llamada",
+    "phone_used": "3814580296"
   }
 ]
