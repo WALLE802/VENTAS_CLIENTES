@@ -78,5 +78,15 @@
     "client_name": "ACUAS EVELYN LOHANA STEFANIA",
     "contact_type": "llamada",
     "phone_used": "3815403150"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "10:45",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "43362711",
+    "client_name": "ACUAS EVELYN LOHANA STEFANIA",
+    "contact_type": "sms",
+    "phone_used": "3815403150"
   }
 ]
