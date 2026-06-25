@@ -688,5 +688,15 @@
     "client_name": "CARRAZAN MONICA DEL VALLE",
     "contact_type": "llamada",
     "phone_used": "3815576494"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "12:36",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "40698130",
+    "client_name": "CARRAZANA VICTOR OSCAR",
+    "contact_type": "llamada",
+    "phone_used": "3813349590"
   }
 ]
