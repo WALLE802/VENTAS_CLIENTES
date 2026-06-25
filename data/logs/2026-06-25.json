@@ -408,5 +408,15 @@
     "client_name": "ALTAMIRANDA GRACIELA BEATRIZ",
     "contact_type": "sms",
     "phone_used": "3814805943"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "11:17",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "27646321",
+    "client_name": "ALZOGARAY MIGUEL ANGEL",
+    "contact_type": "llamada",
+    "phone_used": "3815631413"
   }
 ]
