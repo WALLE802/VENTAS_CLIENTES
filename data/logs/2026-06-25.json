@@ -358,5 +358,15 @@
     "client_name": "ALI LAZCOUR ROCIO MARISOL",
     "contact_type": "sms",
     "phone_used": "3812462140"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "11:11",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "5335753",
+    "client_name": "ALORNOZ HILDA DEL VALLE",
+    "contact_type": "llamada",
+    "phone_used": "3815866780"
   }
 ]
