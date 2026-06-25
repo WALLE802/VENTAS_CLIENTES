@@ -518,5 +518,15 @@
     "client_name": "BAZAN DANIEL GUILLERMO",
     "contact_type": "llamada",
     "phone_used": "3814560988"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "11:57",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "16132410",
+    "client_name": "BEVACQUA JULIO LAURINDO",
+    "contact_type": "llamada",
+    "phone_used": "3814651001"
   }
 ]
