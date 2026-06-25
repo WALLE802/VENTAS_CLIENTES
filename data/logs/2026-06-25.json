@@ -25,7 +25,7 @@
     "username": "con1",
     "branch": "con1",
     "client_dni": "36218401",
-    "client_name": "AGÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂERO JAQUELINE SOLEDAD",
+    "client_name": "AGÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂERO JAQUELINE SOLEDAD",
     "contact_type": "llamada",
     "phone_used": "3865321896"
   },
@@ -88,5 +88,15 @@
     "client_name": "ABREGU MARIA ROSA*",
     "contact_type": "whatsapp",
     "phone_used": "3865401728"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "09:50",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "36218401",
+    "client_name": "AGÜERO JAQUELINE SOLEDAD",
+    "contact_type": "whatsapp",
+    "phone_used": "3865321896"
   }
 ]
