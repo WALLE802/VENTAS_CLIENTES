@@ -278,5 +278,15 @@
     "client_name": "ALBORNOZ CARLA FERNANDA",
     "contact_type": "llamada",
     "phone_used": "3816614292"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "11:02",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "28718086",
+    "client_name": "ANDRADA MARIA JOSE.",
+    "contact_type": "whatsapp",
+    "phone_used": "3865536750"
   }
 ]
