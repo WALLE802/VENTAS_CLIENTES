@@ -718,5 +718,15 @@
     "client_name": "CARRIZO GABRIEL",
     "contact_type": "sms",
     "phone_used": "3813314371"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "12:45",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "23826921",
+    "client_name": "CASTILLO JUSTO MANUEL",
+    "contact_type": "llamada",
+    "phone_used": "3813548250"
   }
 ]
