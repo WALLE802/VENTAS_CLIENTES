@@ -108,5 +108,15 @@
     "client_name": "BARROS JIMENA CAMILA",
     "contact_type": "llamada",
     "phone_used": "3865825004"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "10:48",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "40435930",
+    "client_name": "AGUILAR MIGUEL ARNALDO",
+    "contact_type": "llamada",
+    "phone_used": "3816970664"
   }
 ]
