@@ -578,5 +578,15 @@
     "client_name": "BRAVO JOSE EDUARDO",
     "contact_type": "llamada",
     "phone_used": "3813010467"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "12:11",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "38489391",
+    "client_name": "BRITO JEREMY ALAN",
+    "contact_type": "llamada",
+    "phone_used": "3815766800"
   }
 ]
