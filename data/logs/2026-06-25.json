@@ -1108,5 +1108,15 @@
     "client_name": "COLLANTE MARIA ANTONIA",
     "contact_type": "llamada",
     "phone_used": "3865612019"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "19:12",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "3791011",
+    "client_name": "CONCHA GLADIS CLEOTILDE",
+    "contact_type": "llamada",
+    "phone_used": "3865531905"
   }
 ]
