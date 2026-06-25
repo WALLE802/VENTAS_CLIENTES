@@ -1118,5 +1118,15 @@
     "client_name": "CONCHA GLADIS CLEOTILDE",
     "contact_type": "llamada",
     "phone_used": "3865531905"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "19:14",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "28171842",
+    "client_name": "CONTRERAS GUSTAVO ALEJANDRO",
+    "contact_type": "llamada",
+    "phone_used": "3815655952"
   }
 ]
