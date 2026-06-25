@@ -1088,5 +1088,15 @@
     "client_name": "CERVANTES CARLOS RUBEN",
     "contact_type": "llamada",
     "phone_used": "3865593430"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "19:05",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "16724181",
+    "client_name": "CHAP JUAN CARLOS",
+    "contact_type": "llamada",
+    "phone_used": "3865349036"
   }
 ]
