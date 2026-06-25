@@ -638,5 +638,15 @@
     "client_name": "BUSTOS BRUNO JOSE",
     "contact_type": "sms",
     "phone_used": "3816657858"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "12:29",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "25735776",
+    "client_name": "CABEZA ADRIANA MARCELA",
+    "contact_type": "llamada",
+    "phone_used": "3812116413"
   }
 ]
