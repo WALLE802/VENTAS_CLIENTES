@@ -618,5 +618,15 @@
     "client_name": "BUSTAMANTE MARIA CRISTINA",
     "contact_type": "llamada",
     "phone_used": "3815766057"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "12:24",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "27730537",
+    "client_name": "BUSTOS BRUNO JOSE",
+    "contact_type": "llamada",
+    "phone_used": "3816657858"
   }
 ]
