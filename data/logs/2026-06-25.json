@@ -488,5 +488,15 @@
     "client_name": "ARAGON DOMINGO DANIEL",
     "contact_type": "sms",
     "phone_used": "3814037255"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "11:40",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "39972308",
+    "client_name": "ARMAS GRISELDA",
+    "contact_type": "llamada",
+    "phone_used": "3816509764"
   }
 ]
