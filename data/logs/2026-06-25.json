@@ -18,5 +18,15 @@
     "client_name": "AGUIRRE LUCIANO AGUSTIN",
     "contact_type": "llamada",
     "phone_used": "3865342049"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "09:36",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "36218401",
+    "client_name": "AGÜERO JAQUELINE SOLEDAD",
+    "contact_type": "llamada",
+    "phone_used": "3865321896"
   }
 ]
