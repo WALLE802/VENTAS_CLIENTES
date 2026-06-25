@@ -658,5 +658,15 @@
     "client_name": "CABEZA ADRIANA MARCELA",
     "contact_type": "sms",
     "phone_used": "3812116413"
+  },
+  {
+    "date": "2026-06-25",
+    "time": "12:30",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "22392505",
+    "client_name": "CARABAJAL PATRICIA DEL VALLE",
+    "contact_type": "sms",
+    "phone_used": "3815054647"
   }
 ]
