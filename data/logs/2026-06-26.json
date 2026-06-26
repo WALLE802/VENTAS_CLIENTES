@@ -115,7 +115,7 @@
     "username": "bajo",
     "branch": "bajo",
     "client_dni": "32501228",
-    "client_name": "ARGAÃARAZ JORGE ALBERTO",
+    "client_name": "ARGAÃÂARAZ JORGE ALBERTO",
     "contact_type": "whatsapp",
     "phone_used": "3815297248"
   },
@@ -125,7 +125,7 @@
     "username": "con1",
     "branch": "con1",
     "client_dni": "17537227",
-    "client_name": "ARGAÃARAZ JUAN CARLOS",
+    "client_name": "ARGAÃÂARAZ JUAN CARLOS",
     "contact_type": "llamada",
     "phone_used": "3865370830"
   },
@@ -165,7 +165,7 @@
     "username": "con1",
     "branch": "con1",
     "client_dni": "17537227",
-    "client_name": "ARGAÃARAZ JUAN CARLOS",
+    "client_name": "ARGAÃÂARAZ JUAN CARLOS",
     "contact_type": "whatsapp",
     "phone_used": "3865370830"
   },
@@ -435,7 +435,7 @@
     "username": "bajo",
     "branch": "bajo",
     "client_dni": "28066561",
-    "client_name": "CASTAÃO NATALIA EVANGELINA",
+    "client_name": "CASTAÃÂO NATALIA EVANGELINA",
     "contact_type": "whatsapp",
     "phone_used": "3814021380"
   },
@@ -445,7 +445,7 @@
     "username": "bajo",
     "branch": "bajo",
     "client_dni": "41494822",
-    "client_name": "CASTAÃO SOL ELIZABETH",
+    "client_name": "CASTAÃÂO SOL ELIZABETH",
     "contact_type": "whatsapp",
     "phone_used": "3816741839"
   },
@@ -905,7 +905,7 @@
     "username": "bajo",
     "branch": "bajo",
     "client_dni": "22613662",
-    "client_name": "IBAÃEZ PABLO FRANCISCO",
+    "client_name": "IBAÃÂEZ PABLO FRANCISCO",
     "contact_type": "whatsapp",
     "phone_used": "3815676290"
   },
@@ -918,5 +918,15 @@
     "client_name": "FARIAS MIRIAM DEL VALLE",
     "contact_type": "llamada",
     "phone_used": "3813439128"
+  },
+  {
+    "date": "2026-06-26",
+    "time": "17:25",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "30588684",
+    "client_name": "FARIAS PATRICIA NOEMI",
+    "contact_type": "llamada",
+    "phone_used": "3865306729"
   }
 ]
