@@ -1088,5 +1088,15 @@
     "client_name": "MEDINA JOSEFRANCISCO",
     "contact_type": "llamada",
     "phone_used": "3814474317"
+  },
+  {
+    "date": "2026-06-26",
+    "time": "18:14",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "17773259",
+    "client_name": "MEDINA OSCAR MIGUEL",
+    "contact_type": "llamada",
+    "phone_used": "3814465447"
   }
 ]
