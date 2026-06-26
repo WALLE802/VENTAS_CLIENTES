@@ -270,6 +270,97 @@ async function writeLog(entry) {
     }
 }
 
+// ─── Recuperación de gestiones perdidas desde localStorage ───────────────────
+// Si writeLog falló silenciosamente (ej. bug de encoding o error de red),
+// los contactos quedaron en localStorage pero no en GitHub.
+// Esta función los re-envía todos.
+
+async function recoverLocalStorage() {
+    const today = new Date().toISOString().split('T')[0];
+    const map   = getContacted();
+    const keys  = Object.keys(map);
+    if (!keys.length) {
+        showToast('No hay gestiones locales para recuperar.', 3000);
+        return;
+    }
+
+    // Descargar el estado actual de GitHub para ese día
+    const token  = localStorage.getItem('vt_logs_token') || CONFIG.LOGS_TOKEN || '';
+    const apiUrl = `${CONFIG.API_BASE}/data/logs/${today}.json`;
+    const headers = {
+        'Authorization': `token ${token}`,
+        'Accept':        'application/vnd.github.v3+json',
+        'Content-Type':  'application/json'
+    };
+
+    let currentLogs = [];
+    let fileSha = null;
+    const getResp = await fetch(apiUrl, { headers });
+    if (getResp.ok) {
+        const data = await getResp.json();
+        fileSha = data.sha;
+        if (data.encoding === 'none' && data.download_url) {
+            const dlResp = await fetch(data.download_url);
+            currentLogs = await dlResp.json();
+        } else if (data.content) {
+            const binStr = atob(data.content.replace(/\n/g, ''));
+            const bytes  = Uint8Array.from(binStr, c => c.charCodeAt(0));
+            currentLogs  = JSON.parse(new TextDecoder().decode(bytes));
+        }
+    }
+
+    // Construir set de claves únicas ya guardadas en GitHub
+    const savedKeys = new Set(currentLogs.map(e =>
+        `${e.client_dni}|${e.contact_type}|${e.time}`
+    ));
+
+    // Detectar cuáles faltan
+    let added = 0;
+    for (const idx of keys) {
+        const { type, phone, time } = map[idx];
+        const client = allClients[parseInt(idx)];
+        if (!client) continue;
+        const key = `${client.dni || ''}|${type}|${time}`;
+        if (!savedKeys.has(key)) {
+            currentLogs.push({
+                date:         today,
+                time:         time || '',
+                username:     session.username,
+                branch:       session.branch,
+                client_dni:   client.dni   || '',
+                client_name:  client.nombre || '',
+                contact_type: type,
+                phone_used:   phone
+            });
+            added++;
+        }
+    }
+
+    if (added === 0) {
+        showToast('✅ Todas las gestiones ya están guardadas en GitHub.', 3000);
+        return;
+    }
+
+    // Subir
+    const jsonStr    = JSON.stringify(currentLogs, null, 2);
+    const bytes      = new TextEncoder().encode(jsonStr);
+    const binStr     = Array.from(bytes, b => String.fromCharCode(b)).join('');
+    const newContent = btoa(binStr);
+    const body = {
+        message: `recover: ${added} gestion(es) recuperada(s) desde localStorage (${session.username})`,
+        content: newContent,
+        branch:  CONFIG.GITHUB_BRANCH
+    };
+    if (fileSha) body.sha = fileSha;
+
+    const putResp = await fetch(apiUrl, { method: 'PUT', headers, body: JSON.stringify(body) });
+    if (!putResp.ok) {
+        const err = await putResp.text();
+        throw new Error(`GitHub API ${putResp.status}: ${err.slice(0, 120)}`);
+    }
+    showToast(`✅ ${added} gestión(es) recuperada(s) y guardadas en GitHub.`, 5000);
+}
+
 // ─── Controles de filtro y búsqueda ──────────────────────────────────────────
 
 function setFilter(filter, btn) {
