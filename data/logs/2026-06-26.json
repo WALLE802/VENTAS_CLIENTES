@@ -1068,5 +1068,15 @@
     "client_name": "MAXIMO JESUS BONACICH",
     "contact_type": "llamada",
     "phone_used": "3815155474"
+  },
+  {
+    "date": "2026-06-26",
+    "time": "18:08",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "17268237",
+    "client_name": "MAXIMO JESUS BONACICH",
+    "contact_type": "sms",
+    "phone_used": "3815155474"
   }
 ]
