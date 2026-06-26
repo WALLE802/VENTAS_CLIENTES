@@ -115,7 +115,7 @@
     "username": "bajo",
     "branch": "bajo",
     "client_dni": "32501228",
-    "client_name": "ARGAÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂARAZ JORGE ALBERTO",
+    "client_name": "ARGAÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂARAZ JORGE ALBERTO",
     "contact_type": "whatsapp",
     "phone_used": "3815297248"
   },
@@ -125,7 +125,7 @@
     "username": "con1",
     "branch": "con1",
     "client_dni": "17537227",
-    "client_name": "ARGAÃÂÃÂÃÂÃÂARAZ JUAN CARLOS",
+    "client_name": "ARGAÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂARAZ JUAN CARLOS",
     "contact_type": "llamada",
     "phone_used": "3865370830"
   },
@@ -165,8 +165,18 @@
     "username": "con1",
     "branch": "con1",
     "client_dni": "17537227",
-    "client_name": "ARGAÑARAZ JUAN CARLOS",
+    "client_name": "ARGAÃARAZ JUAN CARLOS",
     "contact_type": "whatsapp",
     "phone_used": "3865370830"
+  },
+  {
+    "date": "2026-06-26",
+    "time": "09:37",
+    "username": "bajo",
+    "branch": "bajo",
+    "client_dni": "11693272",
+    "client_name": "ARROYO HUMBERTEL LAURINDO",
+    "contact_type": "whatsapp",
+    "phone_used": "3813272296"
   }
 ]
