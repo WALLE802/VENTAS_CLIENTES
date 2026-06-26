@@ -58,5 +58,15 @@
     "client_name": "AGUIRRE PATRICIA MABEL",
     "contact_type": "whatsapp",
     "phone_used": "3816695802"
+  },
+  {
+    "date": "2026-06-26",
+    "time": "09:36",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "32550051",
+    "client_name": "AREVALO CLAUDIO ENMANUEL",
+    "contact_type": "whatsapp",
+    "phone_used": "03865363602"
   }
 ]
