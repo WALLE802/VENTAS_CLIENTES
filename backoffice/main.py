@@ -642,7 +642,7 @@ class BackofficeApp(tk.Tk):
             repo_dir = os.path.normpath(os.path.join(os.path.dirname(__file__), '..'))
         branch = self.cfg.get('github_branch', 'main')
 
-        # 1. Fetch + reset al remote
+        # 1. Fetch + reset al remote para incorporar commits hechos via API
         self._log_sync('⬇️  Sincronizando con remote...')
         fetch = subprocess.run(
             ['git', 'fetch', 'origin'],
@@ -650,8 +650,9 @@ class BackofficeApp(tk.Tk):
         )
         if fetch.returncode != 0:
             raise RuntimeError(f"Error en git fetch:\n{fetch.stderr or fetch.stdout}")
+        # --mixed: mueve HEAD al remote y deja los cambios locales sin commitear en el working tree
         subprocess.run(
-            ['git', 'reset', '--soft', f'origin/{branch}'],
+            ['git', 'reset', '--mixed', f'origin/{branch}'],
             cwd=repo_dir, capture_output=True, text=True
         )
         self._log_sync('   sync OK')
