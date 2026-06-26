@@ -235,15 +235,26 @@ async function writeLog(entry) {
     const getResp   = await fetch(apiUrl, { headers });
     if (getResp.ok) {
         const data = await getResp.json();
-        fileSha     = data.sha;
-        currentLogs = JSON.parse(atob(data.content.replace(/\n/g, '')));
+        fileSha = data.sha;
+        if (data.encoding === 'none' && data.download_url) {
+            // Archivo grande (>1 MB): GitHub devuelve encoding=none, usar download_url
+            const dlResp = await fetch(data.download_url);
+            currentLogs = await dlResp.json();
+        } else {
+            // Decodificar base64 → bytes UTF-8 → string → JSON
+            const binStr = atob(data.content.replace(/\n/g, ''));
+            const bytes  = Uint8Array.from(binStr, c => c.charCodeAt(0));
+            currentLogs  = JSON.parse(new TextDecoder().decode(bytes));
+        }
     }
 
     currentLogs.push(entry);
 
-    // base64 encoding compatible con UTF-8
+    // base64 encoding correcto para UTF-8
     const jsonStr    = JSON.stringify(currentLogs, null, 2);
-    const newContent = btoa(unescape(encodeURIComponent(jsonStr)));
+    const bytes      = new TextEncoder().encode(jsonStr);
+    const binStr     = Array.from(bytes, b => String.fromCharCode(b)).join('');
+    const newContent = btoa(binStr);
 
     const body = {
         message: `log: ${entry.username} › ${entry.contact_type} › ${entry.client_name}`,
