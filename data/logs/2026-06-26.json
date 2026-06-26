@@ -1048,5 +1048,15 @@
     "client_name": "LOBO FERNANDO JAVIER",
     "contact_type": "llamada",
     "phone_used": "3815641600"
+  },
+  {
+    "date": "2026-06-26",
+    "time": "18:04",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "32493484",
+    "client_name": "LUCENA, FERNANDA ESTELA",
+    "contact_type": "llamada",
+    "phone_used": "3813582595"
   }
 ]
