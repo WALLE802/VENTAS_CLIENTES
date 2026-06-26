@@ -8,5 +8,15 @@
     "client_name": "ARANDA NOELIA MARIELA",
     "contact_type": "llamada",
     "phone_used": "3865687584"
+  },
+  {
+    "date": "2026-06-26",
+    "time": "09:35",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "32550051",
+    "client_name": "AREVALO CLAUDIO ENMANUEL",
+    "contact_type": "llamada",
+    "phone_used": "3865824806"
   }
 ]
