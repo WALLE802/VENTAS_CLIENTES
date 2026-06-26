@@ -115,7 +115,7 @@
     "username": "bajo",
     "branch": "bajo",
     "client_dni": "32501228",
-    "client_name": "ARGAÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂARAZ JORGE ALBERTO",
+    "client_name": "ARGAÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂARAZ JORGE ALBERTO",
     "contact_type": "whatsapp",
     "phone_used": "3815297248"
   },
@@ -125,7 +125,7 @@
     "username": "con1",
     "branch": "con1",
     "client_dni": "17537227",
-    "client_name": "ARGAÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂARAZ JUAN CARLOS",
+    "client_name": "ARGAÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂARAZ JUAN CARLOS",
     "contact_type": "llamada",
     "phone_used": "3865370830"
   },
@@ -165,7 +165,7 @@
     "username": "con1",
     "branch": "con1",
     "client_dni": "17537227",
-    "client_name": "ARGAÃÂARAZ JUAN CARLOS",
+    "client_name": "ARGAÃÂÃÂARAZ JUAN CARLOS",
     "contact_type": "whatsapp",
     "phone_used": "3865370830"
   },
@@ -188,5 +188,15 @@
     "client_name": "AVILA JESSICA ELIZABETH",
     "contact_type": "whatsapp",
     "phone_used": "3816210694"
+  },
+  {
+    "date": "2026-06-26",
+    "time": "09:38",
+    "username": "bajo",
+    "branch": "bajo",
+    "client_dni": "29175122",
+    "client_name": "AVILA SILVANA CAROLINA",
+    "contact_type": "whatsapp",
+    "phone_used": "3816270717"
   }
 ]
