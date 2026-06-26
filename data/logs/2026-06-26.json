@@ -115,8 +115,18 @@
     "username": "bajo",
     "branch": "bajo",
     "client_dni": "32501228",
-    "client_name": "ARGAÑARAZ JORGE ALBERTO",
+    "client_name": "ARGAÃARAZ JORGE ALBERTO",
     "contact_type": "whatsapp",
     "phone_used": "3815297248"
+  },
+  {
+    "date": "2026-06-26",
+    "time": "09:37",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "17537227",
+    "client_name": "ARGAÑARAZ JUAN CARLOS",
+    "contact_type": "llamada",
+    "phone_used": "3865370830"
   }
 ]
