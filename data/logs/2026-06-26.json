@@ -1038,5 +1038,15 @@
     "client_name": "GALVAN CELIA BEATRIZ",
     "contact_type": "llamada",
     "phone_used": "3865746402"
+  },
+  {
+    "date": "2026-06-26",
+    "time": "17:59",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "39145625",
+    "client_name": "LOBO FERNANDO JAVIER",
+    "contact_type": "llamada",
+    "phone_used": "3815641600"
   }
 ]
