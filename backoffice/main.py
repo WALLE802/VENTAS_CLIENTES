@@ -511,16 +511,27 @@ class BackofficeApp(tk.Tk):
         ttk.Button(cfg_frame, text='💾 Guardar configuración', command=self._save_cfg).pack(pady=(0, 10))
 
         # Sync
-        sync_frame = ttk.LabelFrame(tab, text='Sincronizar con GitHub Pages')
+        sync_frame = ttk.LabelFrame(tab, text='Publicar en la página web')
         sync_frame.pack(fill='x', padx=15, pady=0)
         ttk.Label(sync_frame,
-                  text='Sube todos los datos (sucursales, clientes, usuarios) al repositorio de GitHub.\n'
-                       'Los operadores verán los cambios inmediatamente.',
-                  wraplength=600).pack(padx=10, pady=8)
-        btn_row = ttk.Frame(sync_frame)
-        btn_row.pack(pady=(0, 10))
-        ttk.Button(btn_row, text='🚀 Sincronizar ahora', command=self._sync_now).pack(side='left', padx=6)
-        ttk.Button(btn_row, text='📤 Git Push', command=self._git_push).pack(side='left', padx=6)
+                  text='⚡ Usá este botón cada vez que cargues o modifiques datos.\n'
+                       'Sube TODOS los datos (clientes, usuarios, sucursales) y el código al repositorio.',
+                  wraplength=600, foreground='#1a73e8', font=('Segoe UI', 9, 'bold')).pack(padx=10, pady=(10, 4))
+        tk.Button(
+            sync_frame, text='🔄  PUBLICAR TODO EN LA PÁGINA  (sync + push)',
+            bg='#1a73e8', fg='white', font=('Segoe UI', 11, 'bold'),
+            relief='flat', cursor='hand2', activebackground='#1557b0',
+            activeforeground='white', bd=0, padx=16, pady=8,
+            command=self._sync_and_push
+        ).pack(padx=10, pady=(0, 8))
+
+        # Botones individuales (avanzado)
+        adv = ttk.LabelFrame(sync_frame, text='Avanzado (por separado)')
+        adv.pack(fill='x', padx=10, pady=(0, 10))
+        btn_row = ttk.Frame(adv)
+        btn_row.pack(pady=6)
+        ttk.Button(btn_row, text='☁️ Solo subir datos', command=self._sync_now).pack(side='left', padx=6)
+        ttk.Button(btn_row, text='📤 Solo Git Push', command=self._git_push).pack(side='left', padx=6)
 
         # Log
         log_frame = ttk.LabelFrame(tab, text='Resultado')
@@ -553,10 +564,24 @@ class BackofficeApp(tk.Tk):
         self.sync_log.config(state='disabled')
         self.update_idletasks()
 
-    def _sync_now(self):
+    def _make_syncer(self):
+        """Crea y devuelve un GitHubSync con la configuración actual."""
         token = self.token_entry.get().strip()
         if not token:
             messagebox.showwarning("Atención", "Ingresá el token de GitHub primero.", parent=self)
+            return None
+        return GitHubSync(
+            token=token,
+            user=self.cfg.get('github_user',   'WALLE802'),
+            repo=self.cfg.get('github_repo',   'VENTAS_CLIENTES'),
+            branch=self.cfg.get('github_branch', 'main'),
+            path_prefix=self.cfg.get('github_path_prefix', ''),
+        )
+
+    def _sync_and_push(self):
+        """Sube todos los datos Y hace git push — todo en un solo paso."""
+        syncer = self._make_syncer()
+        if not syncer:
             return
 
         self.sync_log.config(state='normal')
@@ -565,13 +590,33 @@ class BackofficeApp(tk.Tk):
 
         def run():
             try:
-                syncer = GitHubSync(
-                    token=token,
-                    user=self.cfg.get('github_user',   'WALLE802'),
-                    repo=self.cfg.get('github_repo',   'VENTAS_CLIENTES'),
-                    branch=self.cfg.get('github_branch', 'main'),
-                    path_prefix=self.cfg.get('github_path_prefix', ''),
-                )
+                # Paso 1: subir datos a GitHub vía API
+                self._log_sync("━━━ PASO 1 / 2 — Subiendo datos a GitHub ━━━")
+                self._log_sync("⏳ Conectando con GitHub...")
+                syncer.sync_all(log_callback=self._log_sync)
+                self._log_sync("✅ Datos sincronizados.\n")
+
+                # Paso 2: git push de archivos de código
+                self._log_sync("━━━ PASO 2 / 2 — Git Push ━━━")
+                self._do_git_push()
+                self._log_sync("\n🎉 Todo publicado. Los cambios ya se ven en la página.")
+            except Exception as e:
+                self._log_sync(f"\n❌ Error: {e}")
+                messagebox.showerror("Error", str(e), parent=self)
+
+        threading.Thread(target=run, daemon=True).start()
+
+    def _sync_now(self):
+        syncer = self._make_syncer()
+        if not syncer:
+            return
+
+        self.sync_log.config(state='normal')
+        self.sync_log.delete('1.0', 'end')
+        self.sync_log.config(state='disabled')
+
+        def run():
+            try:
                 self._log_sync("⏳ Conectando con GitHub...")
                 syncer.sync_all(log_callback=self._log_sync)
                 self._log_sync("\n✅ Sincronización completada exitosamente.")
@@ -581,70 +626,74 @@ class BackofficeApp(tk.Tk):
 
         threading.Thread(target=run, daemon=True).start()
 
+    def _do_git_push(self):
+        """Lógica interna del git push (puede llamarse desde otros métodos)."""
+        import subprocess
+        configured = self.cfg.get('git_repo_path', '').strip()
+        if configured and os.path.isdir(configured):
+            repo_dir = configured
+        elif getattr(sys, 'frozen', False):
+            self._log_sync(
+                '❌ Error: configurá la "Ruta repo git" en la pestaña Sincronizar\n'
+                '   (carpeta raíz del repositorio clonado en esta PC)'
+            )
+            return
+        else:
+            repo_dir = os.path.normpath(os.path.join(os.path.dirname(__file__), '..'))
+        branch = self.cfg.get('github_branch', 'main')
+
+        # 1. Fetch + reset al remote
+        self._log_sync('⬇️  Sincronizando con remote...')
+        fetch = subprocess.run(
+            ['git', 'fetch', 'origin'],
+            cwd=repo_dir, capture_output=True, text=True
+        )
+        if fetch.returncode != 0:
+            raise RuntimeError(f"Error en git fetch:\n{fetch.stderr or fetch.stdout}")
+        subprocess.run(
+            ['git', 'reset', '--soft', f'origin/{branch}'],
+            cwd=repo_dir, capture_output=True, text=True
+        )
+        self._log_sync('   sync OK')
+
+        # 2. Stage y commit de los archivos del proyecto
+        self._log_sync('📦 Commiteando archivos...')
+        subprocess.run(
+            ['git', 'add', 'index.html', 'app.html',
+             'css/style.css', 'js/app.js', 'js/config.js',
+             'js/auth.js', 'backoffice/main.py'],
+            cwd=repo_dir, capture_output=True, text=True
+        )
+        result = subprocess.run(
+            ['git', 'commit', '-m', 'backoffice: actualizacion de datos y configuracion'],
+            cwd=repo_dir, capture_output=True, text=True
+        )
+        if result.returncode not in (0, 1):
+            raise RuntimeError(result.stderr or result.stdout)
+        if 'nothing to commit' in result.stdout:
+            self._log_sync('ℹ️  Sin cambios nuevos en archivos de código.')
+        else:
+            self._log_sync(result.stdout.strip())
+
+        # 3. Push
+        self._log_sync('📤 Haciendo push...')
+        push = subprocess.run(
+            ['git', 'push', 'origin', branch],
+            cwd=repo_dir, capture_output=True, text=True
+        )
+        self._log_sync(f'   {(push.stderr or push.stdout).strip()[:300]}')
+        if push.returncode != 0:
+            raise RuntimeError(push.stderr or push.stdout)
+        self._log_sync('✅ Git push completado.')
+
     def _git_push(self):
         self.sync_log.config(state='normal')
         self.sync_log.delete('1.0', 'end')
         self.sync_log.config(state='disabled')
 
         def run():
-            import subprocess
-            # Preferir la ruta configurada; si no, autodetectar
-            configured = self.cfg.get('git_repo_path', '').strip()
-            if configured and os.path.isdir(configured):
-                repo_dir = configured
-            elif getattr(sys, 'frozen', False):
-                self._log_sync(
-                    '❌ Error: configurá la "Ruta repo git" en la pestaña Sincronizar\n'
-                    '   (carpeta raíz del repositorio clonado en esta PC)'
-                )
-                return
-            else:
-                repo_dir = os.path.normpath(os.path.join(os.path.dirname(__file__), '..'))
-            branch = self.cfg.get('github_branch', 'main')
             try:
-                # 1. Fetch + reset al remote (toma los cambios remotos sin conflictos)
-                self._log_sync('⬇️  Sincronizando con remote...')
-                fetch = subprocess.run(
-                    ['git', 'fetch', 'origin'],
-                    cwd=repo_dir, capture_output=True, text=True
-                )
-                if fetch.returncode != 0:
-                    raise RuntimeError(f"Error en git fetch:\n{fetch.stderr or fetch.stdout}")
-                subprocess.run(
-                    ['git', 'reset', '--soft', f'origin/{branch}'],
-                    cwd=repo_dir, capture_output=True, text=True
-                )
-                self._log_sync('   sync OK')
-
-                # 2. Stage y commit de los archivos del proyecto
-                self._log_sync('📦 Commiteando archivos...')
-                subprocess.run(
-                    ['git', 'add', 'index.html', 'app.html',
-                     'css/style.css', 'js/app.js', 'js/config.js',
-                     'js/auth.js', 'backoffice/main.py'],
-                    cwd=repo_dir, capture_output=True, text=True
-                )
-                result = subprocess.run(
-                    ['git', 'commit', '-m', 'backoffice: actualizacion de datos y configuracion'],
-                    cwd=repo_dir, capture_output=True, text=True
-                )
-                if result.returncode not in (0, 1):
-                    raise RuntimeError(result.stderr or result.stdout)
-                if 'nothing to commit' in result.stdout:
-                    self._log_sync('ℹ️  Sin cambios nuevos en archivos de código.')
-                else:
-                    self._log_sync(result.stdout.strip())
-
-                # 3. Push
-                self._log_sync('📤 Haciendo push...')
-                push = subprocess.run(
-                    ['git', 'push', 'origin', branch],
-                    cwd=repo_dir, capture_output=True, text=True
-                )
-                self._log_sync(f'   {(push.stderr or push.stdout).strip()[:300]}')
-                if push.returncode != 0:
-                    raise RuntimeError(push.stderr or push.stdout)
-                self._log_sync('\n✅ Git push completado.')
+                self._do_git_push()
             except Exception as e:
                 self._log_sync(f'\n❌ Error: {e}')
 
