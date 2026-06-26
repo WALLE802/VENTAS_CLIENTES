@@ -1098,5 +1098,15 @@
     "client_name": "MEDINA OSCAR MIGUEL",
     "contact_type": "llamada",
     "phone_used": "3814465447"
+  },
+  {
+    "date": "2026-06-26",
+    "time": "18:15",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "17773259",
+    "client_name": "MEDINA OSCAR MIGUEL",
+    "contact_type": "llamada",
+    "phone_used": "3815840397"
   }
 ]
