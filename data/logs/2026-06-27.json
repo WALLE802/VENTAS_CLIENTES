@@ -208,5 +208,15 @@
     "client_name": "GERVAN LOURDES MICAELA",
     "contact_type": "llamada",
     "phone_used": "3863583857"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "09:51",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "41275177",
+    "client_name": "GERVAN LOURDES MICAELA",
+    "contact_type": "whatsapp",
+    "phone_used": "3863583857"
   }
 ]
