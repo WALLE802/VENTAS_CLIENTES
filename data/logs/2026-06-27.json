@@ -588,5 +588,15 @@
     "client_name": "FARIAS MIRIAM DEL VALLE",
     "contact_type": "llamada",
     "phone_used": "3813439128"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "10:27",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "25962586",
+    "client_name": "FERNANDEZ MONICA SANDRA",
+    "contact_type": "llamada",
+    "phone_used": "3865798102"
   }
 ]
