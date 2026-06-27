@@ -338,5 +338,15 @@
     "client_name": "MONTIVEROS RODRIGUEZ FRANCO MAXIMILIANO",
     "contact_type": "llamada",
     "phone_used": "3813685650"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "10:23",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "43489448",
+    "client_name": "MONTIVEROS RODRIGUEZ FRANCO MAXIMILIANO",
+    "contact_type": "sms",
+    "phone_used": "3813685650"
   }
 ]
