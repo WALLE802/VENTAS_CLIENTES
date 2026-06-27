@@ -428,5 +428,15 @@
     "client_name": "ALBORNOZ LORENZO ANTONIO",
     "contact_type": "llamada",
     "phone_used": "3816512061"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "10:26",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "21330455",
+    "client_name": "ALBORNOZ ROSA ALEJANDRA",
+    "contact_type": "llamada",
+    "phone_used": "3865578166"
   }
 ]
