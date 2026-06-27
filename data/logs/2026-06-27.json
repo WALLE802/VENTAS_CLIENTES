@@ -218,5 +218,15 @@
     "client_name": "GERVAN LOURDES MICAELA",
     "contact_type": "whatsapp",
     "phone_used": "3863583857"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "09:54",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "16021917",
+    "client_name": "GOMEZ ELSA DEL VALLE *",
+    "contact_type": "llamada",
+    "phone_used": "3865685350"
   }
 ]
