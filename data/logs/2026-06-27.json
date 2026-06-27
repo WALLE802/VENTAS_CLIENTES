@@ -728,5 +728,15 @@
     "client_name": "MORENO VICTOR RAFAEL",
     "contact_type": "llamada",
     "phone_used": "3815974800"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "10:37",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "28595432",
+    "client_name": "MORENO VICTOR RAFAEL",
+    "contact_type": "sms",
+    "phone_used": "3815974800"
   }
 ]
