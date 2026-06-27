@@ -688,5 +688,15 @@
     "client_name": "GAUNA ADRIANA ELIZABETH",
     "contact_type": "llamada",
     "phone_used": "3865237266"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "10:29",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "39732739",
+    "client_name": "MORENO JORGE HORACIO",
+    "contact_type": "llamada",
+    "phone_used": "3813881979"
   }
 ]
