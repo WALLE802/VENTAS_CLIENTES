@@ -148,5 +148,15 @@
     "client_name": "GARECA CARLOS CESAR",
     "contact_type": "whatsapp",
     "phone_used": "0386515649176"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "09:44",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "14286883",
+    "client_name": "GEREZ CARMEN MARTA *",
+    "contact_type": "llamada",
+    "phone_used": "3865637250"
   }
 ]
