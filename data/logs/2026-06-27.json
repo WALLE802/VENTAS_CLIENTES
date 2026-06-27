@@ -458,5 +458,15 @@
     "client_name": "ALVA MARIA BELEN",
     "contact_type": "llamada",
     "phone_used": "3865606050"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "10:26",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "30031356",
+    "client_name": "AMADO CRISTINA SILVANA",
+    "contact_type": "llamada",
+    "phone_used": "3865214498"
   }
 ]
