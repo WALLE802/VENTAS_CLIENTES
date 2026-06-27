@@ -328,5 +328,15 @@
     "client_name": "MORENO CARLOS GERMAN",
     "contact_type": "llamada",
     "phone_used": "3815138497"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "10:22",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "43489448",
+    "client_name": "MONTIVEROS RODRIGUEZ FRANCO MAXIMILIANO",
+    "contact_type": "llamada",
+    "phone_used": "3813685650"
   }
 ]
