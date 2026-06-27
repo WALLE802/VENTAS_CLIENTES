@@ -708,5 +708,15 @@
     "client_name": "MORENO SERGIO ANTONIO",
     "contact_type": "llamada",
     "phone_used": "3815057187"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "10:32",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "23056580",
+    "client_name": "GEREZ DANIEL ADRIAN",
+    "contact_type": "llamada",
+    "phone_used": "3865318083"
   }
 ]
