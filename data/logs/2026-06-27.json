@@ -378,5 +378,15 @@
     "client_name": "MORENO CARLOS GERMAN",
     "contact_type": "llamada",
     "phone_used": "3815138497"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "10:26",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "23666485",
+    "client_name": "ACOSTA SERGIO ADRIAN",
+    "contact_type": "llamada",
+    "phone_used": "3812527559"
   }
 ]
