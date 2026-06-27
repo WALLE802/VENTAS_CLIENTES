@@ -608,5 +608,15 @@
     "client_name": "FIGUEROA ANDRES MARIO",
     "contact_type": "llamada",
     "phone_used": "3816574052"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "10:28",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "23616922",
+    "client_name": "FLORES ADRIANA GERONIMA",
+    "contact_type": "llamada",
+    "phone_used": "3865238256"
   }
 ]
