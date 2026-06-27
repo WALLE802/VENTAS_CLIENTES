@@ -638,5 +638,15 @@
     "client_name": "FOLCHI GUSTAVO MAXIMILIANO",
     "contact_type": "llamada",
     "phone_used": "3865257749"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "10:28",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "32547129",
+    "client_name": "FRIAS BEATRIZ PATRICIA",
+    "contact_type": "llamada",
+    "phone_used": "3813436517"
   }
 ]
