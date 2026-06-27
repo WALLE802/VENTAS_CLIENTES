@@ -868,5 +868,15 @@
     "client_name": "ORELLANA RITA MARIA",
     "contact_type": "sms",
     "phone_used": "3812472099"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "10:59",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "33045982",
+    "client_name": "GOMEZ AVILA LAURA CARINA",
+    "contact_type": "llamada",
+    "phone_used": "3865691664"
   }
 ]
