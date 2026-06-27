@@ -698,5 +698,15 @@
     "client_name": "MORENO JORGE HORACIO",
     "contact_type": "llamada",
     "phone_used": "3813881979"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "10:31",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "16685486",
+    "client_name": "MORENO SERGIO ANTONIO",
+    "contact_type": "llamada",
+    "phone_used": "3815057187"
   }
 ]
