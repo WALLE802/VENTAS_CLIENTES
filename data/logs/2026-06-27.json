@@ -628,5 +628,15 @@
     "client_name": "FLORES GABRIEL ALEJANDRO",
     "contact_type": "llamada",
     "phone_used": "2622629294"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "10:28",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "42006939",
+    "client_name": "FOLCHI GUSTAVO MAXIMILIANO",
+    "contact_type": "llamada",
+    "phone_used": "3865257749"
   }
 ]
