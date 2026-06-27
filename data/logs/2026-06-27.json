@@ -808,5 +808,15 @@
     "client_name": "GEREZ JUAN GERARDO",
     "contact_type": "llamada",
     "phone_used": "3865467553"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "10:49",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "31736477",
+    "client_name": "NAVARRO PABLO DAVID",
+    "contact_type": "llamada",
+    "phone_used": "3816630691"
   }
 ]
