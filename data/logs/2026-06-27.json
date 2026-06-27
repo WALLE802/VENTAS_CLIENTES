@@ -568,5 +568,15 @@
     "client_name": "DIOSQUEZ CLAUDIA DEL CARMEN",
     "contact_type": "llamada",
     "phone_used": "3865208715"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "10:27",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "43772581",
+    "client_name": "FALCON MARIANELA ALEJANDRA",
+    "contact_type": "llamada",
+    "phone_used": "3865300752"
   }
 ]
