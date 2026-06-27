@@ -48,5 +48,15 @@
     "client_name": "GALVEZ CRISTIAN JOSE * * * OBS...",
     "contact_type": "llamada",
     "phone_used": "3865214101"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "09:35",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "32235314",
+    "client_name": "GALVEZ CRISTIAN JOSE * * * OBS...",
+    "contact_type": "whatsapp",
+    "phone_used": "3865214101"
   }
 ]
