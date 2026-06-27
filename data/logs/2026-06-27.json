@@ -778,5 +778,15 @@
     "client_name": "MOYANO MATIAS DANIEL",
     "contact_type": "sms",
     "phone_used": "3814465189"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "10:44",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "43563955",
+    "client_name": "NAVARRO ESTEBAN AGUSTIN",
+    "contact_type": "llamada",
+    "phone_used": "3814762191"
   }
 ]
