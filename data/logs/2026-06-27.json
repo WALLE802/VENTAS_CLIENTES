@@ -298,5 +298,15 @@
     "client_name": "MOLINA CYNTHIA ELIZABETH",
     "contact_type": "llamada",
     "phone_used": "3813270707"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "10:16",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "24792583",
+    "client_name": "MOLINA, RODOLFO ANTONIO",
+    "contact_type": "llamada",
+    "phone_used": "3815467901"
   }
 ]
