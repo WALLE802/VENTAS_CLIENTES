@@ -88,5 +88,15 @@
     "client_name": "GARCIA RICARDO ANTONIO",
     "contact_type": "llamada",
     "phone_used": "3865551106"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "09:38",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "27720728",
+    "client_name": "GARCIA RICARDO ANTONIO",
+    "contact_type": "whatsapp",
+    "phone_used": "3865551106"
   }
 ]
