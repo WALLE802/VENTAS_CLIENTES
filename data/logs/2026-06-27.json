@@ -188,5 +188,15 @@
     "client_name": "GEREZ CRISTINA MABEL",
     "contact_type": "llamada",
     "phone_used": "3865649492"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "09:49",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "35086464",
+    "client_name": "GEREZ CRISTINA MABEL",
+    "contact_type": "whatsapp",
+    "phone_used": "3865649492"
   }
 ]
