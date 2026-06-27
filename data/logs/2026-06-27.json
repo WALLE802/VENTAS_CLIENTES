@@ -288,5 +288,15 @@
     "client_name": "GOMEZ ENZO DARIO",
     "contact_type": "whatsapp",
     "phone_used": "3865264941"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "10:14",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "37916089",
+    "client_name": "MOLINA CYNTHIA ELIZABETH",
+    "contact_type": "llamada",
+    "phone_used": "3813270707"
   }
 ]
