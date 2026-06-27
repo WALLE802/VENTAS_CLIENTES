@@ -238,5 +238,15 @@
     "client_name": "MEDINA JOSEFRANCISCO",
     "contact_type": "llamada",
     "phone_used": "3814474317"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "10:11",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "43967071",
+    "client_name": "GOMEZ ENZO DARIO",
+    "contact_type": "llamada",
+    "phone_used": "3865264941"
   }
 ]
