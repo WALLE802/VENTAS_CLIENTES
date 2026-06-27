@@ -858,5 +858,15 @@
     "client_name": "ORELLANA RITA MARIA",
     "contact_type": "llamada",
     "phone_used": "3812472099"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "10:58",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "28791540",
+    "client_name": "ORELLANA RITA MARIA",
+    "contact_type": "sms",
+    "phone_used": "3812472099"
   }
 ]
