@@ -118,5 +118,15 @@
     "client_name": "GARECA CARLOS CESAR",
     "contact_type": "llamada",
     "phone_used": "3865202257"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "09:41",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "30299974",
+    "client_name": "GARECA CARLOS CESAR",
+    "contact_type": "whatsapp",
+    "phone_used": "3865202257"
   }
 ]
