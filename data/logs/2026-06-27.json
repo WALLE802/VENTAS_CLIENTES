@@ -468,5 +468,15 @@
     "client_name": "AMADO CRISTINA SILVANA",
     "contact_type": "llamada",
     "phone_used": "3865214498"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "10:26",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "40876702",
+    "client_name": "ANDRADA YONATAN ARIEL",
+    "contact_type": "llamada",
+    "phone_used": "3865603002"
   }
 ]
