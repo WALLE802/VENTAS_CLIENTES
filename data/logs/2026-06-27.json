@@ -788,5 +788,15 @@
     "client_name": "NAVARRO ESTEBAN AGUSTIN",
     "contact_type": "llamada",
     "phone_used": "3814762191"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "10:47",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "16275889",
+    "client_name": "GEREZ ELENA NOEMI",
+    "contact_type": "llamada",
+    "phone_used": "3865395901"
   }
 ]
