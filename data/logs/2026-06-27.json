@@ -558,5 +558,15 @@
     "client_name": "DIAZ MARIELA GRACIELA *",
     "contact_type": "llamada",
     "phone_used": "3865442117"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "10:27",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "26643553",
+    "client_name": "DIOSQUEZ CLAUDIA DEL CARMEN",
+    "contact_type": "llamada",
+    "phone_used": "3865208715"
   }
 ]
