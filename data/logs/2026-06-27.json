@@ -538,5 +538,15 @@
     "client_name": "CORONEL ANTONIA ROSA",
     "contact_type": "llamada",
     "phone_used": "3865390451"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "10:27",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "37189490",
+    "client_name": "DELGADO CARLA GISEL",
+    "contact_type": "llamada",
+    "phone_used": "3865306262"
   }
 ]
