@@ -818,5 +818,15 @@
     "client_name": "NAVARRO PABLO DAVID",
     "contact_type": "llamada",
     "phone_used": "3816630691"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "10:50",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "31736477",
+    "client_name": "NAVARRO PABLO DAVID",
+    "contact_type": "sms",
+    "phone_used": "3816630691"
   }
 ]
