@@ -798,5 +798,15 @@
     "client_name": "GEREZ ELENA NOEMI",
     "contact_type": "llamada",
     "phone_used": "3865395901"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "10:48",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "21329692",
+    "client_name": "GEREZ JUAN GERARDO",
+    "contact_type": "llamada",
+    "phone_used": "3865467553"
   }
 ]
