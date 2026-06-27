@@ -28,5 +28,15 @@
     "client_name": "FUENTES LAURA ALEJANDRA",
     "contact_type": "llamada",
     "phone_used": "3865348274"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "09:32",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "34282452",
+    "client_name": "FUENTES LAURA ALEJANDRA",
+    "contact_type": "whatsapp",
+    "phone_used": "3865348274"
   }
 ]
