@@ -718,5 +718,15 @@
     "client_name": "GEREZ DANIEL ADRIAN",
     "contact_type": "llamada",
     "phone_used": "3865318083"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "10:36",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "28595432",
+    "client_name": "MORENO VICTOR RAFAEL",
+    "contact_type": "llamada",
+    "phone_used": "3815974800"
   }
 ]
