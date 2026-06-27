@@ -548,5 +548,15 @@
     "client_name": "DELGADO CARLA GISEL",
     "contact_type": "llamada",
     "phone_used": "3865306262"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "10:27",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "21773032",
+    "client_name": "DIAZ MARIELA GRACIELA *",
+    "contact_type": "llamada",
+    "phone_used": "3865442117"
   }
 ]
