@@ -258,5 +258,15 @@
     "client_name": "MEDINA WALTER EXEQUIEL",
     "contact_type": "llamada",
     "phone_used": "3816442493"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "10:11",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "44640164",
+    "client_name": "MEDINA WALTER EXEQUIEL",
+    "contact_type": "sms",
+    "phone_used": "3816442493"
   }
 ]
