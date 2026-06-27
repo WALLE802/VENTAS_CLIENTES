@@ -678,5 +678,15 @@
     "client_name": "GALVAN GLADYS NOEMI",
     "contact_type": "llamada",
     "phone_used": "3865683501"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "10:28",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "31903930",
+    "client_name": "GAUNA ADRIANA ELIZABETH",
+    "contact_type": "llamada",
+    "phone_used": "3865237266"
   }
 ]
