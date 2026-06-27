@@ -838,5 +838,15 @@
     "client_name": "NIETO FRANCO",
     "contact_type": "llamada",
     "phone_used": "3816584239"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "10:56",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "27397928",
+    "client_name": "GIMENEZ MARIA MABELA",
+    "contact_type": "llamada",
+    "phone_used": "3865687480"
   }
 ]
