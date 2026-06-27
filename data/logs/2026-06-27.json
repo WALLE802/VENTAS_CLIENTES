@@ -228,5 +228,15 @@
     "client_name": "GOMEZ ELSA DEL VALLE *",
     "contact_type": "llamada",
     "phone_used": "3865685350"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "10:09",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "16043988",
+    "client_name": "MEDINA JOSEFRANCISCO",
+    "contact_type": "llamada",
+    "phone_used": "3814474317"
   }
 ]
