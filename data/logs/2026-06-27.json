@@ -848,5 +848,15 @@
     "client_name": "GIMENEZ MARIA MABELA",
     "contact_type": "llamada",
     "phone_used": "3865687480"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "10:57",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "28791540",
+    "client_name": "ORELLANA RITA MARIA",
+    "contact_type": "llamada",
+    "phone_used": "3812472099"
   }
 ]
