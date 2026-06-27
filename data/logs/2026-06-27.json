@@ -668,5 +668,15 @@
     "client_name": "GALVAN CELIA BEATRIZ",
     "contact_type": "llamada",
     "phone_used": "3865746402"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "10:28",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "30588586",
+    "client_name": "GALVAN GLADYS NOEMI",
+    "contact_type": "llamada",
+    "phone_used": "3865683501"
   }
 ]
