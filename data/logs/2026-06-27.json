@@ -348,5 +348,15 @@
     "client_name": "MONTIVEROS RODRIGUEZ FRANCO MAXIMILIANO",
     "contact_type": "sms",
     "phone_used": "3813685650"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "10:26",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "14127376",
+    "client_name": "ABREGU OSCAR ALFREDO",
+    "contact_type": "llamada",
+    "phone_used": "3865298140"
   }
 ]
