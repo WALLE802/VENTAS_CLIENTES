@@ -508,5 +508,15 @@
     "client_name": "ARREGUEZ HUMBERTO ARGENTINO",
     "contact_type": "llamada",
     "phone_used": "3865312561"
+  },
+  {
+    "date": "2026-06-27",
+    "time": "10:26",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "30268011",
+    "client_name": "MORENO CARLOS GERMAN",
+    "contact_type": "sms",
+    "phone_used": "3815138497"
   }
 ]
