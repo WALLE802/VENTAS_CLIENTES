@@ -48,5 +48,15 @@
     "client_name": "GOMEZ SERGIO DARIO *",
     "contact_type": "llamada",
     "phone_used": "3865632532"
+  },
+  {
+    "date": "2026-06-29",
+    "time": "09:36",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "24737346",
+    "client_name": "GOMEZ SERGIO DARIO *",
+    "contact_type": "whatsapp",
+    "phone_used": "3865632532"
   }
 ]
