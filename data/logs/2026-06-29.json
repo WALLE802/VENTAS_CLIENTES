@@ -278,5 +278,15 @@
     "client_name": "HERRERA EMILIO ALEJANDRO",
     "contact_type": "llamada",
     "phone_used": "3865432752"
+  },
+  {
+    "date": "2026-06-29",
+    "time": "11:05",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "35806055",
+    "client_name": "HERRERA LINDA CRISTAL",
+    "contact_type": "llamada",
+    "phone_used": "3865537446"
   }
 ]
