@@ -658,5 +658,15 @@
     "client_name": "MEDINA LEDESMA RITA DEL VALLE",
     "contact_type": "whatsapp",
     "phone_used": "3814571701"
+  },
+  {
+    "date": "2026-06-29",
+    "time": "11:18",
+    "username": "bajo",
+    "branch": "bajo",
+    "client_dni": "20819563",
+    "client_name": "MEDINA SERGIO",
+    "contact_type": "whatsapp",
+    "phone_used": "3814540778"
   }
 ]
