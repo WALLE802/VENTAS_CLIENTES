@@ -338,5 +338,15 @@
     "client_name": "HERRERA NELIDA AMANDA",
     "contact_type": "whatsapp",
     "phone_used": "386515569105"
+  },
+  {
+    "date": "2026-06-29",
+    "time": "11:10",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "37498258",
+    "client_name": "IBARRA TOBIAS EXEQUIEL",
+    "contact_type": "llamada",
+    "phone_used": "3865643974"
   }
 ]
