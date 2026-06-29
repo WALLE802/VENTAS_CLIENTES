@@ -368,5 +368,15 @@
     "client_name": "JEREZ SEGUNDO RAMIRO *",
     "contact_type": "llamada",
     "phone_used": "3865633311"
+  },
+  {
+    "date": "2026-06-29",
+    "time": "11:14",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "28839902",
+    "client_name": "JEREZ SEGUNDO RAMIRO *",
+    "contact_type": "whatsapp",
+    "phone_used": "3865633311"
   }
 ]
