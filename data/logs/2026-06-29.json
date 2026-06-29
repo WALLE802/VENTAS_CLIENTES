@@ -218,5 +218,15 @@
     "client_name": "GUILLEN CRISTIAN ARIEL *",
     "contact_type": "llamada",
     "phone_used": "3865246832"
+  },
+  {
+    "date": "2026-06-29",
+    "time": "10:24",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "24262993",
+    "client_name": "GUILLEN CRISTIAN ARIEL *",
+    "contact_type": "whatsapp",
+    "phone_used": "3865246832"
   }
 ]
