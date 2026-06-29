@@ -558,5 +558,15 @@
     "client_name": "LIZARRAGA MARIA DEL TRANSITO",
     "contact_type": "whatsapp",
     "phone_used": "3813541202"
+  },
+  {
+    "date": "2026-06-29",
+    "time": "11:16",
+    "username": "bajo",
+    "branch": "bajo",
+    "client_dni": "12950947",
+    "client_name": "LOBO ANGELA VICTORIA",
+    "contact_type": "whatsapp",
+    "phone_used": "3815556885"
   }
 ]
