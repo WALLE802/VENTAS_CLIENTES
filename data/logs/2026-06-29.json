@@ -718,5 +718,15 @@
     "client_name": "MORE LUIS GREGORIO",
     "contact_type": "whatsapp",
     "phone_used": "3816652625"
+  },
+  {
+    "date": "2026-06-29",
+    "time": "11:18",
+    "username": "bajo",
+    "branch": "bajo",
+    "client_dni": "29742872",
+    "client_name": "MORENO LEONARDO ESTEBAN",
+    "contact_type": "whatsapp",
+    "phone_used": "3816334645"
   }
 ]
