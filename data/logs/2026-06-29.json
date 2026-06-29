@@ -28,5 +28,15 @@
     "client_name": "GOMEZ NESTOR GABRIEL",
     "contact_type": "llamada",
     "phone_used": "3865342181"
+  },
+  {
+    "date": "2026-06-29",
+    "time": "09:33",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "39732529",
+    "client_name": "GOMEZ NESTOR GABRIEL",
+    "contact_type": "whatsapp",
+    "phone_used": "3865342181"
   }
 ]
