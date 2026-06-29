@@ -128,5 +128,15 @@
     "client_name": "GONZALEZ NESTOR EDGARDO .",
     "contact_type": "llamada",
     "phone_used": "3813972148"
+  },
+  {
+    "date": "2026-06-29",
+    "time": "10:13",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "37498317",
+    "client_name": "GONZALEZ VICTOR MANUEL",
+    "contact_type": "llamada",
+    "phone_used": "3813904343"
   }
 ]
