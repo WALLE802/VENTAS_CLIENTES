@@ -178,5 +178,15 @@
     "client_name": "GRANEROS MARIA DEL CARMEN",
     "contact_type": "llamada",
     "phone_used": "0386515667003"
+  },
+  {
+    "date": "2026-06-29",
+    "time": "10:16",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "11999279",
+    "client_name": "GRANEROS MARIA DEL CARMEN",
+    "contact_type": "llamada",
+    "phone_used": "3814482979"
   }
 ]
