@@ -1008,5 +1008,15 @@
     "client_name": "PONCE FERNANDA ANGELICA",
     "contact_type": "whatsapp",
     "phone_used": "3815241458"
+  },
+  {
+    "date": "2026-06-29",
+    "time": "11:22",
+    "username": "bajo",
+    "branch": "bajo",
+    "client_dni": "30000193",
+    "client_name": "QUINTANA CLAUDIO MARCELO",
+    "contact_type": "whatsapp",
+    "phone_used": "3816454280"
   }
 ]
