@@ -228,5 +228,15 @@
     "client_name": "GUILLEN CRISTIAN ARIEL *",
     "contact_type": "whatsapp",
     "phone_used": "3865246832"
+  },
+  {
+    "date": "2026-06-29",
+    "time": "10:26",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "10698514",
+    "client_name": "GUTIERREZ ILDA DEL VALLE",
+    "contact_type": "llamada",
+    "phone_used": "3865637435"
   }
 ]
