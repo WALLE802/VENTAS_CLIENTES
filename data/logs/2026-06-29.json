@@ -8,5 +8,15 @@
     "client_name": "GOMEZ MARIA ANGELICA *",
     "contact_type": "llamada",
     "phone_used": "3865490627"
+  },
+  {
+    "date": "2026-06-29",
+    "time": "09:32",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "25320257",
+    "client_name": "GOMEZ MARIA ANGELICA *",
+    "contact_type": "whatsapp",
+    "phone_used": "3865490627"
   }
 ]
