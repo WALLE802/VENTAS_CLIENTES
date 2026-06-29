@@ -668,5 +668,15 @@
     "client_name": "MEDINA SERGIO",
     "contact_type": "whatsapp",
     "phone_used": "3814540778"
+  },
+  {
+    "date": "2026-06-29",
+    "time": "11:18",
+    "username": "bajo",
+    "branch": "bajo",
+    "client_dni": "12306844",
+    "client_name": "MENDOZA MIGUEL ALBERTO",
+    "contact_type": "whatsapp",
+    "phone_used": "3812008614"
   }
 ]
