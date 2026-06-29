@@ -158,5 +158,15 @@
     "client_name": "GRAMAJO SILVIA DEL VALLE",
     "contact_type": "llamada",
     "phone_used": "3865430138"
+  },
+  {
+    "date": "2026-06-29",
+    "time": "10:15",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "24737504",
+    "client_name": "GRAMAJO SILVIA DEL VALLE",
+    "contact_type": "whatsapp",
+    "phone_used": "3865430138"
   }
 ]
