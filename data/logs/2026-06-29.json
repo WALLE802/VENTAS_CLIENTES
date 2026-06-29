@@ -358,5 +358,15 @@
     "client_name": "ABDALA MARIA CELESTE",
     "contact_type": "whatsapp",
     "phone_used": "3815076690"
+  },
+  {
+    "date": "2026-06-29",
+    "time": "11:13",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "28839902",
+    "client_name": "JEREZ SEGUNDO RAMIRO *",
+    "contact_type": "llamada",
+    "phone_used": "3865633311"
   }
 ]
