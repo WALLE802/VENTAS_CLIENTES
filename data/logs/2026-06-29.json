@@ -78,5 +78,15 @@
     "client_name": "GONZALEZ DARIO ARNALDO",
     "contact_type": "whatsapp",
     "phone_used": "0386515316275"
+  },
+  {
+    "date": "2026-06-29",
+    "time": "09:42",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "27141579",
+    "client_name": "GONZALEZ FRANCO MANUEL",
+    "contact_type": "llamada",
+    "phone_used": "3865690724"
   }
 ]
