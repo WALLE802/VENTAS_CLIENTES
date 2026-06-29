@@ -38,5 +38,15 @@
     "client_name": "GOMEZ NESTOR GABRIEL",
     "contact_type": "whatsapp",
     "phone_used": "3865342181"
+  },
+  {
+    "date": "2026-06-29",
+    "time": "09:34",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "24737346",
+    "client_name": "GOMEZ SERGIO DARIO *",
+    "contact_type": "llamada",
+    "phone_used": "3865632532"
   }
 ]
