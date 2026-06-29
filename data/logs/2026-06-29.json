@@ -998,5 +998,15 @@
     "client_name": "PONCE CLAUDIA ELIZABETH",
     "contact_type": "whatsapp",
     "phone_used": "3812202203"
+  },
+  {
+    "date": "2026-06-29",
+    "time": "11:22",
+    "username": "bajo",
+    "branch": "bajo",
+    "client_dni": "43563611",
+    "client_name": "PONCE FERNANDA ANGELICA",
+    "contact_type": "whatsapp",
+    "phone_used": "3815241458"
   }
 ]
