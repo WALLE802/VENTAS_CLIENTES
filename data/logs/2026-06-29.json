@@ -238,5 +238,15 @@
     "client_name": "GUTIERREZ ILDA DEL VALLE",
     "contact_type": "llamada",
     "phone_used": "3865637435"
+  },
+  {
+    "date": "2026-06-29",
+    "time": "10:49",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "42221643",
+    "client_name": "HERNANDEZ CRISTIAN JOSE NAHUEL",
+    "contact_type": "llamada",
+    "phone_used": "3865337477"
   }
 ]
