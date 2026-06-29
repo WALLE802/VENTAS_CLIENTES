@@ -198,5 +198,15 @@
     "client_name": "GRANEROS MARIA DEL CARMEN",
     "contact_type": "whatsapp",
     "phone_used": "3814482979"
+  },
+  {
+    "date": "2026-06-29",
+    "time": "10:18",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "23055973",
+    "client_name": "GUERRERO FATIMA DELVALLE",
+    "contact_type": "llamada",
+    "phone_used": "3865565257"
   }
 ]
