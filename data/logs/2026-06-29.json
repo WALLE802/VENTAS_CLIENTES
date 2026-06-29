@@ -608,5 +608,15 @@
     "client_name": "MADRID MIGUEL ALBERTO",
     "contact_type": "whatsapp",
     "phone_used": "3813481917"
+  },
+  {
+    "date": "2026-06-29",
+    "time": "11:17",
+    "username": "bajo",
+    "branch": "bajo",
+    "client_dni": "31353666",
+    "client_name": "MARTINEZ ELBIO DANTE",
+    "contact_type": "whatsapp",
+    "phone_used": "3814575644"
   }
 ]
