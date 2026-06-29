@@ -258,5 +258,15 @@
     "client_name": "HERNANDEZ CRISTIAN JOSE NAHUEL",
     "contact_type": "whatsapp",
     "phone_used": "3865337477"
+  },
+  {
+    "date": "2026-06-29",
+    "time": "10:50",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "42221643",
+    "client_name": "HERNANDEZ CRISTIAN JOSE NAHUEL",
+    "contact_type": "whatsapp",
+    "phone_used": "3865337477"
   }
 ]
