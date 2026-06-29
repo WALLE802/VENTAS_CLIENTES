@@ -118,5 +118,15 @@
     "client_name": "GONZALEZ JOSE ADRIAN",
     "contact_type": "whatsapp",
     "phone_used": "3865618255"
+  },
+  {
+    "date": "2026-06-29",
+    "time": "10:12",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "30299931",
+    "client_name": "GONZALEZ NESTOR EDGARDO .",
+    "contact_type": "llamada",
+    "phone_used": "3813972148"
   }
 ]
