@@ -318,5 +318,15 @@
     "client_name": "HERRERA NELIDA AMANDA",
     "contact_type": "llamada",
     "phone_used": "3865712800"
+  },
+  {
+    "date": "2026-06-29",
+    "time": "11:08",
+    "username": "con1",
+    "branch": "con1",
+    "client_dni": "16378984",
+    "client_name": "HERRERA NELIDA AMANDA",
+    "contact_type": "whatsapp",
+    "phone_used": "3865712800"
   }
 ]
