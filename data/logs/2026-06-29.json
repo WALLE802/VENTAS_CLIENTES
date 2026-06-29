@@ -638,5 +638,15 @@
     "client_name": "MEDINA GRACIELA",
     "contact_type": "whatsapp",
     "phone_used": "3816093537"
+  },
+  {
+    "date": "2026-06-29",
+    "time": "11:17",
+    "username": "bajo",
+    "branch": "bajo",
+    "client_dni": "30497031",
+    "client_name": "MEDINA GRACIELA DEL VALLE",
+    "contact_type": "whatsapp",
+    "phone_used": "3812037284"
   }
 ]
