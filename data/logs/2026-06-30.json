@@ -108,5 +108,15 @@
     "client_name": "ALBARRACIN JESICA ROMINA",
     "contact_type": "llamada",
     "phone_used": "3865358811"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "10:12",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "30588586",
+    "client_name": "GALVAN GLADYS NOEMI",
+    "contact_type": "llamada",
+    "phone_used": "3865683501"
   }
 ]
