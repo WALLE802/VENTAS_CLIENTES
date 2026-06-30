@@ -448,5 +448,15 @@
     "client_name": "GONZALEZ ANA MARIA",
     "contact_type": "llamada",
     "phone_used": "3865603302"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "11:03",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "27735853",
+    "client_name": "GONZALEZ CLAUDIO DAVID",
+    "contact_type": "llamada",
+    "phone_used": "3865411839"
   }
 ]
