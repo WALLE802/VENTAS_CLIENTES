@@ -408,5 +408,15 @@
     "client_name": "GOMEZ MIRTA ROSA",
     "contact_type": "llamada",
     "phone_used": "3865671199"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "10:52",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "34637560",
+    "client_name": "SANCHEZ ARMANDO DARIO",
+    "contact_type": "sms",
+    "phone_used": "3813387118"
   }
 ]
