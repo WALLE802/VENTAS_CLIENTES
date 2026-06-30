@@ -398,5 +398,15 @@
     "client_name": "SANCHEZ ARMANDO DARIO",
     "contact_type": "llamada",
     "phone_used": "3813387118"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "10:52",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "26881278",
+    "client_name": "GOMEZ MIRTA ROSA",
+    "contact_type": "llamada",
+    "phone_used": "3865671199"
   }
 ]
