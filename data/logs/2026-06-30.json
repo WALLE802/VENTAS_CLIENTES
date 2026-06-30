@@ -418,5 +418,15 @@
     "client_name": "SANCHEZ ARMANDO DARIO",
     "contact_type": "sms",
     "phone_used": "3813387118"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "10:54",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "29225792",
+    "client_name": "SANTUCHO RAQUEL LORENA",
+    "contact_type": "llamada",
+    "phone_used": "3814192340"
   }
 ]
