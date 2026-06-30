@@ -558,5 +558,15 @@
     "client_name": "SILVA ANA MARIA",
     "contact_type": "sms",
     "phone_used": "3816562436"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "17:15",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "34159917",
+    "client_name": "SORAIRE LIACOPLO CRISTHIAN GASTON",
+    "contact_type": "llamada",
+    "phone_used": "3815775234"
   }
 ]
