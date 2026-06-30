@@ -588,5 +588,15 @@
     "client_name": "SOTELO SERGI GUILLERMO",
     "contact_type": "sms",
     "phone_used": "3815101319"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "17:22",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "36654126",
+    "client_name": "SUAREZ PAULA GUADALUPE",
+    "contact_type": "llamada",
+    "phone_used": "3816257479"
   }
 ]
