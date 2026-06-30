@@ -618,5 +618,15 @@
     "client_name": "SUELDO JOSE ANTONIO",
     "contact_type": "llamada",
     "phone_used": "3814784571"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "17:26",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "18185246",
+    "client_name": "VALDEZ DANIEL MARCELO",
+    "contact_type": "llamada",
+    "phone_used": "3815563251"
   }
 ]
