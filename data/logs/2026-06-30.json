@@ -498,5 +498,15 @@
     "client_name": "GONZALEZ MANUEL ALEJANDRO",
     "contact_type": "llamada",
     "phone_used": "2995326805"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "11:54",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "30588606",
+    "client_name": "GORDILLO BALVINA MARISABEL",
+    "contact_type": "llamada",
+    "phone_used": "3863418739"
   }
 ]
