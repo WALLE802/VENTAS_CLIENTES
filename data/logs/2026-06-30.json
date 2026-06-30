@@ -218,5 +218,15 @@
     "client_name": "REYNAGA DELICIA CRISTINA",
     "contact_type": "sms",
     "phone_used": "3816702047"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "10:24",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "33045982",
+    "client_name": "GOMEZ AVILA LAURA CARINA",
+    "contact_type": "llamada",
+    "phone_used": "3865691664"
   }
 ]
