@@ -678,5 +678,15 @@
     "client_name": "VIALE DANIELA SOLEDAD",
     "contact_type": "llamada",
     "phone_used": "3816043828"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "17:35",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "33541645",
+    "client_name": "VILLAFAÑE ANDREA ROMINA",
+    "contact_type": "llamada",
+    "phone_used": "3815047632"
   }
 ]
