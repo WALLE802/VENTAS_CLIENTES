@@ -428,5 +428,15 @@
     "client_name": "SANTUCHO RAQUEL LORENA",
     "contact_type": "llamada",
     "phone_used": "3814192340"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "10:55",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "29225792",
+    "client_name": "SANTUCHO RAQUEL LORENA",
+    "contact_type": "sms",
+    "phone_used": "3814192340"
   }
 ]
