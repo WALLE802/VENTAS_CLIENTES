@@ -208,5 +208,15 @@
     "client_name": "REYNAGA DELICIA CRISTINA",
     "contact_type": "llamada",
     "phone_used": "3816702047"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "10:23",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "6667617",
+    "client_name": "REYNAGA DELICIA CRISTINA",
+    "contact_type": "sms",
+    "phone_used": "3816702047"
   }
 ]
