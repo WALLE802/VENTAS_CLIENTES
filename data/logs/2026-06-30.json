@@ -668,5 +668,15 @@
     "client_name": "VARGAS WALTER",
     "contact_type": "llamada",
     "phone_used": "3814562681"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "17:33",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "34432672",
+    "client_name": "VIALE DANIELA SOLEDAD",
+    "contact_type": "llamada",
+    "phone_used": "3816043828"
   }
 ]
