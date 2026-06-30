@@ -508,5 +508,15 @@
     "client_name": "GORDILLO BALVINA MARISABEL",
     "contact_type": "llamada",
     "phone_used": "3863418739"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "11:55",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "23994131",
+    "client_name": "GORDILLO MARIELA MAGDALENA",
+    "contact_type": "llamada",
+    "phone_used": "3865203131"
   }
 ]
