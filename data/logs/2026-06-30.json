@@ -118,5 +118,15 @@
     "client_name": "GALVAN GLADYS NOEMI",
     "contact_type": "llamada",
     "phone_used": "3865683501"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "10:12",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "18185940",
+    "client_name": "PERDIGUERA ROSARIO MODESTA",
+    "contact_type": "llamada",
+    "phone_used": "3815514903"
   }
 ]
