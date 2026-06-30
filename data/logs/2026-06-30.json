@@ -38,5 +38,15 @@
     "client_name": "ABREGU OSCAR ALFREDO",
     "contact_type": "llamada",
     "phone_used": "3865298140"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "10:05",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "25326279",
+    "client_name": "PADILLA DELFIN DARIO",
+    "contact_type": "llamada",
+    "phone_used": "3814780277"
   }
 ]
