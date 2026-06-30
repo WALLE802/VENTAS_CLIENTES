@@ -328,5 +328,15 @@
     "client_name": "RODRIGUEZ GERARDO ESTEBAN",
     "contact_type": "sms",
     "phone_used": "3816565801"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "10:36",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "25214116",
+    "client_name": "ROMANO CARLOS MIGUEL",
+    "contact_type": "llamada",
+    "phone_used": "3813333291"
   }
 ]
