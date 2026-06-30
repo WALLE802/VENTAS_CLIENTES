@@ -528,5 +528,15 @@
     "client_name": "GORDILLO VICTORIA GERONIMA",
     "contact_type": "llamada",
     "phone_used": "3865416485"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "17:13",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "10792608",
+    "client_name": "SILVA ANA MARIA",
+    "contact_type": "llamada",
+    "phone_used": "3816562436"
   }
 ]
