@@ -378,5 +378,15 @@
     "client_name": "SALAZAR PABLO ANTONIO",
     "contact_type": "llamada",
     "phone_used": "3816405169"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "10:51",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "29624800",
+    "client_name": "GOMEZ MIGUEL GUSTAVO",
+    "contact_type": "llamada",
+    "phone_used": "3865663611"
   }
 ]
