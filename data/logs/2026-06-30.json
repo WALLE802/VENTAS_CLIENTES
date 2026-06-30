@@ -388,5 +388,15 @@
     "client_name": "GOMEZ MIGUEL GUSTAVO",
     "contact_type": "llamada",
     "phone_used": "3865663611"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "10:51",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "34637560",
+    "client_name": "SANCHEZ ARMANDO DARIO",
+    "contact_type": "llamada",
+    "phone_used": "3813387118"
   }
 ]
