@@ -358,5 +358,15 @@
     "client_name": "ROMERO LAURA MABEL",
     "contact_type": "sms",
     "phone_used": "3816566151"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "10:49",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "37501052",
+    "client_name": "GOMEZ IVANNA JUDITH",
+    "contact_type": "llamada",
+    "phone_used": "2901405390"
   }
 ]
