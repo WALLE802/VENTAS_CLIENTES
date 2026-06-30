@@ -638,5 +638,15 @@
     "client_name": "VALDEZ DANIEL MARCELO",
     "contact_type": "sms",
     "phone_used": "3815563251"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "17:27",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "27732792",
+    "client_name": "VALDEZ GABRIEL EDUARDO",
+    "contact_type": "llamada",
+    "phone_used": "3816918691"
   }
 ]
