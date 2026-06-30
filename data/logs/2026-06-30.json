@@ -338,5 +338,15 @@
     "client_name": "ROMANO CARLOS MIGUEL",
     "contact_type": "llamada",
     "phone_used": "3813333291"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "10:40",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "30069899",
+    "client_name": "ROMERO LAURA MABEL",
+    "contact_type": "llamada",
+    "phone_used": "3816566151"
   }
 ]
