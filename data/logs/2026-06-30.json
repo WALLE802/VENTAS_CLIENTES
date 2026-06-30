@@ -648,5 +648,15 @@
     "client_name": "VALDEZ GABRIEL EDUARDO",
     "contact_type": "llamada",
     "phone_used": "3816918691"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "17:29",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "35810541",
+    "client_name": "VALDEZ LAURA ALEJANDRA",
+    "contact_type": "llamada",
+    "phone_used": "3816140671"
   }
 ]
