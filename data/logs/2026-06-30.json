@@ -368,5 +368,15 @@
     "client_name": "GOMEZ IVANNA JUDITH",
     "contact_type": "llamada",
     "phone_used": "2901405390"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "10:49",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "44920178",
+    "client_name": "SALAZAR PABLO ANTONIO",
+    "contact_type": "llamada",
+    "phone_used": "3816405169"
   }
 ]
