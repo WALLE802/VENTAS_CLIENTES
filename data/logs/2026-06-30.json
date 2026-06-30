@@ -78,5 +78,15 @@
     "client_name": "PERDIGUERA ROSARIO MODESTA",
     "contact_type": "llamada",
     "phone_used": "3815514903"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "10:11",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "24960822",
+    "client_name": "ACOSTA RAUL ANTONIO",
+    "contact_type": "llamada",
+    "phone_used": "3865697196"
   }
 ]
