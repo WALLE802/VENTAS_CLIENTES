@@ -58,5 +58,15 @@
     "client_name": "PASCUAL OSCAR DARIO",
     "contact_type": "llamada",
     "phone_used": "3816601598"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "10:08",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "32005081",
+    "client_name": "PASCUAL OSCAR DARIO",
+    "contact_type": "sms",
+    "phone_used": "3816601598"
   }
 ]
