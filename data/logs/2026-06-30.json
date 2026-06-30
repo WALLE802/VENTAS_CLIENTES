@@ -258,5 +258,15 @@
     "client_name": "RIVERO FATIMA BEATRIZ",
     "contact_type": "sms",
     "phone_used": "3816509625"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "10:28",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "38243876",
+    "client_name": "ROBLES GIMENA",
+    "contact_type": "llamada",
+    "phone_used": "3814766355"
   }
 ]
