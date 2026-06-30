@@ -48,5 +48,15 @@
     "client_name": "PADILLA DELFIN DARIO",
     "contact_type": "llamada",
     "phone_used": "3814780277"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "10:07",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "32005081",
+    "client_name": "PASCUAL OSCAR DARIO",
+    "contact_type": "llamada",
+    "phone_used": "3816601598"
   }
 ]
