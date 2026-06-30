@@ -308,5 +308,15 @@
     "client_name": "RODRIGUEZ ELBA CARINA",
     "contact_type": "sms",
     "phone_used": "3815686084"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "10:34",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "31001534",
+    "client_name": "RODRIGUEZ GERARDO ESTEBAN",
+    "contact_type": "llamada",
+    "phone_used": "3816565801"
   }
 ]
