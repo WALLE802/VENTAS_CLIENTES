@@ -658,5 +658,15 @@
     "client_name": "VALDEZ LAURA ALEJANDRA",
     "contact_type": "llamada",
     "phone_used": "3816140671"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "17:32",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "41374649",
+    "client_name": "VARGAS WALTER",
+    "contact_type": "llamada",
+    "phone_used": "3814562681"
   }
 ]
