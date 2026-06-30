@@ -228,5 +228,15 @@
     "client_name": "GOMEZ AVILA LAURA CARINA",
     "contact_type": "llamada",
     "phone_used": "3865691664"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "10:25",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "28137801",
+    "client_name": "GOMEZ CARLOS ALBERTO",
+    "contact_type": "llamada",
+    "phone_used": "3865753060"
   }
 ]
