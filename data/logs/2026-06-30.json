@@ -438,5 +438,15 @@
     "client_name": "SANTUCHO RAQUEL LORENA",
     "contact_type": "sms",
     "phone_used": "3814192340"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "11:02",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "11380826",
+    "client_name": "GONZALEZ ANA MARIA",
+    "contact_type": "llamada",
+    "phone_used": "3865603302"
   }
 ]
