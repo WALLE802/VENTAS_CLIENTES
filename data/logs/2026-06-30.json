@@ -578,5 +578,15 @@
     "client_name": "SOTELO SERGI GUILLERMO",
     "contact_type": "llamada",
     "phone_used": "3815101319"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "17:19",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "17372829",
+    "client_name": "SOTELO SERGI GUILLERMO",
+    "contact_type": "sms",
+    "phone_used": "3815101319"
   }
 ]
