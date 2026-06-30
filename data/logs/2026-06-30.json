@@ -278,5 +278,15 @@
     "client_name": "ROBLES GIMENA",
     "contact_type": "sms",
     "phone_used": "3814766355"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "10:29",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "38243876",
+    "client_name": "ROBLES GIMENA",
+    "contact_type": "sms",
+    "phone_used": "3814766355"
   }
 ]
