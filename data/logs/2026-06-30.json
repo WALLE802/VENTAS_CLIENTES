@@ -68,5 +68,15 @@
     "client_name": "PASCUAL OSCAR DARIO",
     "contact_type": "sms",
     "phone_used": "3816601598"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "10:09",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "18185940",
+    "client_name": "PERDIGUERA ROSARIO MODESTA",
+    "contact_type": "llamada",
+    "phone_used": "3815514903"
   }
 ]
