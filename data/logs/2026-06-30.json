@@ -468,5 +468,15 @@
     "client_name": "GONZALEZ DALMA VANESA",
     "contact_type": "llamada",
     "phone_used": "3865445733"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "11:33",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "16383926",
+    "client_name": "GONZALEZ ENRIQUE ANTONIO",
+    "contact_type": "llamada",
+    "phone_used": "3865328470"
   }
 ]
