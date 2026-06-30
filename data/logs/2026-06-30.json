@@ -188,5 +188,15 @@
     "client_name": "REINOSO RAMON CESAR",
     "contact_type": "llamada",
     "phone_used": "3815941901"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "10:20",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "12449187",
+    "client_name": "REINOSO RAMON CESAR",
+    "contact_type": "sms",
+    "phone_used": "3815941901"
   }
 ]
