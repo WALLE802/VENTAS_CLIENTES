@@ -488,5 +488,15 @@
     "client_name": "GONZALEZ KARINA DANIELA",
     "contact_type": "llamada",
     "phone_used": "3865623709"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "11:52",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "41182819",
+    "client_name": "GONZALEZ MANUEL ALEJANDRO",
+    "contact_type": "llamada",
+    "phone_used": "2995326805"
   }
 ]
