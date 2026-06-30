@@ -138,5 +138,15 @@
     "client_name": "PERDIGUERA ROSARIO MODESTA",
     "contact_type": "sms",
     "phone_used": "3815514903"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "10:14",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "27397928",
+    "client_name": "GIMENEZ MARIA MABELA",
+    "contact_type": "llamada",
+    "phone_used": "3865687480"
   }
 ]
