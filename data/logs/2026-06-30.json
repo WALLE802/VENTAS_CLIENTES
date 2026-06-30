@@ -148,5 +148,15 @@
     "client_name": "GIMENEZ MARIA MABELA",
     "contact_type": "llamada",
     "phone_used": "3865687480"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "10:16",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "25004179",
+    "client_name": "PONCE JOSE DANIEL",
+    "contact_type": "llamada",
+    "phone_used": "3813867705"
   }
 ]
