@@ -958,5 +958,15 @@
     "client_name": "HEREDIA ANDREA CELESTE",
     "contact_type": "llamada",
     "phone_used": "3865824984"
+  },
+  {
+    "date": "2026-07-01",
+    "time": "20:32",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "18373349",
+    "client_name": "HERRERA BLANCA AZUCENA",
+    "contact_type": "llamada",
+    "phone_used": "3865604541"
   }
 ]
