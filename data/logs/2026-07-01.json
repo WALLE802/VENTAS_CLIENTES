@@ -28,5 +28,15 @@
     "client_name": "FRIAS MARIA VERONICA",
     "contact_type": "llamada",
     "phone_used": "3865545357"
+  },
+  {
+    "date": "2026-07-01",
+    "time": "19:43",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "22451008",
+    "client_name": "GUZMAN CARLOS ALBERTO",
+    "contact_type": "llamada",
+    "phone_used": "3865709068"
   }
 ]
