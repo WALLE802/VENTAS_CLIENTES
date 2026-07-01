@@ -968,5 +968,15 @@
     "client_name": "HERRERA BLANCA AZUCENA",
     "contact_type": "llamada",
     "phone_used": "3865604541"
+  },
+  {
+    "date": "2026-07-01",
+    "time": "20:33",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "43772561",
+    "client_name": "HERRERA MAURO SANTINO",
+    "contact_type": "llamada",
+    "phone_used": "3865750614"
   }
 ]
