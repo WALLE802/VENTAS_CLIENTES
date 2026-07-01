@@ -18,5 +18,15 @@
     "client_name": "ACOSTA RAUL ANTONIO",
     "contact_type": "llamada",
     "phone_used": "3865697196"
+  },
+  {
+    "date": "2026-07-01",
+    "time": "19:42",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "37715677",
+    "client_name": "FRIAS MARIA VERONICA",
+    "contact_type": "llamada",
+    "phone_used": "3865545357"
   }
 ]
