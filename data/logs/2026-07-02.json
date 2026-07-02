@@ -388,5 +388,15 @@
     "client_name": "SORIA WALTER ALFREDO",
     "contact_type": "whatsapp",
     "phone_used": "3812239182"
+  },
+  {
+    "date": "2026-07-02",
+    "time": "11:07",
+    "username": "bajo",
+    "branch": "bajo",
+    "client_dni": "40274018",
+    "client_name": "SOSA CRISTIAN DANIEL",
+    "contact_type": "whatsapp",
+    "phone_used": "3812499259"
   }
 ]
