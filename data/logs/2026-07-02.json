@@ -228,5 +228,15 @@
     "client_name": "SANCHEZ MARIO FABIAN",
     "contact_type": "whatsapp",
     "phone_used": "3812360517"
+  },
+  {
+    "date": "2026-07-02",
+    "time": "11:05",
+    "username": "bajo",
+    "branch": "bajo",
+    "client_dni": "25945815",
+    "client_name": "SANTILLAN DANIELA ALEJANDRA",
+    "contact_type": "whatsapp",
+    "phone_used": "3813901472"
   }
 ]
