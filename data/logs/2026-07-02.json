@@ -268,5 +268,15 @@
     "client_name": "SANTUCHO MAGDALENA DEL TRANSITO",
     "contact_type": "whatsapp",
     "phone_used": "3814467687"
+  },
+  {
+    "date": "2026-07-02",
+    "time": "11:05",
+    "username": "bajo",
+    "branch": "bajo",
+    "client_dni": "25776584",
+    "client_name": "SEGURA CRISTIAN CESAR",
+    "contact_type": "whatsapp",
+    "phone_used": "3815073929"
   }
 ]
