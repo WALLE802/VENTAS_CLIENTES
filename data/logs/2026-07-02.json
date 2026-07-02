@@ -208,5 +208,15 @@
     "client_name": "SALDAÑO GERMAN EXEQUIEL",
     "contact_type": "whatsapp",
     "phone_used": "3815232528"
+  },
+  {
+    "date": "2026-07-02",
+    "time": "11:04",
+    "username": "bajo",
+    "branch": "bajo",
+    "client_dni": "42006839",
+    "client_name": "SANCHEZ DIEGO ALEJANDRO",
+    "contact_type": "whatsapp",
+    "phone_used": "3814762098"
   }
 ]
