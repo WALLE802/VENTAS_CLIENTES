@@ -358,5 +358,15 @@
     "client_name": "SORIA JOSE ALFREDO",
     "contact_type": "whatsapp",
     "phone_used": "3813461594"
+  },
+  {
+    "date": "2026-07-02",
+    "time": "11:07",
+    "username": "bajo",
+    "branch": "bajo",
+    "client_dni": "12413373",
+    "client_name": "SORIA PEDRO HUMBERTO",
+    "contact_type": "whatsapp",
+    "phone_used": "3812125852"
   }
 ]
