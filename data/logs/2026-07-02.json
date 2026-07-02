@@ -218,5 +218,15 @@
     "client_name": "SANCHEZ DIEGO ALEJANDRO",
     "contact_type": "whatsapp",
     "phone_used": "3814762098"
+  },
+  {
+    "date": "2026-07-02",
+    "time": "11:05",
+    "username": "bajo",
+    "branch": "bajo",
+    "client_dni": "21813944",
+    "client_name": "SANCHEZ MARIO FABIAN",
+    "contact_type": "whatsapp",
+    "phone_used": "3812360517"
   }
 ]
