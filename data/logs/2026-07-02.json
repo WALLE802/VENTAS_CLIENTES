@@ -258,5 +258,15 @@
     "client_name": "SANTUCHO LILIANA DEL VALLE",
     "contact_type": "whatsapp",
     "phone_used": "3815767409"
+  },
+  {
+    "date": "2026-07-02",
+    "time": "11:05",
+    "username": "bajo",
+    "branch": "bajo",
+    "client_dni": "26832336",
+    "client_name": "SANTUCHO MAGDALENA DEL TRANSITO",
+    "contact_type": "whatsapp",
+    "phone_used": "3814467687"
   }
 ]
