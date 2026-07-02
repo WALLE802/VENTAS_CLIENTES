@@ -248,5 +248,15 @@
     "client_name": "SANTUCHO ALAN SANTIAGO",
     "contact_type": "whatsapp",
     "phone_used": "3815688063"
+  },
+  {
+    "date": "2026-07-02",
+    "time": "11:05",
+    "username": "bajo",
+    "branch": "bajo",
+    "client_dni": "28618533",
+    "client_name": "SANTUCHO LILIANA DEL VALLE",
+    "contact_type": "whatsapp",
+    "phone_used": "3815767409"
   }
 ]
