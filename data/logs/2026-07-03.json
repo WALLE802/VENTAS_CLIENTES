@@ -118,5 +118,15 @@
     "client_name": "GUERRERO MIGUEL ENRIQUE",
     "contact_type": "llamada",
     "phone_used": "3865214930"
+  },
+  {
+    "date": "2026-07-03",
+    "time": "10:46",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "25541505",
+    "client_name": "GUILLEN ADRIANA RAQUEL *",
+    "contact_type": "llamada",
+    "phone_used": "3865691415"
   }
 ]
