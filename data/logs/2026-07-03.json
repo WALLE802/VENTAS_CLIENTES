@@ -128,5 +128,15 @@
     "client_name": "GUILLEN ADRIANA RAQUEL *",
     "contact_type": "llamada",
     "phone_used": "3865691415"
+  },
+  {
+    "date": "2026-07-03",
+    "time": "10:46",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "22451008",
+    "client_name": "GUZMAN CARLOS ALBERTO",
+    "contact_type": "llamada",
+    "phone_used": "3865709068"
   }
 ]
