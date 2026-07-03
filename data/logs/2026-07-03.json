@@ -198,5 +198,15 @@
     "client_name": "JEREB ANA LUISA",
     "contact_type": "llamada",
     "phone_used": "3865587204"
+  },
+  {
+    "date": "2026-07-03",
+    "time": "11:05",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "13936395",
+    "client_name": "JIJENA FELIX FERNANDO",
+    "contact_type": "llamada",
+    "phone_used": "3816437687"
   }
 ]
