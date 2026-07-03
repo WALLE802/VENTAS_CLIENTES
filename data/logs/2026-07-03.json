@@ -8,5 +8,15 @@
     "client_name": "ABREGU OSCAR ALFREDO",
     "contact_type": "llamada",
     "phone_used": "3865298140"
+  },
+  {
+    "date": "2026-07-03",
+    "time": "10:45",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "23666485",
+    "client_name": "ACOSTA SERGIO ADRIAN",
+    "contact_type": "llamada",
+    "phone_used": "3812527559"
   }
 ]
