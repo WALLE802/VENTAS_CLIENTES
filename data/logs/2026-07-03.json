@@ -58,5 +58,15 @@
     "client_name": "ALLENDE SILVIA HAIDE",
     "contact_type": "llamada",
     "phone_used": "3813387601"
+  },
+  {
+    "date": "2026-07-03",
+    "time": "10:46",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "23994131",
+    "client_name": "GORDILLO MARIELA MAGDALENA",
+    "contact_type": "llamada",
+    "phone_used": "3865203131"
   }
 ]
