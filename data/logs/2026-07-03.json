@@ -238,5 +238,15 @@
     "client_name": "KRASKA GERMAN ARTEMIO",
     "contact_type": "llamada",
     "phone_used": "3865235446"
+  },
+  {
+    "date": "2026-07-03",
+    "time": "11:18",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "29251698",
+    "client_name": "LEDESMA GUILLERMO ANIBAL",
+    "contact_type": "llamada",
+    "phone_used": "3865530308"
   }
 ]
