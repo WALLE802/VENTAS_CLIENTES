@@ -188,5 +188,15 @@
     "client_name": "JARILLO AMELIA GRISELDA",
     "contact_type": "llamada",
     "phone_used": "3865670677"
+  },
+  {
+    "date": "2026-07-03",
+    "time": "11:04",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "10663721",
+    "client_name": "JEREB ANA LUISA",
+    "contact_type": "llamada",
+    "phone_used": "3865587204"
   }
 ]
