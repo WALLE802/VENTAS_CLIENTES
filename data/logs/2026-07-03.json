@@ -98,5 +98,15 @@
     "client_name": "GUERRA ARMANDO ANDRES",
     "contact_type": "llamada",
     "phone_used": "3865200120"
+  },
+  {
+    "date": "2026-07-03",
+    "time": "10:46",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "37496816",
+    "client_name": "GUERRERO JORGELINA GIMENA MARISOL",
+    "contact_type": "llamada",
+    "phone_used": "3865631563"
   }
 ]
