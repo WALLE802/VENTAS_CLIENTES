@@ -168,5 +168,15 @@
     "client_name": "HERRERA MAURO SANTINO",
     "contact_type": "llamada",
     "phone_used": "3865750614"
+  },
+  {
+    "date": "2026-07-03",
+    "time": "10:47",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "95037460",
+    "client_name": "HUAYTA ALBARADO MIRIAN ROXANA",
+    "contact_type": "llamada",
+    "phone_used": "3865746680"
   }
 ]
