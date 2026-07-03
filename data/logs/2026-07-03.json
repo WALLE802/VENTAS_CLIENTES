@@ -28,5 +28,15 @@
     "client_name": "ALBARRACIN JESICA ROMINA",
     "contact_type": "llamada",
     "phone_used": "3865358811"
+  },
+  {
+    "date": "2026-07-03",
+    "time": "10:45",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "24960568",
+    "client_name": "ALBORNOZ DANIEL MARCELO",
+    "contact_type": "llamada",
+    "phone_used": "3834777585"
   }
 ]
