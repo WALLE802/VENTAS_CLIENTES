@@ -68,5 +68,15 @@
     "client_name": "GORDILLO MARIELA MAGDALENA",
     "contact_type": "llamada",
     "phone_used": "3865203131"
+  },
+  {
+    "date": "2026-07-03",
+    "time": "10:46",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "37189513",
+    "client_name": "GRAMAJO MONICA LILIANA",
+    "contact_type": "llamada",
+    "phone_used": "3865588725"
   }
 ]
