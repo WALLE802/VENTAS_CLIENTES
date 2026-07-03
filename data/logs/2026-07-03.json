@@ -208,5 +208,15 @@
     "client_name": "JIJENA FELIX FERNANDO",
     "contact_type": "llamada",
     "phone_used": "3816437687"
+  },
+  {
+    "date": "2026-07-03",
+    "time": "11:12",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "37189443",
+    "client_name": "JUAREZ DARIO MAXIMILIANO",
+    "contact_type": "llamada",
+    "phone_used": "3865247438"
   }
 ]
