@@ -88,5 +88,15 @@
     "client_name": "GRANEROS GLADYS ESTER",
     "contact_type": "llamada",
     "phone_used": "3865392258"
+  },
+  {
+    "date": "2026-07-03",
+    "time": "10:46",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "32164987",
+    "client_name": "GUERRA ARMANDO ANDRES",
+    "contact_type": "llamada",
+    "phone_used": "3865200120"
   }
 ]
