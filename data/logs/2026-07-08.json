@@ -288,5 +288,15 @@
     "client_name": "LEDESMA NATALIA ELIZABETH",
     "contact_type": "llamada",
     "phone_used": "3865606821"
+  },
+  {
+    "date": "2026-07-08",
+    "time": "18:13",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "34282496",
+    "client_name": "LEGUIZAMON FLAVIO DANIEL",
+    "contact_type": "llamada",
+    "phone_used": "3865299163"
   }
 ]
