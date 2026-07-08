@@ -408,5 +408,15 @@
     "client_name": "MEDINA ANTONIO ENRIQUE",
     "contact_type": "llamada",
     "phone_used": "3865525462"
+  },
+  {
+    "date": "2026-07-08",
+    "time": "19:31",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "16676282",
+    "client_name": "MEDINA LUIS ALBERTO",
+    "contact_type": "llamada",
+    "phone_used": "3865231578"
   }
 ]
