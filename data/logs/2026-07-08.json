@@ -18,5 +18,15 @@
     "client_name": "ACOSTA RAUL ANTONIO",
     "contact_type": "llamada",
     "phone_used": "3865697196"
+  },
+  {
+    "date": "2026-07-08",
+    "time": "17:19",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "23666485",
+    "client_name": "ACOSTA SERGIO ADRIAN",
+    "contact_type": "llamada",
+    "phone_used": "3812527559"
   }
 ]
