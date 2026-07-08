@@ -318,5 +318,15 @@
     "client_name": "LEYVA ELENA DEL CARMEN",
     "contact_type": "llamada",
     "phone_used": "3865533287"
+  },
+  {
+    "date": "2026-07-08",
+    "time": "18:45",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "23962725",
+    "client_name": "LOBO AIDA ALICIA",
+    "contact_type": "llamada",
+    "phone_used": "3865649118"
   }
 ]
