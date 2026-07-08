@@ -208,5 +208,15 @@
     "client_name": "GRAMAJO MONICA LILIANA",
     "contact_type": "llamada",
     "phone_used": "3865588725"
+  },
+  {
+    "date": "2026-07-08",
+    "time": "17:23",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "27141334",
+    "client_name": "GRANEROS GLADYS ESTER",
+    "contact_type": "llamada",
+    "phone_used": "3865392258"
   }
 ]
