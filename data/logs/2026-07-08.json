@@ -348,5 +348,15 @@
     "client_name": "LOBO NILDA DEL VALLE",
     "contact_type": "llamada",
     "phone_used": "3865366268"
+  },
+  {
+    "date": "2026-07-08",
+    "time": "19:01",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "37724589",
+    "client_name": "LUCERO LUCAS MATIAS",
+    "contact_type": "llamada",
+    "phone_used": "3865516482"
   }
 ]
