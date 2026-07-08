@@ -278,5 +278,15 @@
     "client_name": "HERRERA MAURO SANTINO",
     "contact_type": "llamada",
     "phone_used": "3865750614"
+  },
+  {
+    "date": "2026-07-08",
+    "time": "17:57",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "37501058",
+    "client_name": "LEDESMA NATALIA ELIZABETH",
+    "contact_type": "llamada",
+    "phone_used": "3865606821"
   }
 ]
