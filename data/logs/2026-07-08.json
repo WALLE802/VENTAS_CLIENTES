@@ -358,5 +358,15 @@
     "client_name": "LUCERO LUCAS MATIAS",
     "contact_type": "llamada",
     "phone_used": "3865516482"
+  },
+  {
+    "date": "2026-07-08",
+    "time": "19:05",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "38508715",
+    "client_name": "LUKETIC PACHECO HECTOR MARIA JOSUE",
+    "contact_type": "llamada",
+    "phone_used": "3865395561"
   }
 ]
