@@ -388,5 +388,15 @@
     "client_name": "MANSILLA MARIA ESTER",
     "contact_type": "llamada",
     "phone_used": "3814634720"
+  },
+  {
+    "date": "2026-07-08",
+    "time": "19:23",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "27735876",
+    "client_name": "MARQUEZ SOLEDAD SABRINA",
+    "contact_type": "llamada",
+    "phone_used": "3865318245"
   }
 ]
