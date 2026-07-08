@@ -368,5 +368,15 @@
     "client_name": "LUKETIC PACHECO HECTOR MARIA JOSUE",
     "contact_type": "llamada",
     "phone_used": "3865395561"
+  },
+  {
+    "date": "2026-07-08",
+    "time": "19:06",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "30770448",
+    "client_name": "MAIDANA MARIA ELENA",
+    "contact_type": "llamada",
+    "phone_used": "3865360450"
   }
 ]
