@@ -238,5 +238,15 @@
     "client_name": "GUERRERO JORGELINA GIMENA MARISOL",
     "contact_type": "llamada",
     "phone_used": "3865631563"
+  },
+  {
+    "date": "2026-07-08",
+    "time": "17:23",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "22074186",
+    "client_name": "GUERRERO MIGUEL ENRIQUE",
+    "contact_type": "llamada",
+    "phone_used": "3865214930"
   }
 ]
