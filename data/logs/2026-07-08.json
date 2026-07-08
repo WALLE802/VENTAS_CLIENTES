@@ -378,5 +378,15 @@
     "client_name": "MAIDANA MARIA ELENA",
     "contact_type": "llamada",
     "phone_used": "3865360450"
+  },
+  {
+    "date": "2026-07-08",
+    "time": "19:08",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "16318213",
+    "client_name": "MANSILLA MARIA ESTER",
+    "contact_type": "llamada",
+    "phone_used": "3814634720"
   }
 ]
