@@ -398,5 +398,15 @@
     "client_name": "MARQUEZ SOLEDAD SABRINA",
     "contact_type": "llamada",
     "phone_used": "3865318245"
+  },
+  {
+    "date": "2026-07-08",
+    "time": "19:28",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "8058937",
+    "client_name": "MEDINA ANTONIO ENRIQUE",
+    "contact_type": "llamada",
+    "phone_used": "3865525462"
   }
 ]
