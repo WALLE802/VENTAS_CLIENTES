@@ -268,5 +268,15 @@
     "client_name": "HEREDIA ANDREA CELESTE",
     "contact_type": "llamada",
     "phone_used": "3865824984"
+  },
+  {
+    "date": "2026-07-08",
+    "time": "17:23",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "43772561",
+    "client_name": "HERRERA MAURO SANTINO",
+    "contact_type": "llamada",
+    "phone_used": "3865750614"
   }
 ]
