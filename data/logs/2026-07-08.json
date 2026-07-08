@@ -338,5 +338,15 @@
     "client_name": "LOBO MARIO ALBERTO",
     "contact_type": "llamada",
     "phone_used": "3865510082"
+  },
+  {
+    "date": "2026-07-08",
+    "time": "18:55",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "14944035",
+    "client_name": "LOBO NILDA DEL VALLE",
+    "contact_type": "llamada",
+    "phone_used": "3865366268"
   }
 ]
