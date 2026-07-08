@@ -168,5 +168,15 @@
     "client_name": "GONZALEZ CLAUDIO DAVID",
     "contact_type": "llamada",
     "phone_used": "3865411839"
+  },
+  {
+    "date": "2026-07-08",
+    "time": "17:22",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "16383926",
+    "client_name": "GONZALEZ ENRIQUE ANTONIO",
+    "contact_type": "llamada",
+    "phone_used": "3865328470"
   }
 ]
