@@ -148,5 +148,15 @@
     "client_name": "GOMEZ IVANNA JUDITH",
     "contact_type": "llamada",
     "phone_used": "2901405390"
+  },
+  {
+    "date": "2026-07-08",
+    "time": "17:22",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "26881278",
+    "client_name": "GOMEZ MIRTA ROSA",
+    "contact_type": "llamada",
+    "phone_used": "3865671199"
   }
 ]
