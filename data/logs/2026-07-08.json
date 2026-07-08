@@ -328,5 +328,15 @@
     "client_name": "LOBO AIDA ALICIA",
     "contact_type": "llamada",
     "phone_used": "3865649118"
+  },
+  {
+    "date": "2026-07-08",
+    "time": "18:54",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "29750203",
+    "client_name": "LOBO MARIO ALBERTO",
+    "contact_type": "llamada",
+    "phone_used": "3865510082"
   }
 ]
