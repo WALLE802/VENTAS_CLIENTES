@@ -118,5 +118,15 @@
     "client_name": "CARRIZO ROSA IRMA .",
     "contact_type": "llamada",
     "phone_used": "2216818498"
+  },
+  {
+    "date": "2026-07-08",
+    "time": "17:20",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "16724181",
+    "client_name": "CHAP JUAN CARLOS",
+    "contact_type": "llamada",
+    "phone_used": "3865547858"
   }
 ]
