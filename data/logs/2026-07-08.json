@@ -178,5 +178,15 @@
     "client_name": "GONZALEZ ENRIQUE ANTONIO",
     "contact_type": "llamada",
     "phone_used": "3865328470"
+  },
+  {
+    "date": "2026-07-08",
+    "time": "17:22",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "41182819",
+    "client_name": "GONZALEZ MANUEL ALEJANDRO",
+    "contact_type": "llamada",
+    "phone_used": "2995326805"
   }
 ]
