@@ -288,5 +288,15 @@
     "client_name": "GOMEZ CARLOS ALBERTO",
     "contact_type": "llamada",
     "phone_used": "3865753060"
+  },
+  {
+    "date": "2026-07-10",
+    "time": "18:42",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "29624800",
+    "client_name": "GOMEZ MIGUEL GUSTAVO",
+    "contact_type": "llamada",
+    "phone_used": "3865663611"
   }
 ]
