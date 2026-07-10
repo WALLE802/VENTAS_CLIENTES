@@ -558,5 +558,15 @@
     "client_name": "MORALES SANDRA MOEMI",
     "contact_type": "llamada",
     "phone_used": "3865556828"
+  },
+  {
+    "date": "2026-07-10",
+    "time": "18:57",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "28046881",
+    "client_name": "MORENO MARCELO FABIAN",
+    "contact_type": "llamada",
+    "phone_used": "3865398911"
   }
 ]
