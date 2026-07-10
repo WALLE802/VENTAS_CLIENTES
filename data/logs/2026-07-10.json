@@ -548,5 +548,15 @@
     "client_name": "MONTOYA WALTER IVAN",
     "contact_type": "llamada",
     "phone_used": "3816681294"
+  },
+  {
+    "date": "2026-07-10",
+    "time": "18:55",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "25667564",
+    "client_name": "MORALES SANDRA MOEMI",
+    "contact_type": "llamada",
+    "phone_used": "3865556828"
   }
 ]
