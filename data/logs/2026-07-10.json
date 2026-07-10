@@ -148,5 +148,15 @@
     "client_name": "CERVANTES CARLOS RUBEN",
     "contact_type": "llamada",
     "phone_used": "3865593430"
+  },
+  {
+    "date": "2026-07-10",
+    "time": "18:41",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "10297244",
+    "client_name": "COLLANTE MARIA ANTONIA",
+    "contact_type": "llamada",
+    "phone_used": "3865612019"
   }
 ]
