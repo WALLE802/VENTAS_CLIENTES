@@ -98,5 +98,15 @@
     "client_name": "BIANCHINI RICARDO ALBERTO",
     "contact_type": "llamada",
     "phone_used": "3865601240"
+  },
+  {
+    "date": "2026-07-10",
+    "time": "18:41",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "23616640",
+    "client_name": "BURGOS RAMIRO DANIEL",
+    "contact_type": "llamada",
+    "phone_used": "3865607293"
   }
 ]
