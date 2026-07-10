@@ -28,5 +28,15 @@
     "client_name": "ALDERETE MERCEDES DEL VALLE",
     "contact_type": "llamada",
     "phone_used": "3865585162"
+  },
+  {
+    "date": "2026-07-10",
+    "time": "18:41",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "23019898",
+    "client_name": "ALVA MARIA BELEN",
+    "contact_type": "llamada",
+    "phone_used": "3865606050"
   }
 ]
