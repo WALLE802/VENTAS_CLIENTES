@@ -568,5 +568,15 @@
     "client_name": "MORENO MARCELO FABIAN",
     "contact_type": "llamada",
     "phone_used": "3865398911"
+  },
+  {
+    "date": "2026-07-10",
+    "time": "18:59",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "43501634",
+    "client_name": "NAVARRO ROSA MARIANELA",
+    "contact_type": "llamada",
+    "phone_used": "3865515176"
   }
 ]
