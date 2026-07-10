@@ -528,5 +528,15 @@
     "client_name": "MONTOYA DORA ANALIA",
     "contact_type": "llamada",
     "phone_used": "3865601087"
+  },
+  {
+    "date": "2026-07-10",
+    "time": "18:51",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "4533967",
+    "client_name": "MONTOYA MARIA CONCEPCION",
+    "contact_type": "llamada",
+    "phone_used": "3865629543"
   }
 ]
