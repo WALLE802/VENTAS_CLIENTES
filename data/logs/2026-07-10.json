@@ -18,5 +18,15 @@
     "client_name": "ALBARRACIN JESICA ROMINA",
     "contact_type": "llamada",
     "phone_used": "3865358811"
+  },
+  {
+    "date": "2026-07-10",
+    "time": "18:41",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "11733121",
+    "client_name": "ALDERETE MERCEDES DEL VALLE",
+    "contact_type": "llamada",
+    "phone_used": "3865585162"
   }
 ]
