@@ -518,5 +518,15 @@
     "client_name": "MOLINA AVELINO ISIDRO",
     "contact_type": "llamada",
     "phone_used": "3865554303"
+  },
+  {
+    "date": "2026-07-10",
+    "time": "18:50",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "29097763",
+    "client_name": "MONTOYA DORA ANALIA",
+    "contact_type": "llamada",
+    "phone_used": "3865601087"
   }
 ]
