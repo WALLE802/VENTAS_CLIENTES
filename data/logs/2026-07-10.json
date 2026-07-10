@@ -298,5 +298,15 @@
     "client_name": "GOMEZ MIGUEL GUSTAVO",
     "contact_type": "llamada",
     "phone_used": "3865663611"
+  },
+  {
+    "date": "2026-07-10",
+    "time": "18:42",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "26881278",
+    "client_name": "GOMEZ MIRTA ROSA",
+    "contact_type": "llamada",
+    "phone_used": "3865671199"
   }
 ]
