@@ -218,5 +218,15 @@
     "client_name": "FALCON MARIANELA ALEJANDRA",
     "contact_type": "llamada",
     "phone_used": "3865300752"
+  },
+  {
+    "date": "2026-07-10",
+    "time": "18:42",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "30588684",
+    "client_name": "FARIAS PATRICIA NOEMI",
+    "contact_type": "llamada",
+    "phone_used": "3865306729"
   }
 ]
