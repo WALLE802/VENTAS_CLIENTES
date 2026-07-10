@@ -58,5 +58,15 @@
     "client_name": "ARARIQUE ANTONIO NOLBERTO",
     "contact_type": "llamada",
     "phone_used": "3865216500"
+  },
+  {
+    "date": "2026-07-10",
+    "time": "18:41",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "16383618",
+    "client_name": "ARREGUEZ HUMBERTO ARGENTINO",
+    "contact_type": "llamada",
+    "phone_used": "3865312561"
   }
 ]
