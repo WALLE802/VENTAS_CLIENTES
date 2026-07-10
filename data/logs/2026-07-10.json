@@ -258,5 +258,15 @@
     "client_name": "FLORES GABRIEL ALEJANDRO",
     "contact_type": "llamada",
     "phone_used": "2622629294"
+  },
+  {
+    "date": "2026-07-10",
+    "time": "18:42",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "16275889",
+    "client_name": "GEREZ ELENA NOEMI",
+    "contact_type": "llamada",
+    "phone_used": "3865395901"
   }
 ]
