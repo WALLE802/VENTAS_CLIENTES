@@ -448,5 +448,15 @@
     "client_name": "LEDESMA GUILLERMO ANIBAL",
     "contact_type": "llamada",
     "phone_used": "3865530308"
+  },
+  {
+    "date": "2026-07-10",
+    "time": "18:42",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "37501058",
+    "client_name": "LEDESMA NATALIA ELIZABETH",
+    "contact_type": "llamada",
+    "phone_used": "3865606821"
   }
 ]
