@@ -308,5 +308,15 @@
     "client_name": "GOMEZ MIRTA ROSA",
     "contact_type": "llamada",
     "phone_used": "3865671199"
+  },
+  {
+    "date": "2026-07-10",
+    "time": "18:42",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "27735853",
+    "client_name": "GONZALEZ CLAUDIO DAVID",
+    "contact_type": "llamada",
+    "phone_used": "3865411839"
   }
 ]
