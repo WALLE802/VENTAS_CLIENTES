@@ -358,5 +358,15 @@
     "client_name": "ALANIS NOEMI MARCELA",
     "contact_type": "llamada",
     "phone_used": "3865263282"
+  },
+  {
+    "date": "2026-07-11",
+    "time": "17:47",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "22462774",
+    "client_name": "ALANIS NOEMI MARCELA",
+    "contact_type": "sms",
+    "phone_used": "3865263282"
   }
 ]
