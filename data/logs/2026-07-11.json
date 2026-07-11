@@ -748,5 +748,15 @@
     "client_name": "BENITEZ ADRIANA",
     "contact_type": "llamada",
     "phone_used": "3873647699"
+  },
+  {
+    "date": "2026-07-11",
+    "time": "19:34",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "38247503",
+    "client_name": "BILBAO ROSA MARIANA",
+    "contact_type": "llamada",
+    "phone_used": "3816767601"
   }
 ]
