@@ -898,5 +898,15 @@
     "client_name": "BURGOS MARIO MARCELO EXEQUIEL",
     "contact_type": "llamada",
     "phone_used": "3875493373"
+  },
+  {
+    "date": "2026-07-11",
+    "time": "19:58",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "28368604",
+    "client_name": "BUSTOS BLANCA AZUCENA",
+    "contact_type": "llamada",
+    "phone_used": "3815569873"
   }
 ]
