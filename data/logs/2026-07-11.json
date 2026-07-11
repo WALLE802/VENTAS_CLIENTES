@@ -168,5 +168,15 @@
     "client_name": "VISA HUGO ORLANDO",
     "contact_type": "whatsapp",
     "phone_used": "3814048090"
+  },
+  {
+    "date": "2026-07-11",
+    "time": "11:11",
+    "username": "bajo",
+    "branch": "bajo",
+    "client_dni": "27194897",
+    "client_name": "VIZGARRA GUSTAVO ORLANDO",
+    "contact_type": "whatsapp",
+    "phone_used": "3814882619"
   }
 ]
