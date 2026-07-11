@@ -698,5 +698,15 @@
     "client_name": "BALDERRAMA LUIS ANTONIO",
     "contact_type": "llamada",
     "phone_used": "3813637475"
+  },
+  {
+    "date": "2026-07-11",
+    "time": "19:21",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "33165452",
+    "client_name": "BARRERA GRECIA NATALI",
+    "contact_type": "llamada",
+    "phone_used": "3812495034"
   }
 ]
