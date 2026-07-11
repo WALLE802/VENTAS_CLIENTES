@@ -398,5 +398,15 @@
     "client_name": "ALBORNOZ FRANCISCA",
     "contact_type": "llamada",
     "phone_used": "3874568985"
+  },
+  {
+    "date": "2026-07-11",
+    "time": "17:57",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "11380864",
+    "client_name": "ALDERETE MARTA OFELIA",
+    "contact_type": "llamada",
+    "phone_used": "3865322755"
   }
 ]
