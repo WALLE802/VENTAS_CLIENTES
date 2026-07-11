@@ -338,5 +338,15 @@
     "client_name": "AGUIRRE DANIEL",
     "contact_type": "sms",
     "phone_used": "3863535827"
+  },
+  {
+    "date": "2026-07-11",
+    "time": "17:43",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "13959411",
+    "client_name": "AGUIRRE JUAN CARLOS",
+    "contact_type": "llamada",
+    "phone_used": "3865545717"
   }
 ]
