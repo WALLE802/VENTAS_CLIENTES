@@ -728,5 +728,15 @@
     "client_name": "BELTRAN LILIANA DEL VALLE",
     "contact_type": "llamada",
     "phone_used": "3815260271"
+  },
+  {
+    "date": "2026-07-11",
+    "time": "19:27",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "26797799",
+    "client_name": "BELTRAN LILIANA DEL VALLE",
+    "contact_type": "sms",
+    "phone_used": "3815260271"
   }
 ]
