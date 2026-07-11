@@ -32,11 +32,10 @@ function showToast(msg, duration = 2200) {
     t._timer = setTimeout(() => t.classList.add('hidden'), duration);
 }
 
-// ─── Registro de contactados (localStorage por día+sucursal) ─────────────────
+// ─── Registro de contactados (localStorage persistente por sucursal) ────────────
 
 function todayKey() {
-    const today = new Date().toISOString().split('T')[0];
-    return `vt_contacted_${today}_${session.branch}`;
+    return `vt_contacted_${session.branch}`;
 }
 
 function getContacted() {
@@ -102,7 +101,7 @@ function renderClients() {
 
     const stats = `
         <div class="stats-bar">
-            📊 <strong>${doneCount}</strong> / ${total} contactados hoy
+            📊 <strong>${doneCount}</strong> / ${total} contactados
             ${searchQuery || activeFilter !== 'all' ? ` &nbsp;·&nbsp; <strong>${list.length}</strong> resultados` : ''}
         </div>`;
 
@@ -359,6 +358,20 @@ async function recoverLocalStorage() {
         throw new Error(`GitHub API ${putResp.status}: ${err.slice(0, 120)}`);
     }
     showToast(`✅ ${added} gestión(es) recuperada(s) y guardadas en GitHub.`, 5000);
+}
+
+// ─── Wrapper del botón Recuperar ─────────────────────────────────────────────
+
+async function runRecover() {
+    const btn = document.getElementById('btnRecover');
+    if (btn) { btn.disabled = true; btn.textContent = '⏳ Enviando...'; }
+    try {
+        await recoverLocalStorage();
+    } catch (e) {
+        showToast('❌ Error: ' + e.message, 5000);
+    } finally {
+        if (btn) { btn.disabled = false; btn.textContent = '🔄 Enviar al backoffice'; }
+    }
 }
 
 // ─── Controles de filtro y búsqueda ──────────────────────────────────────────
