@@ -218,5 +218,15 @@
     "client_name": "ABREGU ELIZABETH NOEMI",
     "contact_type": "llamada",
     "phone_used": "3815832441"
+  },
+  {
+    "date": "2026-07-11",
+    "time": "17:20",
+    "username": "bajo",
+    "branch": "bajo",
+    "client_dni": "20580127",
+    "client_name": "ABACA JORGE LUIS",
+    "contact_type": "whatsapp",
+    "phone_used": "3816512835"
   }
 ]
