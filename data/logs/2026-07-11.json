@@ -758,5 +758,15 @@
     "client_name": "BILBAO ROSA MARIANA",
     "contact_type": "llamada",
     "phone_used": "3816767601"
+  },
+  {
+    "date": "2026-07-11",
+    "time": "19:36",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "26880361",
+    "client_name": "BONILLO MARIO ROBERTO",
+    "contact_type": "llamada",
+    "phone_used": "3886504156"
   }
 ]
