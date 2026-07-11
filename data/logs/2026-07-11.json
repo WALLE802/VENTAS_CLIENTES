@@ -868,5 +868,15 @@
     "client_name": "BRIZUELA MARTA CAROLINA",
     "contact_type": "sms",
     "phone_used": "3813646034"
+  },
+  {
+    "date": "2026-07-11",
+    "time": "19:53",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "28919800",
+    "client_name": "BULACIO MARIA CARLA *",
+    "contact_type": "llamada",
+    "phone_used": "3865217860"
   }
 ]
