@@ -628,5 +628,15 @@
     "client_name": "ARTAZA CLAUDIA RAQUEL",
     "contact_type": "llamada",
     "phone_used": "3865312357"
+  },
+  {
+    "date": "2026-07-11",
+    "time": "19:13",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "29750546",
+    "client_name": "AVELLANEDA MARIA VICTORIA",
+    "contact_type": "llamada",
+    "phone_used": "3865542328"
   }
 ]
