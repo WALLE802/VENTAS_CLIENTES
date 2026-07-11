@@ -678,5 +678,15 @@
     "client_name": "AVILA AMANDA NATALIA",
     "contact_type": "sms",
     "phone_used": "3815577734"
+  },
+  {
+    "date": "2026-07-11",
+    "time": "19:18",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "10857405",
+    "client_name": "BAIGORRIA HECTORJOSE",
+    "contact_type": "llamada",
+    "phone_used": "3865233274"
   }
 ]
