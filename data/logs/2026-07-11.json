@@ -618,5 +618,15 @@
     "client_name": "ARIZA CLAUDIA MABEL",
     "contact_type": "llamada",
     "phone_used": "3863417029"
+  },
+  {
+    "date": "2026-07-11",
+    "time": "19:11",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "25025165",
+    "client_name": "ARTAZA CLAUDIA RAQUEL",
+    "contact_type": "llamada",
+    "phone_used": "3865312357"
   }
 ]
