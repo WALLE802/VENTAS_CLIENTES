@@ -478,5 +478,15 @@
     "client_name": "ALVARADO HECTOR ATILIO",
     "contact_type": "sms",
     "phone_used": "3815509731"
+  },
+  {
+    "date": "2026-07-11",
+    "time": "18:38",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "30738577",
+    "client_name": "ALVAREZ JESUS MANUEL",
+    "contact_type": "llamada",
+    "phone_used": "3877404759"
   }
 ]
