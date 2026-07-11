@@ -418,5 +418,15 @@
     "client_name": "ALDERETE MARTA OFELIA",
     "contact_type": "llamada",
     "phone_used": "3865322755"
+  },
+  {
+    "date": "2026-07-11",
+    "time": "17:58",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "11380864",
+    "client_name": "ALDERETE MARTA OFELIA",
+    "contact_type": "sms",
+    "phone_used": "3865322755"
   }
 ]
