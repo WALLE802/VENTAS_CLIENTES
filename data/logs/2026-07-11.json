@@ -528,5 +528,15 @@
     "client_name": "AMAYA CLAUDIA MABEL",
     "contact_type": "llamada",
     "phone_used": "3813517610"
+  },
+  {
+    "date": "2026-07-11",
+    "time": "18:49",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "40783164",
+    "client_name": "AMAYA CLAUDIA MABEL",
+    "contact_type": "sms",
+    "phone_used": "3813517610"
   }
 ]
