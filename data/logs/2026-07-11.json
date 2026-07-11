@@ -778,5 +778,15 @@
     "client_name": "BORDON NORA MABEL",
     "contact_type": "llamada",
     "phone_used": "3886377661"
+  },
+  {
+    "date": "2026-07-11",
+    "time": "19:40",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "37856191",
+    "client_name": "BRITO LILIANA TAMARA GISSEL",
+    "contact_type": "llamada",
+    "phone_used": "3865747595"
   }
 ]
