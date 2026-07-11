@@ -708,5 +708,15 @@
     "client_name": "BARRERA GRECIA NATALI",
     "contact_type": "llamada",
     "phone_used": "3812495034"
+  },
+  {
+    "date": "2026-07-11",
+    "time": "19:24",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "27634193",
+    "client_name": "BEDUINO NATALIA VANESA",
+    "contact_type": "llamada",
+    "phone_used": "3816783447"
   }
 ]
