@@ -458,5 +458,15 @@
     "client_name": "ALE ALCIRA ZULEMA",
     "contact_type": "llamada",
     "phone_used": "3863697752"
+  },
+  {
+    "date": "2026-07-11",
+    "time": "18:35",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "21475967",
+    "client_name": "ALVARADO HECTOR ATILIO",
+    "contact_type": "llamada",
+    "phone_used": "3815509731"
   }
 ]
