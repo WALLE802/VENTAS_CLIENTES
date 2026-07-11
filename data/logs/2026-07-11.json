@@ -588,5 +588,15 @@
     "client_name": "ARGAÑARAZ LEURENCIO IGNACIO",
     "contact_type": "llamada",
     "phone_used": "3813958593"
+  },
+  {
+    "date": "2026-07-11",
+    "time": "19:02",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "37997046",
+    "client_name": "ARGAÑARAZ LEURENCIO IGNACIO",
+    "contact_type": "sms",
+    "phone_used": "3813958593"
   }
 ]
