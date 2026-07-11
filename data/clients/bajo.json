@@ -1,1602 +1,2138 @@
 [
   {
-    "dni": "38185287",
-    "nombre": "ABDALA MARIA CELESTE",
-    "telefono": "3815076690",
+    "dni": "20580127",
+    "nombre": "ABACA JORGE LUIS",
+    "telefono": "3816512835",
     "tel2": "",
     "tel3": "",
-    "ultima_compra": "2025-08-16"
+    "ultima_compra": "2026-04-29"
   },
   {
-    "dni": "32409632",
-    "nombre": "AGUIRRE PATRICIA MABEL",
-    "telefono": "3816695802",
-    "tel2": "156695802",
-    "tel3": "3815736891",
-    "ultima_compra": "2025-09-23"
-  },
-  {
-    "dni": "32687482",
-    "nombre": "AGUIRRE PEDRO GERVASIO",
-    "telefono": "3813927337",
+    "dni": "24108829",
+    "nombre": "ABREGU RAMON ANGEL",
+    "telefono": "3865331097",
     "tel2": "",
     "tel3": "",
-    "ultima_compra": "2025-06-09"
+    "ultima_compra": "2026-04-27"
   },
   {
-    "dni": "22414304",
-    "nombre": "ALBORNOZ MONICAS GRACIELA",
-    "telefono": "3814765028",
-    "tel2": "4346306",
+    "dni": "13155470",
+    "nombre": "ACOSTA AIDA ESTER",
+    "telefono": "3865545592",
+    "tel2": "",
     "tel3": "",
-    "ultima_compra": "2025-07-21"
+    "ultima_compra": "2026-04-28"
   },
   {
-    "dni": "28290344",
-    "nombre": "ALDERETE HEBER JOEL",
-    "telefono": "3816525748",
+    "dni": "23544426",
+    "nombre": "ACOSTA MERCEDES ISABEL",
+    "telefono": "3816613240",
+    "tel2": "",
+    "tel3": "3816538199",
+    "ultima_compra": "2026-04-28"
+  },
+  {
+    "dni": "31370825",
+    "nombre": "ACOSTA SERGIO LEONEL",
+    "telefono": "3877437153",
+    "tel2": "3877437153",
+    "tel3": "",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "13563210",
+    "nombre": "AGUERO MARIA ANTONIA",
+    "telefono": "3813877418",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-27"
+  },
+  {
+    "dni": "7091043",
+    "nombre": "AGUERO SEGUNDO PATRICIO",
+    "telefono": "3816242040",
+    "tel2": "",
+    "tel3": "155123872",
+    "ultima_compra": "2026-04-28"
+  },
+  {
+    "dni": "44818772",
+    "nombre": "AGUILERA DIEGO NICOLAS",
+    "telefono": "3877403722",
+    "tel2": "3877403722",
+    "tel3": "",
+    "ultima_compra": "2026-04-28"
+  },
+  {
+    "dni": "26722851",
+    "nombre": "AGUIRRE ADRIANA ELIZABETH",
+    "telefono": "3815144201",
+    "tel2": "",
+    "tel3": "3814059239",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "44377316",
+    "nombre": "AGUIRRE FABIAN ALEJANDRO",
+    "telefono": "3813370963",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "6995208",
+    "nombre": "ALBORNOZ ENRIQUE",
+    "telefono": "3813427008",
+    "tel2": "3865491292",
+    "tel3": "3865406895",
+    "ultima_compra": "2026-04-23"
+  },
+  {
+    "dni": "11782939",
+    "nombre": "ALBORNOZ MERCEDES REIMONDA*.",
+    "telefono": "3865310212",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-23"
+  },
+  {
+    "dni": "8394355",
+    "nombre": "ALBORNOZ RENE ALBERTO",
+    "telefono": "3865268927",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-23"
+  },
+  {
+    "dni": "39674816",
+    "nombre": "ALBORNOZ SILVIA JORGELINA DEL CARMEN",
+    "telefono": "1126061327",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "39140522",
+    "nombre": "ALBORNOZ YAMILA JACQUELINE",
+    "telefono": "3816049917",
+    "tel2": "3814455386",
+    "tel3": "0",
+    "ultima_compra": "2026-04-23"
+  },
+  {
+    "dni": "28182942",
+    "nombre": "ALDAPI ISAIAS PABLO",
+    "telefono": "1168999968",
+    "tel2": "",
+    "tel3": "3886475862",
+    "ultima_compra": "2026-04-29"
+  },
+  {
+    "dni": "39732509",
+    "nombre": "ALDERETE IBAEZ IBONNE DE LOS ANGELES",
+    "telefono": "3865310365",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-30"
+  },
+  {
+    "dni": "26883545",
+    "nombre": "ALDERETE MIGUEL ANGEL",
+    "telefono": "3863412375",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "16183530",
+    "nombre": "ALIAGA HECTOR RICARDO",
+    "telefono": "3886356333",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-28"
+  },
+  {
+    "dni": "14829131",
+    "nombre": "ALLENDE EDUARDO ARTURO",
+    "telefono": "3865254185",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-30"
+  },
+  {
+    "dni": "39727633",
+    "nombre": "ALMIRON FERNANDA GISELLE",
+    "telefono": "3816233519",
+    "tel2": "3816022786",
+    "tel3": "0",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "10713907",
+    "nombre": "ALMIRON MARIA RAQUEL",
+    "telefono": "3863514870",
+    "tel2": "",
+    "tel3": "3863501950",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "45335246",
+    "nombre": "ALONSO WALTER NAHUEL",
+    "telefono": "3815715186",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-23"
+  },
+  {
+    "dni": "20557155",
+    "nombre": "ALVAREZ FABIO MARCELO",
+    "telefono": "3865454150",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-23"
+  },
+  {
+    "dni": "43849862",
+    "nombre": "ALVAREZ MALENA ELIZABETH",
+    "telefono": "3815290280",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-30"
+  },
+  {
+    "dni": "22056402",
+    "nombre": "AMAYA GABRIELA DEL VALLE",
+    "telefono": "3873414156",
+    "tel2": "",
+    "tel3": "0387315659937",
+    "ultima_compra": "2026-04-28"
+  },
+  {
+    "dni": "43849927",
+    "nombre": "ANDRADA NESTOR AGUSTIN",
+    "telefono": "3863555072",
+    "tel2": "",
+    "tel3": "3863508664",
+    "ultima_compra": "2026-04-30"
+  },
+  {
+    "dni": "40086957",
+    "nombre": "ANTONI ALFREDO ALBERTO",
+    "telefono": "3815787826",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-27"
+  },
+  {
+    "dni": "40435716",
+    "nombre": "ARCE ALEXANDER ANDRES",
+    "telefono": "3865432599",
+    "tel2": "",
+    "tel3": "3865648923",
+    "ultima_compra": "2026-04-27"
+  },
+  {
+    "dni": "45764183",
+    "nombre": "AREVALO CANDELA LUCIANA ANAHÍ",
+    "telefono": "3886479936",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-28"
+  },
+  {
+    "dni": "37512138",
+    "nombre": "ARGAÑARAZ RODRIGO DANIEL",
+    "telefono": "3876461203",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-22"
+  },
+  {
+    "dni": "5978058",
+    "nombre": "ARIAS AMALIA CARMEN NO DAR INF",
+    "telefono": "3865266381",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-22"
+  },
+  {
+    "dni": "30318349",
+    "nombre": "ARIAS VERONICA ESTHER",
+    "telefono": "3873696196",
+    "tel2": "",
+    "tel3": "0387315641668",
+    "ultima_compra": "2026-04-28"
+  },
+  {
+    "dni": "32741003",
+    "nombre": "ARIAS VICTOR ALEJANDRO",
+    "telefono": "3876667500",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "41651773",
+    "nombre": "AVILA ANTONIO ALBERTO",
+    "telefono": "3813470889",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-23"
+  },
+  {
+    "dni": "38957879",
+    "nombre": "BARRETO TAMARA BELEN",
+    "telefono": "3865303284",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-22"
+  },
+  {
+    "dni": "24643637",
+    "nombre": "BARRIONUEVO MARIA DE LOS ANGELES",
+    "telefono": "3816709377",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "11855247",
+    "nombre": "BARRIOS MARCIANA",
+    "telefono": "3873203600",
+    "tel2": "3873481720",
+    "tel3": "3873362092",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "20124986",
+    "nombre": "BARROSO CARLOS FABIAN",
+    "telefono": "3813690051",
+    "tel2": "",
+    "tel3": "3812454112",
+    "ultima_compra": "2026-04-22"
+  },
+  {
+    "dni": "12978359",
+    "nombre": "BENAVENTE MARIA LEONOR",
+    "telefono": "3816089014",
+    "tel2": "3816375843",
+    "tel3": "",
+    "ultima_compra": "2026-04-24"
+  },
+  {
+    "dni": "22074197",
+    "nombre": "BILKA PEDRO MANUEL",
+    "telefono": "3865540859",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-30"
+  },
+  {
+    "dni": "35029238",
+    "nombre": "BRIZUELA CRISTIAN ARMANDO",
+    "telefono": "3863448046",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-28"
+  },
+  {
+    "dni": "34911653",
+    "nombre": "BURGOS EZEQUIEL ALEJANDRO",
+    "telefono": "3886508849",
+    "tel2": "",
+    "tel3": "3814662756",
+    "ultima_compra": "2026-04-30"
+  },
+  {
+    "dni": "44374559",
+    "nombre": "BUSTAMANTE ALEXANDER JESUS",
+    "telefono": "3863413077",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-27"
+  },
+  {
+    "dni": "31588550",
+    "nombre": "CAJAL FRANCO JOSE ANGEL",
+    "telefono": "3812134042",
+    "tel2": "3812134042",
+    "tel3": "",
+    "ultima_compra": "2026-04-24"
+  },
+  {
+    "dni": "24200081",
+    "nombre": "CAJAL KARINA ROXANA",
+    "telefono": "3816637591",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-27"
+  },
+  {
+    "dni": "28291975",
+    "nombre": "CAJAL MYRIAM BEATRIZ",
+    "telefono": "3815206043",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-28"
+  },
+  {
+    "dni": "31588398",
+    "nombre": "CAMPBELL VICTOR ALEJANDRO",
+    "telefono": "3814438352",
+    "tel2": "0000",
+    "tel3": "",
+    "ultima_compra": "2026-04-27"
+  },
+  {
+    "dni": "28780489",
+    "nombre": "CANCINO JOSE MARIA",
+    "telefono": "3865711162",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-29"
+  },
+  {
+    "dni": "28790343",
+    "nombre": "CANDIA ERMELINDA NOEMI",
+    "telefono": "3815803713",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-27"
+  },
+  {
+    "dni": "17803855",
+    "nombre": "CANIZA JUAN ROBERTO",
+    "telefono": "3873628720",
+    "tel2": "",
+    "tel3": "387315543499",
+    "ultima_compra": "2026-04-29"
+  },
+  {
+    "dni": "18051857",
+    "nombre": "CAPELLAN SUSANA MARIEL",
+    "telefono": "3877477033",
+    "tel2": "0387715477033",
+    "tel3": "",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "41816510",
+    "nombre": "CARRIZO GABRIELA FERNANDA",
+    "telefono": "3816421167",
+    "tel2": "",
+    "tel3": "3815730666",
+    "ultima_compra": "2026-04-22"
+  },
+  {
+    "dni": "27141249",
+    "nombre": "CARRIZO GUILLERMO ANTONIO*",
+    "telefono": "3865341640",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-30"
+  },
+  {
+    "dni": "29790633",
+    "nombre": "CASAL CLAUDIA MERCEDES",
+    "telefono": "3865344999",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-30"
+  },
+  {
+    "dni": "32002155",
+    "nombre": "CASILLAS YESICA NOEMI",
+    "telefono": "3886413297",
+    "tel2": "",
+    "tel3": "3886350908",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "31544581",
+    "nombre": "CASTILLO JOSE MARIA",
+    "telefono": "3816610211",
+    "tel2": "404703",
+    "tel3": "",
+    "ultima_compra": "2026-04-24"
+  },
+  {
+    "dni": "22969729",
+    "nombre": "CEJAS CESAR ANTONIO",
+    "telefono": "3873653014",
+    "tel2": "",
+    "tel3": "3873585716",
+    "ultima_compra": "2026-04-24"
+  },
+  {
+    "dni": "37837977",
+    "nombre": "CHASAMPI MATIAS RODRIGO",
+    "telefono": "3816867185",
+    "tel2": "3816867185",
+    "tel3": "",
+    "ultima_compra": "2026-04-28"
+  },
+  {
+    "dni": "20499994",
+    "nombre": "CORDOBA ALDO ADRIAN",
+    "telefono": "3865625204",
+    "tel2": "3865625204",
+    "tel3": "",
+    "ultima_compra": "2026-04-30"
+  },
+  {
+    "dni": "37512362",
+    "nombre": "CORDOBA MARIA GABRIELA",
+    "telefono": "3876404989",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-29"
+  },
+  {
+    "dni": "43708441",
+    "nombre": "CORONEL ENRIQUE ANTONIO",
+    "telefono": "2984701248",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-27"
+  },
+  {
+    "dni": "24965214",
+    "nombre": "CORONEL JULIO CESAR",
+    "telefono": "3865447192",
+    "tel2": "0386515447192",
+    "tel3": "0386515675645",
+    "ultima_compra": "2026-04-24"
+  },
+  {
+    "dni": "22414223",
+    "nombre": "CORONEL MIGUEL ANGEL",
+    "telefono": "3813398192",
+    "tel2": "3816038946",
+    "tel3": "4502250",
+    "ultima_compra": "2026-04-24"
+  },
+  {
+    "dni": "45121127",
+    "nombre": "CORONEL OSORES BRUNO FRANCISCO",
+    "telefono": "3814777037",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-28"
+  },
+  {
+    "dni": "33483160",
+    "nombre": "CORONEL RAMON",
+    "telefono": "3815293398",
+    "tel2": "3815293398",
+    "tel3": "",
+    "ultima_compra": "2026-04-30"
+  },
+  {
+    "dni": "32345282",
+    "nombre": "CRESPO LEONARDO AUGUSTO",
+    "telefono": "3812171673",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-22"
+  },
+  {
+    "dni": "40699336",
+    "nombre": "CUELLAR LEONEL ALBERTO",
+    "telefono": "3814438134",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-27"
+  },
+  {
+    "dni": "24533375",
+    "nombre": "DIAZ ALBERTO LEOPOLDO",
+    "telefono": "3865378286",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-28"
+  },
+  {
+    "dni": "18184260",
+    "nombre": "DIAZ ALEJANDRO",
+    "telefono": "3815246271",
+    "tel2": "155982733",
+    "tel3": "3813883027",
+    "ultima_compra": "2026-04-24"
+  },
+  {
+    "dni": "44134541",
+    "nombre": "DIAZ ARIEL SEBASTIAN",
+    "telefono": "3815449976",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-23"
+  },
+  {
+    "dni": "10690915",
+    "nombre": "DIAZ EMMA MERCEDES",
+    "telefono": "3814063881",
+    "tel2": "3814063881",
+    "tel3": "0",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "27971647",
+    "nombre": "DIAZ FABIANA CAROLINA",
+    "telefono": "3814173629",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-22"
+  },
+  {
+    "dni": "44191302",
+    "nombre": "DIAZ FERNANDO",
+    "telefono": "3865335423",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-28"
+  },
+  {
+    "dni": "24328234",
+    "nombre": "DIAZ JOSE CARLO ANTONIO",
+    "telefono": "3886308622",
+    "tel2": "",
+    "tel3": "3886407906",
+    "ultima_compra": "2026-04-30"
+  },
+  {
+    "dni": "13095283",
+    "nombre": "DIAZ LUIS ALFREDO",
+    "telefono": "3813490026",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-24"
+  },
+  {
+    "dni": "29741402",
+    "nombre": "DIAZ MABEL ISABEL",
+    "telefono": "3865326488",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-23"
+  },
+  {
+    "dni": "20557166",
+    "nombre": "DIAZ OLGA IRMA *",
+    "telefono": "3865230506",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "25305518",
+    "nombre": "DOMINGUEZ PATRICIA ALEJANDRA",
+    "telefono": "3873454570",
+    "tel2": "",
+    "tel3": "3873633777",
+    "ultima_compra": "2026-04-30"
+  },
+  {
+    "dni": "20404543",
+    "nombre": "ELIAS GABRIELA LAURA",
+    "telefono": "3813685039",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-28"
+  },
+  {
+    "dni": "31128081",
+    "nombre": "ESCUDERO CARLOS ALEJANDRO",
+    "telefono": "3865312925",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-22"
+  },
+  {
+    "dni": "26795642",
+    "nombre": "ESPINDOLA VERONICA VICENTA *",
+    "telefono": "3865730984",
+    "tel2": "2622376075",
+    "tel3": "",
+    "ultima_compra": "2026-04-24"
+  },
+  {
+    "dni": "26648091",
+    "nombre": "FALCON MIRIAN CAROLINA",
+    "telefono": "3863504083",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-24"
+  },
+  {
+    "dni": "24747946",
+    "nombre": "FARA  MARIELA DEL VALLE",
+    "telefono": "3865629561",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-28"
+  },
+  {
+    "dni": "24262667",
+    "nombre": "FERNANDEZ CARLOS JAVIER",
+    "telefono": "3865228073",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "31918906",
+    "nombre": "FERNANDEZ FLAVIO DANIEL",
+    "telefono": "3863405445",
+    "tel2": "",
+    "tel3": "3863457310",
+    "ultima_compra": "2026-04-23"
+  },
+  {
+    "dni": "38340389",
+    "nombre": "FERNANDEZ IVAN MARCELO",
+    "telefono": "3876667841",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-27"
+  },
+  {
+    "dni": "27430084",
+    "nombre": "FLORES CECILIA DEL VALLE",
+    "telefono": "3865212676",
+    "tel2": "",
+    "tel3": "3865206342",
+    "ultima_compra": "2026-04-24"
+  },
+  {
+    "dni": "13771527",
+    "nombre": "FLORES RUBEN ALDO",
+    "telefono": "3876527335",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-29"
+  },
+  {
+    "dni": "27977223",
+    "nombre": "FRIAS FELIX FELIZARDO",
+    "telefono": "3813937933",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-23"
+  },
+  {
+    "dni": "29836283",
+    "nombre": "GARAY BLANCA LIDIA",
+    "telefono": "3863575110",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-23"
+  },
+  {
+    "dni": "25963149",
+    "nombre": "GARZON BETIANA DEL VALLE",
+    "telefono": "3863518498",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "21823109",
+    "nombre": "GIMENEZ MARTINA",
+    "telefono": "3873032036",
+    "tel2": "",
+    "tel3": "03875906843",
+    "ultima_compra": "2026-04-30"
+  },
+  {
+    "dni": "21681901",
+    "nombre": "GODOY ANDREA SUSANA",
+    "telefono": "3863404546",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-27"
+  },
+  {
+    "dni": "35192736",
+    "nombre": "GOMEZ JORGE ALBERTO",
+    "telefono": "3816178515",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-28"
+  },
+  {
+    "dni": "24380255",
+    "nombre": "GONZALEZ ELIZABETH DEL VALLE",
+    "telefono": "3813004011",
+    "tel2": "154782614",
+    "tel3": "",
+    "ultima_compra": "2026-04-30"
+  },
+  {
+    "dni": "37527527",
+    "nombre": "GONZALEZ LEILA DAINA",
+    "telefono": "3863435810",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-24"
+  },
+  {
+    "dni": "34222282",
+    "nombre": "GONZALEZ POLONIA ELIZABEHT",
+    "telefono": "3865218003",
+    "tel2": "3813323127",
+    "tel3": "",
+    "ultima_compra": "2026-04-23"
+  },
+  {
+    "dni": "36633189",
+    "nombre": "GONZALEZ SEBASTIAN",
+    "telefono": "3815701835",
+    "tel2": "3815701835",
+    "tel3": "",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "29820408",
+    "nombre": "GUERRERO YOLANDA CRISTINA",
+    "telefono": "3874583819",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-30"
+  },
+  {
+    "dni": "29420693",
+    "nombre": "GUTIERREZ MARCELA DEL CARMEN*",
+    "telefono": "3865466343",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-23"
+  },
+  {
+    "dni": "39401417",
+    "nombre": "GUTIERREZ MIGUEL ANGEL",
+    "telefono": "3873076151",
+    "tel2": "",
+    "tel3": "3873500703",
+    "ultima_compra": "2026-04-22"
+  },
+  {
+    "dni": "26447003",
+    "nombre": "HERRERA ADRIANA DEL VALLE",
+    "telefono": "3813624207",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-28"
+  },
+  {
+    "dni": "38117035",
+    "nombre": "HERRERA FERNANDO ARIEL",
+    "telefono": "3865237030",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-29"
+  },
+  {
+    "dni": "30240777",
+    "nombre": "HERRERA LORENA MARIA LUISA",
+    "telefono": "3813444135",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-22"
+  },
+  {
+    "dni": "26412383",
+    "nombre": "HERRERA MARIA ALVIANA",
+    "telefono": "3815753756",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-29"
+  },
+  {
+    "dni": "36667307",
+    "nombre": "HERRERA NOELIA DEL VALLE",
+    "telefono": "3865690859",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-22"
+  },
+  {
+    "dni": "29358733",
+    "nombre": "HERRERA SUSANA BEATRIZ",
+    "telefono": "3815601900",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-27"
+  },
+  {
+    "dni": "43651396",
+    "nombre": "IBARRA ROCIO ANAHI",
+    "telefono": "3815228628",
+    "tel2": "",
+    "tel3": "3816483327",
+    "ultima_compra": "2026-04-29"
+  },
+  {
+    "dni": "43290879",
+    "nombre": "IBAÑEZ ERICK NAHUEL",
+    "telefono": "3813496535",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "18293695",
+    "nombre": "IÑIGO NOEMI CARMEN",
+    "telefono": "3813464431",
+    "tel2": "4276659",
+    "tel3": "",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "38828034",
+    "nombre": "JEREZ CINTIA DANIELA",
+    "telefono": "3876436464",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "28712265",
+    "nombre": "JUAREZ AURORA VALERIA",
+    "telefono": "3877525221",
+    "tel2": "3877452256",
+    "tel3": "",
+    "ultima_compra": "2026-04-30"
+  },
+  {
+    "dni": "28782825",
+    "nombre": "JUAREZ ISABEL SOLEDAD",
+    "telefono": "3816692899",
+    "tel2": "3813692899",
+    "tel3": "3813440444",
+    "ultima_compra": "2026-04-23"
+  },
+  {
+    "dni": "32460528",
+    "nombre": "JUAREZ JESICA DORA AUDELINA",
+    "telefono": "3813405774",
+    "tel2": "3813404760",
+    "tel3": "",
+    "ultima_compra": "2026-04-26"
+  },
+  {
+    "dni": "40438578",
+    "nombre": "JUAREZ MARIA FERNANDA",
+    "telefono": "3812532321",
+    "tel2": "3812532321",
+    "tel3": "",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "50316258",
+    "nombre": "JUAREZ MICAELA CAMILA",
+    "telefono": "3813271120",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-23"
+  },
+  {
+    "dni": "29729425",
+    "nombre": "JURADO MELISA URSULA",
+    "telefono": "3886300827",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-23"
+  },
+  {
+    "dni": "31312096",
+    "nombre": "LARA LORENA",
+    "telefono": "3814758156",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-30"
+  },
+  {
+    "dni": "35256638",
+    "nombre": "LAZARTE CLAUDIA LORENA",
+    "telefono": "3812174745",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-27"
+  },
+  {
+    "dni": "20941880",
+    "nombre": "LAZARTE GRACIELA ESTHER",
+    "telefono": "3813497547",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-30"
+  },
+  {
+    "dni": "34286589",
+    "nombre": "LEGUIZAMON NACHA ROMINA",
+    "telefono": "3816592978",
+    "tel2": "3816592978",
+    "tel3": "0",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "20373218",
+    "nombre": "LEON YOLANDA",
+    "telefono": "3873568285",
+    "tel2": "",
+    "tel3": "3873696775",
+    "ultima_compra": "2026-04-22"
+  },
+  {
+    "dni": "28336874",
+    "nombre": "LEZCANO CARLA DEL CONSUELO",
+    "telefono": "2993332363",
+    "tel2": "",
+    "tel3": "3873255704",
+    "ultima_compra": "2026-04-27"
+  },
+  {
+    "dni": "45195812",
+    "nombre": "LIZARRAGA ALEXIS EDUARDO",
+    "telefono": "3816046417",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-22"
+  },
+  {
+    "dni": "38368729",
+    "nombre": "LLANOS VIVIANA YISEL",
+    "telefono": "3814769670",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-24"
+  },
+  {
+    "dni": "34980836",
+    "nombre": "LOBO JULIA ELENA",
+    "telefono": "3814127770",
+    "tel2": "3814127770",
+    "tel3": "3865418772",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "32793718",
+    "nombre": "LUNA MONICA SILVINA",
+    "telefono": "3877436674",
+    "tel2": "0387155746037",
+    "tel3": "3877438898",
+    "ultima_compra": "2026-04-22"
+  },
+  {
+    "dni": "14661043",
+    "nombre": "MANGUDO CHOQUE JUAN CARLOS",
+    "telefono": "3816657482",
+    "tel2": "3816657482",
+    "tel3": "",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "17458438",
+    "nombre": "MANSILLA FRANCISCO RAMON",
+    "telefono": "3816264131",
+    "tel2": "4270965",
+    "tel3": "",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "38364913",
+    "nombre": "MANZANAREZ ROCIO DEL MILAGRO",
+    "telefono": "3814623063",
+    "tel2": "",
+    "tel3": "3816425082",
+    "ultima_compra": "2026-04-23"
+  },
+  {
+    "dni": "35921622",
+    "nombre": "MARTINEZ JESSICA ANAHI",
+    "telefono": "3816204198",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-28"
+  },
+  {
+    "dni": "41817080",
+    "nombre": "MARTINEZ MARCOS TOMAS",
+    "telefono": "3813975157",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-30"
+  },
+  {
+    "dni": "20557589",
+    "nombre": "MASA MARIA ANTONIA *",
+    "telefono": "3865604250",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-23"
+  },
+  {
+    "dni": "25210508",
+    "nombre": "MAZA MIGUEL SANTIAGO",
+    "telefono": "3875454661",
+    "tel2": "3876041799",
+    "tel3": "",
+    "ultima_compra": "2026-04-24"
+  },
+  {
+    "dni": "40533992",
+    "nombre": "MEDINA JOSE MANUEL",
+    "telefono": "3865766667",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-28"
+  },
+  {
+    "dni": "20518781",
+    "nombre": "MEDINA NESTOR EDUARDO",
+    "telefono": "3877436134",
+    "tel2": "3877437225",
+    "tel3": "",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "14791796",
+    "nombre": "MENDEZ NESTOR RUBEN",
+    "telefono": "3865376235",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-28"
+  },
+  {
+    "dni": "31619646",
+    "nombre": "MENDEZ VERONICA ANDREA",
+    "telefono": "3815552280",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-26"
+  },
+  {
+    "dni": "30541200",
+    "nombre": "MERCADO GUSTAVO LAZARO",
+    "telefono": "3812116383",
+    "tel2": "",
+    "tel3": "3816523708",
+    "ultima_compra": "2026-04-22"
+  },
+  {
+    "dni": "31333279",
+    "nombre": "MERCADO JULIO DANIEL",
+    "telefono": "3865554772",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-27"
+  },
+  {
+    "dni": "34186643",
+    "nombre": "MESQUIDA ROMINA EDITH",
+    "telefono": "3815023758",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-24"
+  },
+  {
+    "dni": "35086402",
+    "nombre": "MOLINA ELBA YOLANDA",
+    "telefono": "3865570331",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-24"
+  },
+  {
+    "dni": "32811985",
+    "nombre": "MOLINA ELEANA DEL VALLE*",
+    "telefono": "3865318982",
+    "tel2": "3865517187",
+    "tel3": "",
+    "ultima_compra": "2026-04-22"
+  },
+  {
+    "dni": "43773094",
+    "nombre": "MOLINA GIL MARIANA JULIETA",
+    "telefono": "3865652743",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-22"
+  },
+  {
+    "dni": "34616259",
+    "nombre": "MONJAIME LILIANA DEL VALLE",
+    "telefono": "3873330373",
+    "tel2": "",
+    "tel3": "3873357071",
+    "ultima_compra": "2026-04-30"
+  },
+  {
+    "dni": "21702638",
+    "nombre": "MONTALVO MANUELA ELIZABETH",
+    "telefono": "3873254702",
+    "tel2": "",
+    "tel3": "3873491227",
+    "ultima_compra": "2026-04-28"
+  },
+  {
+    "dni": "41275174",
+    "nombre": "MORA SERVILI EMILIO SEBASTIAN",
+    "telefono": "3865454110",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-30"
+  },
+  {
+    "dni": "12675138",
+    "nombre": "MORENO ALFREDO RODOLFO",
+    "telefono": "3865643676",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "42939661",
+    "nombre": "MORENO ELIO GASTON",
+    "telefono": "3863441801",
+    "tel2": "03863441801",
+    "tel3": "03863441801",
+    "ultima_compra": "2026-04-29"
+  },
+  {
+    "dni": "20334396",
+    "nombre": "MOREYRA HUMBERTO ANDRES *",
+    "telefono": "3865249376",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-23"
+  },
+  {
+    "dni": "24253839",
+    "nombre": "MOYANO RAMON ARIEL",
+    "telefono": "3876589458",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "24098279",
+    "nombre": "MRAD SANDRA ELIZABETH",
+    "telefono": "3814643170",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "36924653",
+    "nombre": "NAVARRO MIGUEL RICARDO",
+    "telefono": "3874741170",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-28"
+  },
+  {
+    "dni": "11557062",
+    "nombre": "NIEVA MARIA ROSA",
+    "telefono": "3813030602",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-23"
+  },
+  {
+    "dni": "27595002",
+    "nombre": "OCAMPO NICOLAS REINALDO",
+    "telefono": "3816654225",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-27"
+  },
+  {
+    "dni": "29948929",
+    "nombre": "OLEA ANGELA BEATRIZ",
+    "telefono": "3815493016",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-29"
+  },
+  {
+    "dni": "37279733",
+    "nombre": "OLEA SILVIO ALEXANDER",
+    "telefono": "3863438108",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-27"
+  },
+  {
+    "dni": "14353269",
+    "nombre": "OLIVA SILVIA RAMONA",
+    "telefono": "3816542762",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-30"
+  },
+  {
+    "dni": "32167605",
+    "nombre": "OLIVARES JESUS GABRIEL",
+    "telefono": "3813577631",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-24"
+  },
+  {
+    "dni": "14049545",
+    "nombre": "ONTIVERO ELSA MARTA",
+    "telefono": "3876455206",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-22"
+  },
+  {
+    "dni": "37087067",
+    "nombre": "OVIEDO RAUL ALBERTO",
+    "telefono": "3873535890",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-23"
+  },
+  {
+    "dni": "22237905",
+    "nombre": "PACHECO NELIDA  ELVIRA",
+    "telefono": "3813932593",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-27"
+  },
+  {
+    "dni": "42796420",
+    "nombre": "PAEZ AGUSTINA VIOLETA",
+    "telefono": "3863694466",
+    "tel2": "",
+    "tel3": "3863417898",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "33965125",
+    "nombre": "PAEZ SEBASTIAN RAMON",
+    "telefono": "3813461719",
+    "tel2": "",
+    "tel3": "3813461719",
+    "ultima_compra": "2026-04-29"
+  },
+  {
+    "dni": "42467097",
+    "nombre": "PALIZA ROMINA SILEÑA",
+    "telefono": "3816815703",
+    "tel2": "3813912091",
+    "tel3": "",
+    "ultima_compra": "2026-04-26"
+  },
+  {
+    "dni": "27180685",
+    "nombre": "PALOMEQUE MARIA CRISTINA",
+    "telefono": "3865589389",
+    "tel2": "3865515530",
+    "tel3": "3865564014",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "27252460",
+    "nombre": "PAREDES SILVIA PATRICIA",
+    "telefono": "3873519808",
+    "tel2": "",
+    "tel3": "3873515809",
+    "ultima_compra": "2026-04-28"
+  },
+  {
+    "dni": "11169312",
+    "nombre": "PASCUAL LUISA ANGELICA",
+    "telefono": "3875461980",
+    "tel2": "4232699",
+    "tel3": "",
+    "ultima_compra": "2026-04-27"
+  },
+  {
+    "dni": "31870418",
+    "nombre": "PAZ MABEL CAROLINA",
+    "telefono": "3874023720",
+    "tel2": "3874023720",
+    "tel3": "",
+    "ultima_compra": "2026-04-22"
+  },
+  {
+    "dni": "12607404",
+    "nombre": "PAZ RAMON",
+    "telefono": "3815405053",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-22"
+  },
+  {
+    "dni": "23984779",
+    "nombre": "PEDRAZA GRACIELA NOEMI",
+    "telefono": "3812435471",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-29"
+  },
+  {
+    "dni": "25884846",
+    "nombre": "PEDRAZA MONICA ANDREA",
+    "telefono": "3876419276",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-27"
+  },
+  {
+    "dni": "39928666",
+    "nombre": "PERALTA MERILES EMILCE ABIGAIL",
+    "telefono": "3886452936",
+    "tel2": "",
+    "tel3": "3886451952",
+    "ultima_compra": "2026-04-30"
+  },
+  {
+    "dni": "17149380",
+    "nombre": "PEREYRA GREGORIO",
+    "telefono": "3873573715",
+    "tel2": "",
+    "tel3": "3873573715",
+    "ultima_compra": "2026-04-27"
+  },
+  {
+    "dni": "27109938",
+    "nombre": "PEREYRA JUSTINA LEONOR",
+    "telefono": "3863570427",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "30476308",
+    "nombre": "PEREZ CRISTIAN ROLANDO",
+    "telefono": "3815405569",
+    "tel2": "",
+    "tel3": "3815997014",
+    "ultima_compra": "2026-04-22"
+  },
+  {
+    "dni": "21991577",
+    "nombre": "PEREZ JOSEFA ELVIRA",
+    "telefono": "3863506039",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "24538472",
+    "nombre": "PEREZ JULIO RENE",
+    "telefono": "3863506039",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "39478548",
+    "nombre": "PINTOS PRISCILA NOEMI",
+    "telefono": "3816418200",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-28"
+  },
+  {
+    "dni": "27912637",
+    "nombre": "PISTAN HERNANDO",
+    "telefono": "3873234273",
+    "tel2": "",
+    "tel3": "3873234273",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "27370085",
+    "nombre": "PONCE MACARENA DE LOURDES",
+    "telefono": "3815481308",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-24"
+  },
+  {
+    "dni": "31204965",
+    "nombre": "PONCE MARISA ISABEL",
+    "telefono": "3877406559",
+    "tel2": "",
+    "tel3": "03877406559",
+    "ultima_compra": "2026-04-30"
+  },
+  {
+    "dni": "36997919",
+    "nombre": "QUINTEROS NADIA JESICA",
+    "telefono": "3865752788",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-24"
+  },
+  {
+    "dni": "22312478",
+    "nombre": "RACEDO HECTOR ORLANDO",
+    "telefono": "3815482285",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-24"
+  },
+  {
+    "dni": "42122892",
+    "nombre": "REINOSO FABIAN ANDRES",
+    "telefono": "3865214532",
+    "tel2": "",
+    "tel3": "3865214532",
+    "ultima_compra": "2026-04-22"
+  },
+  {
+    "dni": "36654393",
+    "nombre": "RELANEZ FRANCO RAMON",
+    "telefono": "3813444676",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-30"
+  },
+  {
+    "dni": "29082287",
+    "nombre": "REYNAGA ALEJANDRA FABIANA",
+    "telefono": "3813351132",
+    "tel2": "4237885",
+    "tel3": "",
+    "ultima_compra": "2026-04-24"
+  },
+  {
+    "dni": "41694115",
+    "nombre": "REYNOSO AYELEN REBECA DEL VALLE",
+    "telefono": "3863577525",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-24"
+  },
+  {
+    "dni": "32550072",
+    "nombre": "RISSO ELIZABETH PAULA",
+    "telefono": "3865349700",
+    "tel2": "",
+    "tel3": "3865349700",
+    "ultima_compra": "2026-04-27"
+  },
+  {
+    "dni": "12678979",
+    "nombre": "ROBLEDO MARTA GLADYS",
+    "telefono": "3865604416",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-24"
+  },
+  {
+    "dni": "33391671",
+    "nombre": "ROBLES DAVID ALEJANDRO",
+    "telefono": "3865344680",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-30"
+  },
+  {
+    "dni": "39891192",
+    "nombre": "ROBLES JULIO ALEXANDER",
+    "telefono": "3878228794",
+    "tel2": "",
+    "tel3": "3878228794",
+    "ultima_compra": "2026-04-22"
+  },
+  {
+    "dni": "38249479",
+    "nombre": "ROBLES MAIRA ALEJNADRA",
+    "telefono": "3863699793",
+    "tel2": "",
+    "tel3": "3863699793",
+    "ultima_compra": "2026-04-23"
+  },
+  {
+    "dni": "18406928",
+    "nombre": "RODRIGUEZ ALBA LILIANA *",
+    "telefono": "3865512441",
+    "tel2": "3865259241",
+    "tel3": "",
+    "ultima_compra": "2026-04-23"
+  },
+  {
+    "dni": "10813629",
+    "nombre": "RODRIGUEZ ELVIRA ESTER",
+    "telefono": "3865290469",
+    "tel2": "3865290469",
+    "tel3": "3865290469",
+    "ultima_compra": "2026-04-22"
+  },
+  {
+    "dni": "35517485",
+    "nombre": "RODRIGUEZ JULIETA BEATRIZ",
+    "telefono": "3814676800",
+    "tel2": "",
+    "tel3": "3816975900",
+    "ultima_compra": "2026-04-28"
+  },
+  {
+    "dni": "20968942",
+    "nombre": "RODRIGUEZ OLGA ROSA",
+    "telefono": "3865434817",
+    "tel2": "03863428939",
+    "tel3": "",
+    "ultima_compra": "2026-04-24"
+  },
+  {
+    "dni": "45197147",
+    "nombre": "RODRIGUEZ ROCIO MICAELA",
+    "telefono": "3815537396",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-22"
+  },
+  {
+    "dni": "11007218",
+    "nombre": "RODRIGUEZ ROQUE SEBASTIAN *",
+    "telefono": "3812529462",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-22"
+  },
+  {
+    "dni": "41939730",
+    "nombre": "ROJA BRYAN FERNANDO",
+    "telefono": "3876631145",
+    "tel2": "",
+    "tel3": "3876581559",
+    "ultima_compra": "2026-04-22"
+  },
+  {
+    "dni": "22476643",
+    "nombre": "ROJAS CLAUDIA MABEL",
+    "telefono": "3877668560",
+    "tel2": "0387715451168",
+    "tel3": "",
+    "ultima_compra": "2026-04-29"
+  },
+  {
+    "dni": "40086902",
+    "nombre": "ROLDAN GABRIEL CARLOS ENRIQUE",
+    "telefono": "3812503459",
+    "tel2": "3815688911",
+    "tel3": "",
+    "ultima_compra": "2026-04-30"
+  },
+  {
+    "dni": "39725990",
+    "nombre": "ROLDAN LEANDRO LEONEL",
+    "telefono": "3815226681",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-30"
+  },
+  {
+    "dni": "45670290",
+    "nombre": "ROMANO EVELYN",
+    "telefono": "3816662610",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-23"
+  },
+  {
+    "dni": "43774941",
+    "nombre": "ROMANO FRANCO ESTEBAN",
+    "telefono": "3865326589",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-23"
+  },
+  {
+    "dni": "29879138",
+    "nombre": "ROMANO JUAN   AUGUSTO",
+    "telefono": "3863441042",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "38347909",
+    "nombre": "RUIZ GRACIELA DEL VALLE",
+    "telefono": "3816412494",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "32793599",
+    "nombre": "RUIZ JANET BELEN",
+    "telefono": "3877586986",
+    "tel2": "",
+    "tel3": "03877432160",
+    "ultima_compra": "2026-04-27"
+  },
+  {
+    "dni": "30738326",
+    "nombre": "RUIZ VALERIA SOLEDAD",
+    "telefono": "3875483257",
+    "tel2": "",
+    "tel3": "3877411144",
+    "ultima_compra": "2026-04-27"
+  },
+  {
+    "dni": "30630764",
+    "nombre": "SALAS CLAUDIA NATIVIDAD",
+    "telefono": "3886696523",
+    "tel2": "",
+    "tel3": "3886696523",
+    "ultima_compra": "2026-04-28"
+  },
+  {
+    "dni": "28496418",
+    "nombre": "SALAZAR CLAUDIA RAQUEL",
+    "telefono": "3863514914",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-23"
+  },
+  {
+    "dni": "38742710",
+    "nombre": "SALAZAR FERNANDA SOLEDAD",
+    "telefono": "3865202258",
+    "tel2": "3865202258",
+    "tel3": "3865205583",
+    "ultima_compra": "2026-04-23"
+  },
+  {
+    "dni": "42938007",
+    "nombre": "SALAZAR LUCA ABIGAIL",
+    "telefono": "3865203250",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-30"
+  },
+  {
+    "dni": "25320373",
+    "nombre": "SALICA ALDO MARTIN*",
+    "telefono": "3865260852",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-22"
+  },
+  {
+    "dni": "43363439",
+    "nombre": "SALINAS VICTOR HUGO",
+    "telefono": "3814435838",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-29"
+  },
+  {
+    "dni": "22332918",
+    "nombre": "SANCHEZ MIAU JORGE LUIS",
+    "telefono": "3865242019",
+    "tel2": "",
+    "tel3": "423085",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "18882560",
+    "nombre": "SANCHEZ RUTH ANALIA",
+    "telefono": "3816593369",
     "tel2": "0",
-    "tel3": "3815577582",
-    "ultima_compra": "2025-07-08"
+    "tel3": "3813493152",
+    "ultima_compra": "2026-04-25"
   },
   {
-    "dni": "16373844",
-    "nombre": "ARANDA BLANCA ROSALVA",
-    "telefono": "3815443406",
-    "tel2": "3812033955",
-    "tel3": "3815220271",
-    "ultima_compra": "2025-08-29"
+    "dni": "22898100",
+    "nombre": "SARAVIA INOCENCIA MARCELINA",
+    "telefono": "3875892943",
+    "tel2": "",
+    "tel3": "3877588871",
+    "ultima_compra": "2026-04-24"
   },
   {
-    "dni": "32501228",
-    "nombre": "ARGAÑARAZ JORGE ALBERTO",
-    "telefono": "3815297248",
+    "dni": "27004572",
+    "nombre": "SARMIENTO LIDIA DEOLINDA",
+    "telefono": "3877437860",
+    "tel2": "",
+    "tel3": "3877437860",
+    "ultima_compra": "2026-04-22"
+  },
+  {
+    "dni": "42719190",
+    "nombre": "SEQUEIRA MILAGROS YAQUELIN ANAHI",
+    "telefono": "3813876731",
     "tel2": "",
     "tel3": "",
-    "ultima_compra": "2025-09-05"
+    "ultima_compra": "2026-04-29"
   },
   {
-    "dni": "31603221",
-    "nombre": "ARGUELLO MAXIMILIANO EZEQUIEL",
-    "telefono": "3815406391",
+    "dni": "27341700",
+    "nombre": "SERRANO MARIA MERCEDES¡",
+    "telefono": "3865705937",
     "tel2": "",
     "tel3": "",
-    "ultima_compra": "2025-09-10"
+    "ultima_compra": "2026-04-23"
   },
   {
-    "dni": "24266232",
-    "nombre": "ARIAS MARTA INES",
-    "telefono": "3816420812",
-    "tel2": "3816420812",
+    "dni": "27976002",
+    "nombre": "SIERRA VICTOR DANIEL",
+    "telefono": "3813256886",
+    "tel2": "3813256886",
+    "tel3": "",
+    "ultima_compra": "2026-04-30"
+  },
+  {
+    "dni": "14427560",
+    "nombre": "SILVA NORA CRISTINA *",
+    "telefono": "3865417816",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-24"
+  },
+  {
+    "dni": "11708901",
+    "nombre": "SILVA, MARIA CRISTINA",
+    "telefono": "3813488459",
+    "tel2": "4371554",
+    "tel3": "",
+    "ultima_compra": "2026-04-30"
+  },
+  {
+    "dni": "21165793",
+    "nombre": "SMIT MARTA LILIANA",
+    "telefono": "3863552551",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-30"
+  },
+  {
+    "dni": "29786162",
+    "nombre": "SORIA ANALIA DE LOS ANGELES",
+    "telefono": "3815894343",
+    "tel2": "",
+    "tel3": "3815894346",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "39539413",
+    "nombre": "SORIA ROSARIO ELIZABETH",
+    "telefono": "3873221200",
+    "tel2": "",
+    "tel3": "3873694374",
+    "ultima_compra": "2026-04-30"
+  },
+  {
+    "dni": "32820123",
+    "nombre": "SORIA SONIA PATRICIA",
+    "telefono": "3865613479",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-28"
+  },
+  {
+    "dni": "41833731",
+    "nombre": "SOSA CRISTIAN GABRIEL",
+    "telefono": "3813435397",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-22"
+  },
+  {
+    "dni": "18034686",
+    "nombre": "SOSA GUILLERMO",
+    "telefono": "3816611965",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-23"
+  },
+  {
+    "dni": "17070827",
+    "nombre": "SOSA SEGUNDA DEL VALLE *",
+    "telefono": "3865565045",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-24"
+  },
+  {
+    "dni": "33436590",
+    "nombre": "SOSA SONIA SOLEDAD .",
+    "telefono": "3865325653",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-30"
+  },
+  {
+    "dni": "26899405",
+    "nombre": "SOSA WALTER OSVALDO",
+    "telefono": "3876589521",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-27"
+  },
+  {
+    "dni": "31893517",
+    "nombre": "SOTO ELVIA PAOLA ALEJANDRA",
+    "telefono": "3886650416",
+    "tel2": "",
+    "tel3": "3886477811",
+    "ultima_compra": "2026-04-22"
+  },
+  {
+    "dni": "36350495",
+    "nombre": "SOTO FLORENCIA RITA DEL VALLE",
+    "telefono": "3814402964",
+    "tel2": "3814402964",
+    "tel3": "3816108691",
+    "ultima_compra": "2026-04-29"
+  },
+  {
+    "dni": "40112565",
+    "nombre": "SUAREZ ZULEMA ESTEFANIA",
+    "telefono": "3873584686",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-29"
+  },
+  {
+    "dni": "39976188",
+    "nombre": "TARI BLANCA DANIELA",
+    "telefono": "3815989875",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-27"
+  },
+  {
+    "dni": "6732905",
+    "nombre": "TARIFA LUCIA CENOBIA",
+    "telefono": "3865374106",
+    "tel2": "485457",
+    "tel3": "",
+    "ultima_compra": "2026-04-24"
+  },
+  {
+    "dni": "28712331",
+    "nombre": "TEBES ERNESTO ORLANDO",
+    "telefono": "3875043563",
+    "tel2": "3877543002",
+    "tel3": "",
+    "ultima_compra": "2026-04-27"
+  },
+  {
+    "dni": "41961317",
+    "nombre": "TELLO BRUNO  MAXIMILIANO",
+    "telefono": "3865399209",
+    "tel2": "",
+    "tel3": "3865516478",
+    "ultima_compra": "2026-04-23"
+  },
+  {
+    "dni": "24279251",
+    "nombre": "TOMEO JUAN CHRISTIAN",
+    "telefono": "3865563151",
+    "tel2": "",
+    "tel3": "",
+    "ultima_compra": "2026-04-25"
+  },
+  {
+    "dni": "23517466",
+    "nombre": "TORANZO JOSE MARIA",
+    "telefono": "3813633010",
+    "tel2": "4377290",
     "tel3": "0",
-    "ultima_compra": "2025-07-17"
+    "ultima_compra": "2026-04-27"
   },
   {
-    "dni": "28412096",
-    "nombre": "ARROYO FRANCISCO  AR MANDO N",
-    "telefono": "3815778739",
+    "dni": "41881667",
+    "nombre": "TORRES LAURA YOLANDA",
+    "telefono": "3815406530",
     "tel2": "",
     "tel3": "",
-    "ultima_compra": "2025-08-08"
+    "ultima_compra": "2026-04-27"
   },
   {
-    "dni": "11693272",
-    "nombre": "ARROYO HUMBERTEL LAURINDO",
-    "telefono": "3813272296",
-    "tel2": "3816229921",
-    "tel3": "3813519339",
-    "ultima_compra": "2025-07-18"
-  },
-  {
-    "dni": "32635236",
-    "nombre": "AVILA JESSICA ELIZABETH",
-    "telefono": "3816210694",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-07-28"
-  },
-  {
-    "dni": "29175122",
-    "nombre": "AVILA SILVANA CAROLINA",
-    "telefono": "3816270717",
-    "tel2": "4292351",
-    "tel3": "4292160",
-    "ultima_compra": "2025-08-19"
-  },
-  {
-    "dni": "41736703",
-    "nombre": "BANEGAS TANIA SABRINA DEL JESUS",
-    "telefono": "3813965962",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-08-30"
-  },
-  {
-    "dni": "22271017",
-    "nombre": "BARRERA GLORIA ANGELICA",
-    "telefono": "3813485293",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-07-18"
-  },
-  {
-    "dni": "29179672",
-    "nombre": "BORQUEZ SARA",
-    "telefono": "3814484955",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-07-04"
-  },
-  {
-    "dni": "31131723",
-    "nombre": "BRANDAN JOSE VICENTE",
-    "telefono": "3816132251",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-09-16"
-  },
-  {
-    "dni": "10997739",
-    "nombre": "BRAVO CELIA",
-    "telefono": "3813333847",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-08-22"
-  },
-  {
-    "dni": "17376957",
-    "nombre": "BRAVO VICTOR HUGO",
-    "telefono": "3814981886",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-07-19"
-  },
-  {
-    "dni": "22740802",
-    "nombre": "BURGOS RAMON ALBERTO",
-    "telefono": "3813995023",
-    "tel2": "",
-    "tel3": "3815804294",
-    "ultima_compra": "2025-07-21"
-  },
-  {
-    "dni": "41959767",
-    "nombre": "BUSTOS FLORENCIA ANAHI",
-    "telefono": "3815999899",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-09-04"
-  },
-  {
-    "dni": "38161071",
-    "nombre": "CACERES FLORENCIA DEL VALLE",
-    "telefono": "3815529448",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-08-12"
-  },
-  {
-    "dni": "38490364",
-    "nombre": "CARO ANDREA DEL CARMEN",
-    "telefono": "3813447664",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-07-14"
-  },
-  {
-    "dni": "20759227",
-    "nombre": "CARO YOLANDA TRANSITO",
-    "telefono": "3816856991",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-09-27"
-  },
-  {
-    "dni": "21894022",
-    "nombre": "CARRIZO CARLOS ALFREDO",
-    "telefono": "3816666925",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-08-22"
-  },
-  {
-    "dni": "37958237",
-    "nombre": "CARRIZO NICOLAS FRANCO",
-    "telefono": "3815266817",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-06-14"
-  },
-  {
-    "dni": "27206039",
-    "nombre": "CARRIZO RAMON ADRIAN",
-    "telefono": "3815070862",
-    "tel2": "3813594585",
-    "tel3": "0",
-    "ultima_compra": "2025-06-18"
-  },
-  {
-    "dni": "28066561",
-    "nombre": "CASTAÑO NATALIA EVANGELINA",
-    "telefono": "3814021380",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-06-13"
-  },
-  {
-    "dni": "41494822",
-    "nombre": "CASTAÑO SOL ELIZABETH",
-    "telefono": "3816741839",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-09-10"
-  },
-  {
-    "dni": "17823274",
-    "nombre": "CHAVES JOSE ERNESTO",
-    "telefono": "3815351915",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-09-10"
-  },
-  {
-    "dni": "29650815",
-    "nombre": "CHAVEZ BRITO MARIA ANGELICA",
-    "telefono": "3815543604",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-08-19"
-  },
-  {
-    "dni": "27731971",
-    "nombre": "CHOQUE MARIA VICTORIA",
-    "telefono": "3815172263",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-06-28"
-  },
-  {
-    "dni": "12360881",
-    "nombre": "CONCHA JUAN PEDRO",
-    "telefono": "3815295573",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-09-10"
-  },
-  {
-    "dni": "29018073",
-    "nombre": "CONTRERAS JOSE GERARDO",
-    "telefono": "3813367015",
-    "tel2": "",
-    "tel3": "3815433738",
-    "ultima_compra": "2025-08-14"
-  },
-  {
-    "dni": "28531445",
-    "nombre": "CORDOBA FERNANDO RAL",
-    "telefono": "3816338447",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-09-12"
-  },
-  {
-    "dni": "14300338",
-    "nombre": "CORDOBA NELIDA YSIDORA",
-    "telefono": "3815115600",
-    "tel2": "3812191285",
-    "tel3": "",
-    "ultima_compra": "2025-07-05"
-  },
-  {
-    "dni": "14950047",
-    "nombre": "CORONEL FRANCISCA ANTONIA",
-    "telefono": "3816476820",
-    "tel2": "155216231",
-    "tel3": "0",
-    "ultima_compra": "2025-08-21"
-  },
-  {
-    "dni": "35549648",
-    "nombre": "CORONEL MAYRA ALEJANDRA",
-    "telefono": "3816674498",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-09-19"
-  },
-  {
-    "dni": "34357168",
-    "nombre": "CORONEL SONIA VALERIA",
-    "telefono": "3812490567",
-    "tel2": "3815409601",
-    "tel3": "0",
-    "ultima_compra": "2025-08-14"
-  },
-  {
-    "dni": "37728887",
-    "nombre": "CORREA CINTIA ROCIO",
-    "telefono": "3815271137",
-    "tel2": "3815460948",
-    "tel3": "",
-    "ultima_compra": "2025-06-13"
-  },
-  {
-    "dni": "12430751",
-    "nombre": "CUEVAS PABLO RAFAEL",
-    "telefono": "3816259447",
-    "tel2": "",
-    "tel3": "3814122561",
-    "ultima_compra": "2025-07-01"
-  },
-  {
-    "dni": "23519754",
-    "nombre": "DI SALVO STELLA MARI",
-    "telefono": "3815887649",
-    "tel2": "3813497570",
-    "tel3": "0",
-    "ultima_compra": "2025-07-25"
-  },
-  {
-    "dni": "27370830",
-    "nombre": "DIAZ ALDO ANDRES",
-    "telefono": "3815130740",
-    "tel2": "",
-    "tel3": "3814453313",
-    "ultima_compra": "2025-06-13"
-  },
-  {
-    "dni": "36998838",
-    "nombre": "DIAZ LINDOR MAXIMILIANO",
-    "telefono": "3812498440",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-09-06"
-  },
-  {
-    "dni": "42502235",
-    "nombre": "DIAZ MARTIN ALEJANDRO",
-    "telefono": "3815743378",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-08-07"
-  },
-  {
-    "dni": "22180617",
-    "nombre": "DIOSQUE ANA MARIA",
-    "telefono": "3815104164",
-    "tel2": "3813029817",
-    "tel3": "3815104164",
-    "ultima_compra": "2025-08-23"
-  },
-  {
-    "dni": "22331514",
-    "nombre": "DURAN MARTA DE LOS ANGELES",
-    "telefono": "3813585157",
-    "tel2": "2300642",
-    "tel3": "3813931271",
-    "ultima_compra": "2025-08-09"
-  },
-  {
-    "dni": "20163614",
-    "nombre": "ESPINOZA JOSE MIGUEL",
-    "telefono": "3814139908",
-    "tel2": "3814139908",
-    "tel3": "3813973469",
-    "ultima_compra": "2025-06-13"
-  },
-  {
-    "dni": "10321277",
-    "nombre": "FERNANDEZ ANGELA CRISTINA",
-    "telefono": "3816397125",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-08-19"
-  },
-  {
-    "dni": "45193423",
-    "nombre": "FERNANDEZ BRENDA ANTONELLA",
-    "telefono": "3815307866",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-06-10"
-  },
-  {
-    "dni": "31505718",
-    "nombre": "FERNANDEZ CELINA VANESA",
-    "telefono": "3816248893",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-06-13"
-  },
-  {
-    "dni": "26762318",
-    "nombre": "FERNANDEZ GABRIEL OSCAR",
-    "telefono": "3816339721",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-08-01"
-  },
-  {
-    "dni": "33891825",
-    "nombre": "FERNANDEZ SILVIA LORENA",
-    "telefono": "3816625905",
-    "tel2": "3816953067",
-    "tel3": "0",
-    "ultima_compra": "2025-06-14"
-  },
-  {
-    "dni": "44751813",
-    "nombre": "FERREYRA BRENDA NAHIR",
-    "telefono": "3815305609",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-09-26"
-  },
-  {
-    "dni": "20686137",
-    "nombre": "FRIAS NORMA MARGARITA",
-    "telefono": "3813290785",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-07-08"
-  },
-  {
-    "dni": "43850406",
-    "nombre": "FRIAS PAULINA VALERIA",
-    "telefono": "3816664298",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-09-10"
-  },
-  {
-    "dni": "29342196",
-    "nombre": "GALARZA JORGELINA MICAELA",
-    "telefono": "3814485505",
-    "tel2": "3814485505",
-    "tel3": "",
-    "ultima_compra": "2025-09-17"
-  },
-  {
-    "dni": "39699891",
-    "nombre": "GALVAN GABRIEL HORACIO",
-    "telefono": "3813402455",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-08-23"
-  },
-  {
-    "dni": "28531365",
-    "nombre": "GAUNA NOEMI VELERIA",
-    "telefono": "3815585106",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-09-04"
-  },
-  {
-    "dni": "29743548",
-    "nombre": "GODOY MERCEDES JORGELINA",
-    "telefono": "3814144139",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-09-10"
-  },
-  {
-    "dni": "25502348",
-    "nombre": "GOMEZ MARIA ESTELA",
-    "telefono": "3816511111",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-08-06"
-  },
-  {
-    "dni": "38060943",
-    "nombre": "GONZALEZ BRENDA MARGARITA",
-    "telefono": "3816694238",
-    "tel2": "3816694238",
-    "tel3": "3813290559",
-    "ultima_compra": "2025-09-19"
-  },
-  {
-    "dni": "27562019",
-    "nombre": "GONZALEZ ESTELA MIRTA",
-    "telefono": "3815589634",
-    "tel2": "4291442",
-    "tel3": "3815589636",
-    "ultima_compra": "2025-09-02"
-  },
-  {
-    "dni": "34763883",
-    "nombre": "GONZALEZ GRACIELA DE LOS ANGELES",
-    "telefono": "3813484792",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-08-21"
-  },
-  {
-    "dni": "26980678",
-    "nombre": "GONZALEZ JACINTA DEL VALLE",
-    "telefono": "3813288780",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-06-14"
-  },
-  {
-    "dni": "14300049",
-    "nombre": "GONZALEZ RITA DOLORES",
-    "telefono": "3815704437",
-    "tel2": "4942449",
-    "tel3": "",
-    "ultima_compra": "2025-06-07"
-  },
-  {
-    "dni": "43500583",
-    "nombre": "GUZMAN JIMENA AGUSTINA",
-    "telefono": "3816404899",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-06-18"
-  },
-  {
-    "dni": "35811181",
-    "nombre": "HEREDIA ANGEL RICARDO",
-    "telefono": "3814019077",
-    "tel2": "3816923275",
-    "tel3": "0",
-    "ultima_compra": "2025-08-28"
-  },
-  {
-    "dni": "45667965",
-    "nombre": "HERRERA BRIAN PAOLO",
-    "telefono": "3814740364",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-08-16"
-  },
-  {
-    "dni": "25741103",
-    "nombre": "HERRERA GRACIELA DEL VALLE",
-    "telefono": "3815766929",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-07-14"
-  },
-  {
-    "dni": "39478025",
-    "nombre": "HERRERA MARTA ROSA",
-    "telefono": "3814417236",
-    "tel2": "3813350959",
-    "tel3": "",
-    "ultima_compra": "2025-06-14"
-  },
-  {
-    "dni": "22642422",
-    "nombre": "HERRERA RUBEN OMAR",
-    "telefono": "3814062246",
-    "tel2": "3814062246",
-    "tel3": "",
-    "ultima_compra": "2025-07-11"
-  },
-  {
-    "dni": "12352694",
-    "nombre": "IBARRA JUAN CRISOSTOMO",
-    "telefono": "3816106506",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-06-27"
-  },
-  {
-    "dni": "45959955",
-    "nombre": "IBARRA JUAN MANUEL",
-    "telefono": "3812208715",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-07-15"
-  },
-  {
-    "dni": "22613662",
-    "nombre": "IBAÑEZ PABLO FRANCISCO",
-    "telefono": "3815676290",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-08-12"
-  },
-  {
-    "dni": "24832739",
-    "nombre": "JAIMES LILIA ESTHER",
-    "telefono": "3814198199",
-    "tel2": "381154198199",
-    "tel3": "0",
-    "ultima_compra": "2025-07-28"
-  },
-  {
-    "dni": "30498309",
-    "nombre": "JEREZ DANIEL MARTIN",
-    "telefono": "3815787284",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-06-26"
-  },
-  {
-    "dni": "26718998",
-    "nombre": "JIMENEZ LAZARTE NILDA ROSARIO",
-    "telefono": "3816659307",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-07-03"
-  },
-  {
-    "dni": "32170329",
-    "nombre": "JIMENEZ PATRICIA MABEL",
-    "telefono": "3816654846",
-    "tel2": "3816654846",
-    "tel3": "0",
-    "ultima_compra": "2025-06-21"
-  },
-  {
-    "dni": "37106419",
-    "nombre": "JIMENEZ RODOLFO OSMAR",
-    "telefono": "3813257302",
-    "tel2": "3813257302",
-    "tel3": "",
-    "ultima_compra": "2025-09-03"
-  },
-  {
-    "dni": "27211322",
-    "nombre": "JUAREZ ARIEL SEBASTIAN",
-    "telefono": "3816676280",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-06-13"
-  },
-  {
-    "dni": "45118257",
-    "nombre": "JUAREZ FERNANDO MANUEL",
-    "telefono": "3814720305",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-06-06"
-  },
-  {
-    "dni": "29455999",
-    "nombre": "JUAREZ HUGO EDUARDO",
-    "telefono": "3816417703",
-    "tel2": "3816480077",
-    "tel3": "0",
-    "ultima_compra": "2025-06-30"
-  },
-  {
-    "dni": "43433351",
-    "nombre": "JUAREZ LEONARDO NICOLAS",
-    "telefono": "3813852179",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-06-13"
-  },
-  {
-    "dni": "10321292",
-    "nombre": "JUAREZ ROMULO ALFREDO",
-    "telefono": "3812102262",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-06-13"
-  },
-  {
-    "dni": "41383549",
-    "nombre": "JUAREZ TATIANA DANIELA",
-    "telefono": "3814762738",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-07-22"
-  },
-  {
-    "dni": "29095794",
-    "nombre": "LAZARTE GUSTAVO ADOLFO",
-    "telefono": "3815561594",
-    "tel2": "3813320237",
-    "tel3": "",
-    "ultima_compra": "2025-08-20"
-  },
-  {
-    "dni": "35811170",
-    "nombre": "LAZARTE MARINA MARIANA",
-    "telefono": "3812510188",
-    "tel2": "156622409",
-    "tel3": "",
-    "ultima_compra": "2025-09-26"
-  },
-  {
-    "dni": "27224117",
-    "nombre": "LEDESMA NANCY ANTONIA",
-    "telefono": "3813534238",
-    "tel2": "3813534238",
-    "tel3": "0",
-    "ultima_compra": "2025-09-15"
-  },
-  {
-    "dni": "35816471",
-    "nombre": "LEDESMA RODOLFO SEBASTIAN",
-    "telefono": "3815975953",
-    "tel2": "3815975953",
-    "tel3": "3813366352",
-    "ultima_compra": "2025-09-26"
-  },
-  {
-    "dni": "13853569",
-    "nombre": "LEGUIZAMON NESTOR ENRIQUE",
-    "telefono": "3815808022",
-    "tel2": "3815808022",
-    "tel3": "",
-    "ultima_compra": "2025-09-16"
-  },
-  {
-    "dni": "33483029",
-    "nombre": "LESCANO CARLOS HERNAN",
-    "telefono": "3813280548",
-    "tel2": "3815684624",
-    "tel3": "",
-    "ultima_compra": "2025-08-29"
-  },
-  {
-    "dni": "29742889",
-    "nombre": "LIZARRAGA MARIA DEL TRANSITO",
-    "telefono": "3813541202",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-08-20"
-  },
-  {
-    "dni": "12950947",
-    "nombre": "LOBO ANGELA VICTORIA",
-    "telefono": "3815556885",
-    "tel2": "3814421223",
-    "tel3": "",
-    "ultima_compra": "2025-08-26"
-  },
-  {
-    "dni": "45278611",
-    "nombre": "LOPEZ CANDELA MICAELA",
-    "telefono": "3814193912",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-09-15"
-  },
-  {
-    "dni": "14625682",
-    "nombre": "LOPEZ DORA ISABEL",
-    "telefono": "3815422929",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-08-04"
-  },
-  {
-    "dni": "32863209",
-    "nombre": "LOPEZ JULIA NOEMI",
-    "telefono": "3813645537",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-09-25"
-  },
-  {
-    "dni": "31811929",
-    "nombre": "MADRID MIGUEL ALBERTO",
-    "telefono": "3813481917",
-    "tel2": "3816616961",
-    "tel3": "3813408288",
-    "ultima_compra": "2025-06-12"
-  },
-  {
-    "dni": "31353666",
-    "nombre": "MARTINEZ ELBIO DANTE",
-    "telefono": "3814575644",
-    "tel2": "4276406",
-    "tel3": "3814560799",
-    "ultima_compra": "2025-09-05"
-  },
-  {
-    "dni": "37504630",
-    "nombre": "MEDINA FRANCO DARIO",
-    "telefono": "3815711392",
-    "tel2": "",
-    "tel3": "3815417715",
-    "ultima_compra": "2025-08-28"
-  },
-  {
-    "dni": "14525037",
-    "nombre": "MEDINA GRACIELA",
-    "telefono": "3816093537",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-06-10"
-  },
-  {
-    "dni": "30497031",
-    "nombre": "MEDINA GRACIELA DEL VALLE",
-    "telefono": "3812037284",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-09-05"
-  },
-  {
-    "dni": "33755487",
-    "nombre": "MEDINA LEDESMA RITA DEL VALLE",
-    "telefono": "3814571701",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-09-16"
-  },
-  {
-    "dni": "20819563",
-    "nombre": "MEDINA SERGIO",
-    "telefono": "3814540778",
+    "dni": "13785028",
+    "nombre": "TORRES LYDIA",
+    "telefono": "3873527393",
     "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-06-13"
-  },
-  {
-    "dni": "12306844",
-    "nombre": "MENDOZA MIGUEL ALBERTO",
-    "telefono": "3812008614",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-07-24"
-  },
-  {
-    "dni": "6543451",
-    "nombre": "MENDOZA TOMASA CRISTINA",
-    "telefono": "3816891976",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-09-13"
-  },
-  {
-    "dni": "35811400",
-    "nombre": "MOLINA CAYETANO ISAC",
-    "telefono": "3813942956",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-08-04"
-  },
-  {
-    "dni": "18581215",
-    "nombre": "MORALES LUCIA EMILIA",
-    "telefono": "3813665921",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-09-13"
-  },
-  {
-    "dni": "34283181",
-    "nombre": "MORE LUIS GREGORIO",
-    "telefono": "3816652625",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-06-11"
-  },
-  {
-    "dni": "29742872",
-    "nombre": "MORENO LEONARDO ESTEBAN",
-    "telefono": "3816334645",
-    "tel2": "154429753",
-    "tel3": "3815994556",
-    "ultima_compra": "2025-09-05"
-  },
-  {
-    "dni": "35522929",
-    "nombre": "MOYANO GLADYS ABIGAIL",
-    "telefono": "3812368917",
-    "tel2": "",
-    "tel3": "3814747429",
-    "ultima_compra": "2025-06-14"
-  },
-  {
-    "dni": "20757784",
-    "nombre": "MOYANO MARTIN MARIO",
-    "telefono": "3816041442",
-    "tel2": "38160041442",
-    "tel3": "3816813373",
-    "ultima_compra": "2025-09-12"
-  },
-  {
-    "dni": "28251892",
-    "nombre": "MURUA MARCOS RAMON",
-    "telefono": "3815833424",
-    "tel2": "3815833424",
-    "tel3": "",
-    "ultima_compra": "2025-06-14"
-  },
-  {
-    "dni": "40709634",
-    "nombre": "NAVARRO JOSE MARIA",
-    "telefono": "3816515252",
-    "tel2": "",
-    "tel3": "3873600953",
-    "ultima_compra": "2025-08-19"
-  },
-  {
-    "dni": "36767624",
-    "nombre": "NAVARRO OSCAR MAURICIO",
-    "telefono": "3816209000",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-07-26"
-  },
-  {
-    "dni": "35522794",
-    "nombre": "NIEVA CLAUDIA GRACIELA",
-    "telefono": "3816702068",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-09-06"
-  },
-  {
-    "dni": "32731546",
-    "nombre": "NIEVA MARIA LUJAN",
-    "telefono": "3813279597",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-09-06"
-  },
-  {
-    "dni": "20162969",
-    "nombre": "ORELLANA JORGE EDUARDO",
-    "telefono": "3813983014",
-    "tel2": "",
-    "tel3": "3815066369",
-    "ultima_compra": "2025-08-29"
-  },
-  {
-    "dni": "24581881",
-    "nombre": "ORTIZ ARIEL GUSTAVO",
-    "telefono": "3813387552",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-06-24"
-  },
-  {
-    "dni": "16154069",
-    "nombre": "OSORES LUIS ALBERTO",
-    "telefono": "3815687308",
-    "tel2": "3813922458",
-    "tel3": "3815698339",
-    "ultima_compra": "2025-08-18"
-  },
-  {
-    "dni": "30068315",
-    "nombre": "PAEZ VICTOR HUGO",
-    "telefono": "3815713054",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-06-21"
-  },
-  {
-    "dni": "30770206",
-    "nombre": "PALAVECINO ROSA DEL CARMEN",
-    "telefono": "3813954011",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-08-09"
-  },
-  {
-    "dni": "43962286",
-    "nombre": "PALOMINO EMILSE BELEN",
-    "telefono": "3815702664",
-    "tel2": "3815702664",
-    "tel3": "0",
-    "ultima_compra": "2025-08-08"
-  },
-  {
-    "dni": "32626607",
-    "nombre": "PALOMINO ROSA BEATRIZ",
-    "telefono": "3815715522",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-09-01"
-  },
-  {
-    "dni": "43161259",
-    "nombre": "PAVON KAREN NOELIA",
-    "telefono": "3816631057",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-09-19"
-  },
-  {
-    "dni": "21867704",
-    "nombre": "PAZ VICTOR HUGO",
-    "telefono": "3816524782",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-08-16"
-  },
-  {
-    "dni": "39143819",
-    "nombre": "PERALTA TAMARA MARIA SOL",
-    "telefono": "3813334295",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-06-25"
-  },
-  {
-    "dni": "10847920",
-    "nombre": "PEREIRA ANGELA MARIA",
-    "telefono": "3813482399",
-    "tel2": "0",
-    "tel3": "0",
-    "ultima_compra": "2025-08-21"
-  },
-  {
-    "dni": "10791367",
-    "nombre": "PEREYRA HAIDEE AMERICA",
-    "telefono": "3813327713",
-    "tel2": "3814631954",
-    "tel3": "",
-    "ultima_compra": "2025-09-12"
-  },
-  {
-    "dni": "40727390",
-    "nombre": "PEREZ ALEJANDRO DAVID",
-    "telefono": "3816493066",
-    "tel2": "3816493066",
-    "tel3": "",
-    "ultima_compra": "2025-09-15"
-  },
-  {
-    "dni": "22969464",
-    "nombre": "PEREZ GRACIELA DEL VALLE",
-    "telefono": "3812132472",
-    "tel2": "3816491540",
-    "tel3": "0",
-    "ultima_compra": "2025-09-13"
-  },
-  {
-    "dni": "13641147",
-    "nombre": "PEREZ JUANA MARCELINA",
-    "telefono": "3815109384",
-    "tel2": "4371052",
-    "tel3": "",
-    "ultima_compra": "2025-08-23"
-  },
-  {
-    "dni": "31946914",
-    "nombre": "PEREZ RITA BEATRIZ",
-    "telefono": "3816835084",
-    "tel2": "",
-    "tel3": "3813899504",
-    "ultima_compra": "2025-09-30"
-  },
-  {
-    "dni": "16691689",
-    "nombre": "PINO RAMON ALBERTO",
-    "telefono": "3815090034",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-06-13"
-  },
-  {
-    "dni": "35816832",
-    "nombre": "PISTAN LINA DEL VALLE",
-    "telefono": "3813355189",
-    "tel2": "3813355189",
-    "tel3": "",
-    "ultima_compra": "2025-06-24"
-  },
-  {
-    "dni": "31714084",
-    "nombre": "PONCE CLAUDIA ELIZABETH",
-    "telefono": "3812202203",
-    "tel2": "3812202203",
-    "tel3": "",
-    "ultima_compra": "2025-08-15"
-  },
-  {
-    "dni": "43563611",
-    "nombre": "PONCE FERNANDA ANGELICA",
-    "telefono": "3815241458",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-07-30"
-  },
-  {
-    "dni": "30000193",
-    "nombre": "QUINTANA CLAUDIO MARCELO",
-    "telefono": "3816454280",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-06-13"
-  },
-  {
-    "dni": "24300771",
-    "nombre": "REINOSO JOAQUIN ALFREDO",
-    "telefono": "3813505785",
-    "tel2": "",
-    "tel3": "3813505785",
-    "ultima_compra": "2025-06-11"
-  },
-  {
-    "dni": "24736653",
-    "nombre": "RIOS VICTOR FERNANDO",
-    "telefono": "3813334959",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-08-29"
-  },
-  {
-    "dni": "12921993",
-    "nombre": "RIVADENEIRA ORLANDO RAFAEL",
-    "telefono": "3812421485",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-09-11"
-  },
-  {
-    "dni": "25844336",
-    "nombre": "RIVADENEIRA SILVIA ROSALIA",
-    "telefono": "3815674037",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-08-20"
-  },
-  {
-    "dni": "29879287",
-    "nombre": "RIVADENEIRA VIVIANA DEL VALLE",
-    "telefono": "3863557207",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-07-18"
-  },
-  {
-    "dni": "31430185",
-    "nombre": "RIVAS VIVIANA NOEMI",
-    "telefono": "3814684799",
-    "tel2": "3815093811",
-    "tel3": "0",
-    "ultima_compra": "2025-06-07"
-  },
-  {
-    "dni": "44814307",
-    "nombre": "ROBLES NADIR AYELEN",
-    "telefono": "3813344324",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-08-30"
-  },
-  {
-    "dni": "25372463",
-    "nombre": "ROCHA KARINA FABIOLA",
-    "telefono": "3812436871",
-    "tel2": "03813074303",
-    "tel3": "",
-    "ultima_compra": "2025-08-14"
-  },
-  {
-    "dni": "28292016",
-    "nombre": "RODRIGUEZ MARTIN OSCAR",
-    "telefono": "3815036512",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-06-19"
-  },
-  {
-    "dni": "25936975",
-    "nombre": "RODRIGUEZ MIRIAN ANGELICA",
-    "telefono": "3816418373",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-08-20"
-  },
-  {
-    "dni": "38248592",
-    "nombre": "ROJAS LUCIA ROSANA",
-    "telefono": "3815554756",
-    "tel2": "3815554756",
-    "tel3": "",
-    "ultima_compra": "2025-07-12"
-  },
-  {
-    "dni": "20284145",
-    "nombre": "ROLANDO SANDRA SOLEDAD",
-    "telefono": "3815060838",
-    "tel2": "3815060838",
-    "tel3": "",
-    "ultima_compra": "2025-07-25"
-  },
-  {
-    "dni": "41533099",
-    "nombre": "ROLDAN AVILA IVAN ESTEBAN",
-    "telefono": "3815170389",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-09-13"
-  },
-  {
-    "dni": "16481161",
-    "nombre": "ROLDAN RAMONA DEL JESUS",
-    "telefono": "3812365496",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-09-19"
-  },
-  {
-    "dni": "37312386",
-    "nombre": "ROMANO ALEJANDRA YANINA",
-    "telefono": "3813030899",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-09-24"
-  },
-  {
-    "dni": "37485651",
-    "nombre": "ROMANO HILDA JACQUELINE",
-    "telefono": "3816400047",
-    "tel2": "",
-    "tel3": "3814186584",
-    "ultima_compra": "2025-06-10"
-  },
-  {
-    "dni": "11520337",
-    "nombre": "ROSALES CRISTINA ELENA",
-    "telefono": "3814571992",
-    "tel2": "0",
-    "tel3": "3812532238",
-    "ultima_compra": "2025-07-22"
-  },
-  {
-    "dni": "22805976",
-    "nombre": "RUIZ CARLOS ANTONIO",
-    "telefono": "3812175882",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-07-22"
-  },
-  {
-    "dni": "33328648",
-    "nombre": "SALAZAR MARIA FERNANDA",
-    "telefono": "3816508459",
-    "tel2": "3813478899",
-    "tel3": "",
-    "ultima_compra": "2025-06-23"
-  },
-  {
-    "dni": "43846880",
-    "nombre": "SALDAÑO GERMAN EXEQUIEL",
-    "telefono": "3815232528",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-07-25"
-  },
-  {
-    "dni": "42006839",
-    "nombre": "SANCHEZ DIEGO ALEJANDRO",
-    "telefono": "3814762098",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-09-10"
-  },
-  {
-    "dni": "21813944",
-    "nombre": "SANCHEZ MARIO FABIAN",
-    "telefono": "3812360517",
-    "tel2": "",
-    "tel3": "3813280580",
-    "ultima_compra": "2025-06-14"
+    "tel3": "1166469123",
+    "ultima_compra": "2026-04-27"
   },
   {
-    "dni": "25945815",
-    "nombre": "SANTILLAN DANIELA ALEJANDRA",
-    "telefono": "3813901472",
+    "dni": "33657002",
+    "nombre": "TOSCANO YOHANA ALEJANDRA",
+    "telefono": "3863575759",
     "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-09-15"
-  },
-  {
-    "dni": "45126578",
-    "nombre": "SANTUCHO ALAN SANTIAGO",
-    "telefono": "3815688063",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-09-17"
-  },
-  {
-    "dni": "28618533",
-    "nombre": "SANTUCHO LILIANA DEL VALLE",
-    "telefono": "3815767409",
-    "tel2": "",
-    "tel3": "3815767409",
-    "ultima_compra": "2025-06-26"
-  },
-  {
-    "dni": "26832336",
-    "nombre": "SANTUCHO MAGDALENA DEL TRANSITO",
-    "telefono": "3814467687",
-    "tel2": "3813243887",
-    "tel3": "0",
-    "ultima_compra": "2025-07-08"
-  },
-  {
-    "dni": "25776584",
-    "nombre": "SEGURA CRISTIAN CESAR",
-    "telefono": "3815073929",
-    "tel2": "3814946209",
-    "tel3": "",
-    "ultima_compra": "2025-08-16"
-  },
-  {
-    "dni": "28341809",
-    "nombre": "SEQUEIRA PABLO JESUS",
-    "telefono": "3812032645",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-09-22"
-  },
-  {
-    "dni": "29997103",
-    "nombre": "SIERRA MARIA LAURA",
-    "telefono": "3815790309",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-09-09"
-  },
-  {
-    "dni": "11025613",
-    "nombre": "SIERRA SISTA FRANCISCA",
-    "telefono": "3816708851",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-07-03"
-  },
-  {
-    "dni": "17292403",
-    "nombre": "SILCAN NORMA FIDELA",
-    "telefono": "3815759392",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-09-12"
-  },
-  {
-    "dni": "23785402",
-    "nombre": "SILVA DOLORES DEL VALLE",
-    "telefono": "3815301009",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-08-07"
-  },
-  {
-    "dni": "17924397",
-    "nombre": "SOLOAGA TERESA DEL VALLE",
-    "telefono": "3816100386",
-    "tel2": "3816541741",
-    "tel3": "0",
-    "ultima_compra": "2025-09-05"
+    "tel3": "3813989779",
+    "ultima_compra": "2026-04-24"
   },
   {
-    "dni": "14713567",
-    "nombre": "SORIA GRACIELA DEL VALLE",
-    "telefono": "3814698695",
+    "dni": "44795398",
+    "nombre": "TREJO LUIS FERNANDO",
+    "telefono": "3814481827",
     "tel2": "",
-    "tel3": "3815272315",
-    "ultima_compra": "2025-08-13"
-  },
-  {
-    "dni": "23959506",
-    "nombre": "SORIA JOSE ALFREDO",
-    "telefono": "3813461594",
-    "tel2": "153461594",
-    "tel3": "",
-    "ultima_compra": "2025-08-11"
-  },
-  {
-    "dni": "12413373",
-    "nombre": "SORIA PEDRO HUMBERTO",
-    "telefono": "3812125852",
-    "tel2": "3813201344",
-    "tel3": "3813939882",
-    "ultima_compra": "2025-06-25"
+    "tel3": "3814481842",
+    "ultima_compra": "2026-04-27"
   },
   {
-    "dni": "39357052",
-    "nombre": "SORIA WALTER ALFREDO",
-    "telefono": "3812239182",
+    "dni": "14234707",
+    "nombre": "UATES HECTOR ALFREDO",
+    "telefono": "3816445490",
     "tel2": "",
     "tel3": "",
-    "ultima_compra": "2025-08-01"
+    "ultima_compra": "2026-04-29"
   },
   {
-    "dni": "40274018",
-    "nombre": "SOSA CRISTIAN DANIEL",
-    "telefono": "3812499259",
+    "dni": "16888734",
+    "nombre": "UGARTE NORMA LILIANA",
+    "telefono": "3873539389",
     "tel2": "",
-    "tel3": "3812499259",
-    "ultima_compra": "2025-06-26"
+    "tel3": "3873309632",
+    "ultima_compra": "2026-04-24"
   },
   {
-    "dni": "43709718",
-    "nombre": "SOSA MELINA DEL ROSARIO",
-    "telefono": "3813265726",
+    "dni": "35520879",
+    "nombre": "VALDEZ CAROLINA DEL VALLE",
+    "telefono": "3863530368",
     "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-07-04"
-  },
-  {
-    "dni": "28416940",
-    "nombre": "SUAREZ JOSE DOMINGO",
-    "telefono": "3814725053",
-    "tel2": "3814725053",
-    "tel3": "3815528994",
-    "ultima_compra": "2025-07-14"
+    "tel3": "3863548091",
+    "ultima_compra": "2026-04-25"
   },
   {
-    "dni": "44920408",
-    "nombre": "SUAREZ XIMENA JUDITH",
-    "telefono": "3812032354",
-    "tel2": "",
+    "dni": "24443204",
+    "nombre": "VALLEJOS LUCIA NANCY",
+    "telefono": "3873606150",
+    "tel2": "03873422892",
     "tel3": "",
-    "ultima_compra": "2025-07-04"
+    "ultima_compra": "2026-04-22"
   },
   {
-    "dni": "50715659",
-    "nombre": "SUASNABA GABRIELA BEATRIZ",
-    "telefono": "3813342385",
+    "dni": "34605580",
+    "nombre": "VARGAS MANUEL ALEJANDRO",
+    "telefono": "3886643959",
     "tel2": "",
-    "tel3": "3813911637",
-    "ultima_compra": "2025-07-23"
+    "tel3": "3886038324",
+    "ultima_compra": "2026-04-30"
   },
   {
-    "dni": "25740426",
-    "nombre": "TOLEDO GUILLERMINA DEL CARMEN",
-    "telefono": "3814023834",
+    "dni": "16167088",
+    "nombre": "VARGAS NORMA BEATRIZ",
+    "telefono": "3873225148",
     "tel2": "",
-    "tel3": "3813043157",
-    "ultima_compra": "2025-07-30"
-  },
-  {
-    "dni": "33351954",
-    "nombre": "TORRES ROMINA NATALI",
-    "telefono": "3812124926",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-09-06"
+    "tel3": "03873225148",
+    "ultima_compra": "2026-04-24"
   },
   {
-    "dni": "23027108",
-    "nombre": "TREJO ROSA ELVIRA",
-    "telefono": "3812007237",
-    "tel2": "",
+    "dni": "31581468",
+    "nombre": "VELAZQUEZ ARIEL JAIRO",
+    "telefono": "3886590370",
+    "tel2": "433590",
     "tel3": "",
-    "ultima_compra": "2025-08-14"
+    "ultima_compra": "2026-04-30"
   },
   {
-    "dni": "37096742",
-    "nombre": "VALDIVIA ARIEL ESTEBAN",
-    "telefono": "3816626893",
+    "dni": "43220528",
+    "nombre": "VELAZQUEZ DANIELA MARISEL",
+    "telefono": "3873588837",
     "tel2": "",
     "tel3": "",
-    "ultima_compra": "2025-07-04"
+    "ultima_compra": "2026-04-30"
   },
   {
-    "dni": "29081777",
-    "nombre": "VARGAS PAOLA ANDREA",
-    "telefono": "3816848736",
+    "dni": "25009317",
+    "nombre": "VELIZ ELVIRA DEL TRANSITO",
+    "telefono": "3813400547",
     "tel2": "",
     "tel3": "",
-    "ultima_compra": "2025-07-08"
+    "ultima_compra": "2026-04-28"
   },
   {
-    "dni": "27271676",
-    "nombre": "VASQUEZ FRANCO AUGUSTO",
-    "telefono": "3813421220",
+    "dni": "23616981",
+    "nombre": "VELIZ MARCELO EDUARDO",
+    "telefono": "3865667867",
     "tel2": "",
     "tel3": "",
-    "ultima_compra": "2025-09-27"
-  },
-  {
-    "dni": "5815274",
-    "nombre": "VAZQUEZ JULIA DEL CARMEN",
-    "telefono": "3813968387",
-    "tel2": "3814477616",
-    "tel3": "0",
-    "ultima_compra": "2025-06-09"
+    "ultima_compra": "2026-04-29"
   },
   {
-    "dni": "21337165",
-    "nombre": "VELEZ RODOLFO ROBERTO",
-    "telefono": "3816549687",
+    "dni": "24621566",
+    "nombre": "VILLAFAÑE SERGIO MIGUEL",
+    "telefono": "3812085184",
     "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-08-07"
-  },
-  {
-    "dni": "16945896",
-    "nombre": "VELIZ NORMA BEATRIZ",
-    "telefono": "3816701824",
-    "tel2": "3816701824",
     "tel3": "",
-    "ultima_compra": "2025-06-06"
+    "ultima_compra": "2026-04-22"
   },
   {
-    "dni": "43175701",
-    "nombre": "VERA DELFINA SOLANGE",
-    "telefono": "3813973130",
+    "dni": "44191383",
+    "nombre": "VILLAGRA ROMERO DAYRA YANINA",
+    "telefono": "3865246669",
     "tel2": "",
     "tel3": "",
-    "ultima_compra": "2025-06-10"
+    "ultima_compra": "2026-04-30"
   },
   {
-    "dni": "14241920",
-    "nombre": "VERA MARIA LILIANA",
-    "telefono": "3812092420",
+    "dni": "29744585",
+    "nombre": "YAPURA JORGE ENRIQUE",
+    "telefono": "3816614769",
     "tel2": "",
     "tel3": "",
-    "ultima_compra": "2025-08-13"
+    "ultima_compra": "2026-04-30"
   },
   {
-    "dni": "24201739",
-    "nombre": "VERA MIRYAN LORENA",
-    "telefono": "3813862013",
-    "tel2": "",
+    "dni": "43710104",
+    "nombre": "YBARRA MICAELA DEL MILAGRO",
+    "telefono": "3815293846",
+    "tel2": "3815293846",
     "tel3": "",
-    "ultima_compra": "2025-06-12"
+    "ultima_compra": "2026-04-24"
   },
   {
-    "dni": "39728284",
-    "nombre": "VERA TAMARA SOLEDAD",
-    "telefono": "3813031139",
+    "dni": "33138243",
+    "nombre": "ZALAZAR DANIELA YENINA",
+    "telefono": "3873643578",
     "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-09-13"
+    "tel3": "0387315633518",
+    "ultima_compra": "2026-04-24"
   },
   {
-    "dni": "29812039",
-    "nombre": "VILDOZA ANDREA ANAHI",
-    "telefono": "3814438428",
+    "dni": "13311209",
+    "nombre": "ZAMORANO RAUL HORACIO",
+    "telefono": "3865541853",
     "tel2": "",
     "tel3": "",
-    "ultima_compra": "2025-09-19"
+    "ultima_compra": "2026-04-24"
   },
   {
-    "dni": "45126748",
-    "nombre": "VILLARREAL CESAR ALEXIS",
-    "telefono": "3813973518",
+    "dni": "29139602",
+    "nombre": "ZARATE ELENA DEL VALLE",
+    "telefono": "3865246977",
     "tel2": "",
     "tel3": "",
-    "ultima_compra": "2025-07-03"
+    "ultima_compra": "2026-04-23"
   },
   {
-    "dni": "28966959",
-    "nombre": "VISA HUGO ORLANDO",
-    "telefono": "3814048090",
-    "tel2": "4392665",
+    "dni": "13158743",
+    "nombre": "ZELARAYAN LUIS HIPOLITO",
+    "telefono": "3865230452",
+    "tel2": "493947",
     "tel3": "",
-    "ultima_compra": "2025-06-07"
+    "ultima_compra": "2026-04-22"
   },
   {
-    "dni": "27194897",
-    "nombre": "VIZGARRA GUSTAVO ORLANDO",
-    "telefono": "3814882619",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-06-14"
-  },
-  {
-    "dni": "41496019",
-    "nombre": "YÑIGO JULISA MARIA BELEN",
-    "telefono": "3813903880",
-    "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-09-04"
+    "dni": "38243390",
+    "nombre": "ZELARAYAN RICARDO ABEL",
+    "telefono": "3815692312",
+    "tel2": "3815692312",
+    "tel3": "3814012101",
+    "ultima_compra": "2026-04-28"
   },
   {
-    "dni": "27751641",
-    "nombre": "ZELAYA ALEJANDRA DEL VALLE",
-    "telefono": "3815633989",
+    "dni": "39729410",
+    "nombre": "ZELAYA MARIA ALEJANDRA",
+    "telefono": "2246483787",
     "tel2": "",
-    "tel3": "",
-    "ultima_compra": "2025-07-24"
-  },
-  {
-    "dni": "32927440",
-    "nombre": "ZELAYA DEBORAH GISELA LILIANA",
-    "telefono": "3816641619",
-    "tel2": "4281004",
     "tel3": "",
-    "ultima_compra": "2025-08-02"
+    "ultima_compra": "2026-04-24"
   }
 ]
