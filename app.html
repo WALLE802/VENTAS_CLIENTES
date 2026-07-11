@@ -30,7 +30,13 @@
         <button class="filter-tab active" onclick="setFilter('all', this)">Todos</button>
         <button class="filter-tab" onclick="setFilter('pending', this)">Sin contactar</button>
         <button class="filter-tab" onclick="setFilter('contacted', this)">Contactados</button>
-        <button class="filter-tab" onclick="recoverLocalStorage().catch(e=>showToast('Error: '+e.message,4000))" title="Reenviar a GitHub las gestiones que quedaron guardadas solo en este dispositivo" style="font-size:0.75em;opacity:0.7">🔄 Recuperar</button>
+    </div>
+
+    <!-- Barra de sincronización -->
+    <div class="sync-bar">
+        <span class="sync-hint">¿Gestiones no llegaron al backoffice?</span>
+        <button class="btn-recover" id="btnRecover"
+            onclick="runRecover()">🔄 Enviar al backoffice</button>
     </div>
 
     <!-- Lista de clientes -->
