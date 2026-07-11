@@ -808,5 +808,15 @@
     "client_name": "BRIZUELA CARLOS ORLANDO",
     "contact_type": "sms",
     "phone_used": "3865502864"
+  },
+  {
+    "date": "2026-07-11",
+    "time": "19:48",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "23583358",
+    "client_name": "BRIZUELA MARIA ELENA",
+    "contact_type": "llamada",
+    "phone_used": "3865392912"
   }
 ]
