@@ -908,5 +908,15 @@
     "client_name": "BUSTOS BLANCA AZUCENA",
     "contact_type": "llamada",
     "phone_used": "3815569873"
+  },
+  {
+    "date": "2026-07-11",
+    "time": "20:01",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "30770525",
+    "client_name": "BUSTOS MERCERDES SOLEDAD",
+    "contact_type": "llamada",
+    "phone_used": "3865601919"
   }
 ]
