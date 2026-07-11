@@ -718,5 +718,15 @@
     "client_name": "BEDUINO NATALIA VANESA",
     "contact_type": "llamada",
     "phone_used": "3816783447"
+  },
+  {
+    "date": "2026-07-11",
+    "time": "19:26",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "26797799",
+    "client_name": "BELTRAN LILIANA DEL VALLE",
+    "contact_type": "llamada",
+    "phone_used": "3815260271"
   }
 ]
