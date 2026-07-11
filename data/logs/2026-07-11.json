@@ -288,5 +288,15 @@
     "client_name": "AGUERO MARIA ANTONIA",
     "contact_type": "whatsapp",
     "phone_used": "3813877418"
+  },
+  {
+    "date": "2026-07-11",
+    "time": "17:24",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "27341704",
+    "client_name": "ACOSTA JAVIER RUBEN",
+    "contact_type": "llamada",
+    "phone_used": "3865252564"
   }
 ]
