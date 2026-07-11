@@ -348,9 +348,53 @@ body {
     color: white;
 }
 
+/* ─── SYNC BAR ─── */
+:root {
+    --sync-h: 44px;
+}
+.sync-bar {
+    position: fixed;
+    top: calc(var(--header-h) + var(--search-h) + var(--filter-h));
+    left: 0; right: 0;
+    height: var(--sync-h);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 0 14px;
+    background: #FFF8E1;
+    border-bottom: 1px solid #FFE082;
+    z-index: 170;
+}
+.sync-hint {
+    font-size: 12px;
+    color: #7B6000;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.btn-recover {
+    flex-shrink: 0;
+    padding: 5px 14px;
+    border-radius: 20px;
+    border: 2px solid #F9A825;
+    background: #F9A825;
+    color: #1A1A00;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.15s;
+}
+.btn-recover:active {
+    background: #F57F17;
+    border-color: #F57F17;
+}
+
 /* ─── CLIENT LIST ─── */
 .client-list {
-    margin-top: calc(var(--header-h) + var(--search-h) + var(--filter-h));
+    margin-top: calc(var(--header-h) + var(--search-h) + var(--filter-h) + var(--sync-h));
     padding: 12px 10px 28px;
 }
 
