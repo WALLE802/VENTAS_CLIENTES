@@ -448,5 +448,15 @@
     "client_name": "ALDERETE PEDRO ANTONIO",
     "contact_type": "sms",
     "phone_used": "3813999312"
+  },
+  {
+    "date": "2026-07-11",
+    "time": "18:33",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "13563383",
+    "client_name": "ALE ALCIRA ZULEMA",
+    "contact_type": "llamada",
+    "phone_used": "3863697752"
   }
 ]
