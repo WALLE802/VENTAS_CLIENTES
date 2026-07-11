@@ -388,5 +388,15 @@
     "client_name": "ALBORNOZ AUGUSTO NICANDRO",
     "contact_type": "sms",
     "phone_used": "3865716683"
+  },
+  {
+    "date": "2026-07-11",
+    "time": "17:53",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "11720660",
+    "client_name": "ALBORNOZ FRANCISCA",
+    "contact_type": "llamada",
+    "phone_used": "3874568985"
   }
 ]
