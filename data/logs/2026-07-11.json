@@ -888,5 +888,15 @@
     "client_name": "BULACIO MARIA CARLA *",
     "contact_type": "sms",
     "phone_used": "3865217860"
+  },
+  {
+    "date": "2026-07-11",
+    "time": "19:56",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "38035822",
+    "client_name": "BURGOS MARIO MARCELO EXEQUIEL",
+    "contact_type": "llamada",
+    "phone_used": "3875493373"
   }
 ]
