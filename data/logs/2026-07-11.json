@@ -518,5 +518,15 @@
     "client_name": "ALVAREZ LORENA BEATRIZ",
     "contact_type": "llamada",
     "phone_used": "3816575602"
+  },
+  {
+    "date": "2026-07-11",
+    "time": "18:48",
+    "username": "tafi",
+    "branch": "tafi",
+    "client_dni": "40783164",
+    "client_name": "AMAYA CLAUDIA MABEL",
+    "contact_type": "llamada",
+    "phone_used": "3813517610"
   }
 ]
