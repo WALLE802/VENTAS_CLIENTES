@@ -1588,5 +1588,15 @@
     "client_name": "RODRIGUEZ JOSE LUIS",
     "contact_type": "llamada",
     "phone_used": "3865304491"
+  },
+  {
+    "date": "2026-07-13",
+    "time": "18:18",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "16139419",
+    "client_name": "RODRIGUEZ JUANA ROSA",
+    "contact_type": "llamada",
+    "phone_used": "3865244955"
   }
 ]
