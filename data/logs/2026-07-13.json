@@ -58,5 +58,15 @@
     "client_name": "ALBORNOZ ROSA ALEJANDRA",
     "contact_type": "llamada",
     "phone_used": "3865578166"
+  },
+  {
+    "date": "2026-07-13",
+    "time": "10:44",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "30031356",
+    "client_name": "AMADO CRISTINA SILVANA",
+    "contact_type": "llamada",
+    "phone_used": "3865214498"
   }
 ]
