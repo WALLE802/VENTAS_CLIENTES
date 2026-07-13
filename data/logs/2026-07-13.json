@@ -158,5 +158,15 @@
     "client_name": "COLLANTE MARIA ANTONIA",
     "contact_type": "llamada",
     "phone_used": "3865612019"
+  },
+  {
+    "date": "2026-07-13",
+    "time": "10:44",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "28171842",
+    "client_name": "CONTRERAS GUSTAVO ALEJANDRO",
+    "contact_type": "llamada",
+    "phone_used": "3815655952"
   }
 ]
