@@ -1498,5 +1498,15 @@
     "client_name": "PONCE RITA LUCIANA",
     "contact_type": "llamada",
     "phone_used": "3865669872"
+  },
+  {
+    "date": "2026-07-13",
+    "time": "11:54",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "30371583",
+    "client_name": "QUINTEROS SILVANA RAQUEL",
+    "contact_type": "llamada",
+    "phone_used": "3865264535"
   }
 ]
