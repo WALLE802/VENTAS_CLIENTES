@@ -298,5 +298,15 @@
     "client_name": "PRIOTTI DIEGO MARTIN",
     "contact_type": "llamada",
     "phone_used": "3865692791"
+  },
+  {
+    "date": "2026-07-13",
+    "time": "11:43",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "21332770",
+    "client_name": "QUIETA DANTE HORACIO",
+    "contact_type": "llamada",
+    "phone_used": "3865615806"
   }
 ]
