@@ -108,5 +108,15 @@
     "client_name": "BRIZUELA GABRIEL ALEJANDRO",
     "contact_type": "llamada",
     "phone_used": "3865668087"
+  },
+  {
+    "date": "2026-07-13",
+    "time": "10:44",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "6244350",
+    "client_name": "BUSTAMANTE ANTONIA BERTA",
+    "contact_type": "llamada",
+    "phone_used": "3865560957"
   }
 ]
