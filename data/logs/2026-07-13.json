@@ -78,5 +78,15 @@
     "client_name": "ARARIQUE ANTONIO NOLBERTO",
     "contact_type": "llamada",
     "phone_used": "3865216500"
+  },
+  {
+    "date": "2026-07-13",
+    "time": "10:44",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "25667516",
+    "client_name": "ARRASCAETA JOSE ANTONIO",
+    "contact_type": "llamada",
+    "phone_used": "3865627164"
   }
 ]
