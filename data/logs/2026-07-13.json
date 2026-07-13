@@ -1548,5 +1548,15 @@
     "client_name": "RIOS MANUEL ERNESTO",
     "contact_type": "llamada",
     "phone_used": "3865826580"
+  },
+  {
+    "date": "2026-07-13",
+    "time": "18:13",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "31770082",
+    "client_name": "RIVERO MARIA DEOLINDA",
+    "contact_type": "llamada",
+    "phone_used": "3865639406"
   }
 ]
