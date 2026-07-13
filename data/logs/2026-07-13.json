@@ -208,5 +208,15 @@
     "client_name": "ESCOBAR SERGIO ANTONIO",
     "contact_type": "llamada",
     "phone_used": "3865519176"
+  },
+  {
+    "date": "2026-07-13",
+    "time": "10:44",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "29048800",
+    "client_name": "FARIAS MIRIAM DEL VALLE",
+    "contact_type": "llamada",
+    "phone_used": "3813439128"
   }
 ]
