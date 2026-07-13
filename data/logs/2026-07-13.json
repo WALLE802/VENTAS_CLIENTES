@@ -118,5 +118,15 @@
     "client_name": "BUSTAMANTE ANTONIA BERTA",
     "contact_type": "llamada",
     "phone_used": "3865560957"
+  },
+  {
+    "date": "2026-07-13",
+    "time": "10:44",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "35255772",
+    "client_name": "CABRERA SERGIO DANIEL",
+    "contact_type": "llamada",
+    "phone_used": "3813896730"
   }
 ]
