@@ -278,5 +278,15 @@
     "client_name": "MORALES SANDRA MOEMI",
     "contact_type": "llamada",
     "phone_used": "3865556828"
+  },
+  {
+    "date": "2026-07-13",
+    "time": "10:47",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "43501634",
+    "client_name": "NAVARRO ROSA MARIANELA",
+    "contact_type": "llamada",
+    "phone_used": "3865515176"
   }
 ]
