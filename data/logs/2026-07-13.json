@@ -1518,5 +1518,15 @@
     "client_name": "RAMOS JOSE ANTONIO",
     "contact_type": "llamada",
     "phone_used": "3865610732"
+  },
+  {
+    "date": "2026-07-13",
+    "time": "18:01",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "28780231",
+    "client_name": "REYNA VANESSA CAROLINA",
+    "contact_type": "llamada",
+    "phone_used": "3865210965"
   }
 ]
