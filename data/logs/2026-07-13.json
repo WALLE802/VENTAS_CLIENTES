@@ -198,5 +198,15 @@
     "client_name": "DIAZ MARIELA GRACIELA *",
     "contact_type": "llamada",
     "phone_used": "3865442117"
+  },
+  {
+    "date": "2026-07-13",
+    "time": "10:44",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "36668535",
+    "client_name": "ESCOBAR SERGIO ANTONIO",
+    "contact_type": "llamada",
+    "phone_used": "3865519176"
   }
 ]
