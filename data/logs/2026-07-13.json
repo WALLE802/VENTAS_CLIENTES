@@ -228,5 +228,15 @@
     "client_name": "FERNANDEZ MONICA SANDRA",
     "contact_type": "llamada",
     "phone_used": "3865798102"
+  },
+  {
+    "date": "2026-07-13",
+    "time": "10:44",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "23616922",
+    "client_name": "FLORES ADRIANA GERONIMA",
+    "contact_type": "llamada",
+    "phone_used": "3865238256"
   }
 ]
