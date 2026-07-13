@@ -98,5 +98,15 @@
     "client_name": "ASCENCIO MARIA ANGELICA",
     "contact_type": "llamada",
     "phone_used": "3865606666"
+  },
+  {
+    "date": "2026-07-13",
+    "time": "10:44",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "36997971",
+    "client_name": "BRIZUELA GABRIEL ALEJANDRO",
+    "contact_type": "llamada",
+    "phone_used": "3865668087"
   }
 ]
