@@ -1538,5 +1538,15 @@
     "client_name": "RIN CRISTIAN DAVID DEL VALLE",
     "contact_type": "llamada",
     "phone_used": "3865574694"
+  },
+  {
+    "date": "2026-07-13",
+    "time": "18:06",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "30031314",
+    "client_name": "RIOS MANUEL ERNESTO",
+    "contact_type": "llamada",
+    "phone_used": "3865826580"
   }
 ]
