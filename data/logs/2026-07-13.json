@@ -238,5 +238,15 @@
     "client_name": "FLORES ADRIANA GERONIMA",
     "contact_type": "llamada",
     "phone_used": "3865238256"
+  },
+  {
+    "date": "2026-07-13",
+    "time": "10:45",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "30588470",
+    "client_name": "FUENTES SEBASTIAN ANTONIO",
+    "contact_type": "llamada",
+    "phone_used": "3865799780"
   }
 ]
