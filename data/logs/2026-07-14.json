@@ -1718,5 +1718,15 @@
     "client_name": "SILVA MARIELA ROSA DEL CARMEN",
     "contact_type": "llamada",
     "phone_used": "3865365365"
+  },
+  {
+    "date": "2026-07-14",
+    "time": "19:21",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "18549930",
+    "client_name": "SOLORZANO MIGUEL ANGEL",
+    "contact_type": "llamada",
+    "phone_used": "3865214755"
   }
 ]
