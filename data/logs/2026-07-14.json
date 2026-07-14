@@ -1728,5 +1728,15 @@
     "client_name": "SOLORZANO MIGUEL ANGEL",
     "contact_type": "llamada",
     "phone_used": "3865214755"
+  },
+  {
+    "date": "2026-07-14",
+    "time": "19:23",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "24960516",
+    "client_name": "SORIA CRISTINA MARIELA",
+    "contact_type": "llamada",
+    "phone_used": "3865371912"
   }
 ]
