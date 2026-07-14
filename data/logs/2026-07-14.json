@@ -1678,5 +1678,15 @@
     "client_name": "SALICA CRISTINA DEL VALLE",
     "contact_type": "llamada",
     "phone_used": "3865316131"
+  },
+  {
+    "date": "2026-07-14",
+    "time": "19:12",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "30446385",
+    "client_name": "SANCHEZ MARTIN SILVANO",
+    "contact_type": "llamada",
+    "phone_used": "3865577358"
   }
 ]
