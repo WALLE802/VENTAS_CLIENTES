@@ -1698,5 +1698,15 @@
     "client_name": "SANTILLAN ROSSANA DEL VALLE",
     "contact_type": "llamada",
     "phone_used": "3865377842"
+  },
+  {
+    "date": "2026-07-14",
+    "time": "19:15",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "26506594",
+    "client_name": "SANTO DIEGO RICARDO *",
+    "contact_type": "llamada",
+    "phone_used": "3812469509"
   }
 ]
