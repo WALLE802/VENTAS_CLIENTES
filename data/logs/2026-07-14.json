@@ -1658,5 +1658,15 @@
     "client_name": "RODRIGUEZ JUANA ROSA",
     "contact_type": "llamada",
     "phone_used": "3865244955"
+  },
+  {
+    "date": "2026-07-14",
+    "time": "19:09",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "45665211",
+    "client_name": "SAAVEDRA RIVERO MARISOL DEL CARMEN",
+    "contact_type": "llamada",
+    "phone_used": "3863540655"
   }
 ]
