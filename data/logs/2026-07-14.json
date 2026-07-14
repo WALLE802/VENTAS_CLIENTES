@@ -8,5 +8,15 @@
     "client_name": "RODRIGUEZ LUIS ALFREDO",
     "contact_type": "llamada",
     "phone_used": "3865552206"
+  },
+  {
+    "date": "2026-07-14",
+    "time": "18:51",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "26246690",
+    "client_name": "RODRIGUEZ MARCELA BEATRIZ",
+    "contact_type": "llamada",
+    "phone_used": "3815490342"
   }
 ]
