@@ -1708,5 +1708,15 @@
     "client_name": "SANTO DIEGO RICARDO *",
     "contact_type": "llamada",
     "phone_used": "3812469509"
+  },
+  {
+    "date": "2026-07-14",
+    "time": "19:16",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "25927825",
+    "client_name": "SILVA MARIELA ROSA DEL CARMEN",
+    "contact_type": "llamada",
+    "phone_used": "3865365365"
   }
 ]
