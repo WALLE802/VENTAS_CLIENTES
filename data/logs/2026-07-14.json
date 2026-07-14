@@ -1668,5 +1668,15 @@
     "client_name": "SAAVEDRA RIVERO MARISOL DEL CARMEN",
     "contact_type": "llamada",
     "phone_used": "3863540655"
+  },
+  {
+    "date": "2026-07-14",
+    "time": "19:11",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "13959055",
+    "client_name": "SALICA CRISTINA DEL VALLE",
+    "contact_type": "llamada",
+    "phone_used": "3865316131"
   }
 ]
