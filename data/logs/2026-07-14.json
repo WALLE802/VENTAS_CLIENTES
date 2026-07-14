@@ -1688,5 +1688,15 @@
     "client_name": "SANCHEZ MARTIN SILVANO",
     "contact_type": "llamada",
     "phone_used": "3865577358"
+  },
+  {
+    "date": "2026-07-14",
+    "time": "19:12",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "30588661",
+    "client_name": "SANTILLAN ROSSANA DEL VALLE",
+    "contact_type": "llamada",
+    "phone_used": "3865377842"
   }
 ]
