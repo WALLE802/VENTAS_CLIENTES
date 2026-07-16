@@ -38,5 +38,15 @@
     "client_name": "SUAREZ DOLORES DEL CARMEN",
     "contact_type": "llamada",
     "phone_used": "3865562392"
+  },
+  {
+    "date": "2026-07-16",
+    "time": "10:50",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "22345542",
+    "client_name": "SUAREZ HORACIO DANIEL",
+    "contact_type": "llamada",
+    "phone_used": "3813474913"
   }
 ]
