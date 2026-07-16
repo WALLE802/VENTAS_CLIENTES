@@ -148,5 +148,15 @@
     "client_name": "VALLS GUSTAVO ADOLFO",
     "contact_type": "llamada",
     "phone_used": "3865235149"
+  },
+  {
+    "date": "2026-07-16",
+    "time": "11:06",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "17655113",
+    "client_name": "VARELA JOSE ANTONIO",
+    "contact_type": "llamada",
+    "phone_used": "3865313783"
   }
 ]
