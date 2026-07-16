@@ -178,5 +178,15 @@
     "client_name": "VEGA MARISA MABEL",
     "contact_type": "llamada",
     "phone_used": "1141717464"
+  },
+  {
+    "date": "2026-07-16",
+    "time": "11:09",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "29731996",
+    "client_name": "VELIZ GRACIELA ELIZABETH",
+    "contact_type": "llamada",
+    "phone_used": "3865440211"
   }
 ]
