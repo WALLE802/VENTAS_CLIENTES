@@ -78,5 +78,15 @@
     "client_name": "TEJERINA MARCELA DEL VALLE",
     "contact_type": "llamada",
     "phone_used": "3865856500"
+  },
+  {
+    "date": "2026-07-16",
+    "time": "10:53",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "16383778",
+    "client_name": "TOLEDO ANTONIA DEL VALLE",
+    "contact_type": "llamada",
+    "phone_used": "3865431185"
   }
 ]
