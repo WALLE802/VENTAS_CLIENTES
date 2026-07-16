@@ -118,5 +118,15 @@
     "client_name": "TULA JUANA BEATRIZ",
     "contact_type": "llamada",
     "phone_used": "3865234487"
+  },
+  {
+    "date": "2026-07-16",
+    "time": "10:59",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "37715909",
+    "client_name": "UÑATES JESSICA PAMELA",
+    "contact_type": "llamada",
+    "phone_used": "3865716487"
   }
 ]
