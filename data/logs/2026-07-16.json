@@ -68,5 +68,15 @@
     "client_name": "TAPIA HECTOR ENRIQUE",
     "contact_type": "llamada",
     "phone_used": "3814599590"
+  },
+  {
+    "date": "2026-07-16",
+    "time": "10:52",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "29731615",
+    "client_name": "TEJERINA MARCELA DEL VALLE",
+    "contact_type": "llamada",
+    "phone_used": "3865856500"
   }
 ]
