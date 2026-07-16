@@ -28,5 +28,15 @@
     "client_name": "SOTO DILAN ARIEL",
     "contact_type": "llamada",
     "phone_used": "3865641169"
+  },
+  {
+    "date": "2026-07-16",
+    "time": "10:47",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "31333211",
+    "client_name": "SUAREZ DOLORES DEL CARMEN",
+    "contact_type": "llamada",
+    "phone_used": "3865562392"
   }
 ]
