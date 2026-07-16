@@ -238,5 +238,15 @@
     "client_name": "ZELARAYAN MARIANA LOREN",
     "contact_type": "llamada",
     "phone_used": "3865261636"
+  },
+  {
+    "date": "2026-07-16",
+    "time": "11:14",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "37997932",
+    "client_name": "ZELARAYAN RUBEN EDUARDO",
+    "contact_type": "llamada",
+    "phone_used": "3865680835"
   }
 ]
