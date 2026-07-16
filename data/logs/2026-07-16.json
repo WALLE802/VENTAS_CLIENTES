@@ -108,5 +108,15 @@
     "client_name": "TORO MARTA ROSA",
     "contact_type": "llamada",
     "phone_used": "3865414151"
+  },
+  {
+    "date": "2026-07-16",
+    "time": "10:58",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "18228960",
+    "client_name": "TULA JUANA BEATRIZ",
+    "contact_type": "llamada",
+    "phone_used": "3865234487"
   }
 ]
