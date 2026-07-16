@@ -228,5 +228,15 @@
     "client_name": "VIZCARRA NESTOR FABIAN",
     "contact_type": "llamada",
     "phone_used": "3865656183"
+  },
+  {
+    "date": "2026-07-16",
+    "time": "11:14",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "26579855",
+    "client_name": "ZELARAYAN MARIANA LOREN",
+    "contact_type": "llamada",
+    "phone_used": "3865261636"
   }
 ]
