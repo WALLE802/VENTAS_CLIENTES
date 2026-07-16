@@ -168,5 +168,15 @@
     "client_name": "VARGAS VICTOR HUGO",
     "contact_type": "llamada",
     "phone_used": "3865580797"
+  },
+  {
+    "date": "2026-07-16",
+    "time": "11:08",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "22929987",
+    "client_name": "VEGA MARISA MABEL",
+    "contact_type": "llamada",
+    "phone_used": "1141717464"
   }
 ]
