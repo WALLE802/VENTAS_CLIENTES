@@ -18,5 +18,15 @@
     "client_name": "SOSA MANUEL ANTONIO",
     "contact_type": "llamada",
     "phone_used": "3865335061"
+  },
+  {
+    "date": "2026-07-16",
+    "time": "10:16",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "44377479",
+    "client_name": "SOTO DILAN ARIEL",
+    "contact_type": "llamada",
+    "phone_used": "3865641169"
   }
 ]
