@@ -128,5 +128,15 @@
     "client_name": "UÑATES JESSICA PAMELA",
     "contact_type": "llamada",
     "phone_used": "3865716487"
+  },
+  {
+    "date": "2026-07-16",
+    "time": "11:01",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "38490818",
+    "client_name": "VALDEZ JOSE ALEJANDRO",
+    "contact_type": "llamada",
+    "phone_used": "3865641655"
   }
 ]
