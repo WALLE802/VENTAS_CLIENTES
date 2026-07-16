@@ -88,5 +88,15 @@
     "client_name": "TOLEDO ANTONIA DEL VALLE",
     "contact_type": "llamada",
     "phone_used": "3865431185"
+  },
+  {
+    "date": "2026-07-16",
+    "time": "10:55",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "16554137",
+    "client_name": "TOLEDO NORMA BEATRIZ",
+    "contact_type": "llamada",
+    "phone_used": "3865661908"
   }
 ]
