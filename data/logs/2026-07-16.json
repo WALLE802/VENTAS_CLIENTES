@@ -218,5 +218,15 @@
     "client_name": "VILLAFAE VALERIA EUGENIA",
     "contact_type": "llamada",
     "phone_used": "3865558794"
+  },
+  {
+    "date": "2026-07-16",
+    "time": "11:13",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "22074095",
+    "client_name": "VIZCARRA NESTOR FABIAN",
+    "contact_type": "llamada",
+    "phone_used": "3865656183"
   }
 ]
