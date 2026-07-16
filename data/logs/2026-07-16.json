@@ -188,5 +188,15 @@
     "client_name": "VELIZ GRACIELA ELIZABETH",
     "contact_type": "llamada",
     "phone_used": "3865440211"
+  },
+  {
+    "date": "2026-07-16",
+    "time": "11:10",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "14099139",
+    "client_name": "VILLA MIRTA DEL VALLE",
+    "contact_type": "llamada",
+    "phone_used": "3865202427"
   }
 ]
