@@ -138,5 +138,15 @@
     "client_name": "VALDEZ JOSE ALEJANDRO",
     "contact_type": "llamada",
     "phone_used": "3865641655"
+  },
+  {
+    "date": "2026-07-16",
+    "time": "11:02",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "31312147",
+    "client_name": "VALLS GUSTAVO ADOLFO",
+    "contact_type": "llamada",
+    "phone_used": "3865235149"
   }
 ]
