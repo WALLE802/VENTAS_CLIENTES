@@ -48,5 +48,15 @@
     "client_name": "SUAREZ HORACIO DANIEL",
     "contact_type": "llamada",
     "phone_used": "3813474913"
+  },
+  {
+    "date": "2026-07-16",
+    "time": "10:51",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "20782413",
+    "client_name": "SUAREZ SANDRA SONIA",
+    "contact_type": "llamada",
+    "phone_used": "3865397731"
   }
 ]
