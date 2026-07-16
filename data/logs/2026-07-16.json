@@ -98,5 +98,15 @@
     "client_name": "TOLEDO NORMA BEATRIZ",
     "contact_type": "llamada",
     "phone_used": "3865661908"
+  },
+  {
+    "date": "2026-07-16",
+    "time": "10:56",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "26109975",
+    "client_name": "TORO MARTA ROSA",
+    "contact_type": "llamada",
+    "phone_used": "3865414151"
   }
 ]
