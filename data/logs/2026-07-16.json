@@ -58,5 +58,15 @@
     "client_name": "SUAREZ SANDRA SONIA",
     "contact_type": "llamada",
     "phone_used": "3865397731"
+  },
+  {
+    "date": "2026-07-16",
+    "time": "10:52",
+    "username": "aguilares",
+    "branch": "aguilares",
+    "client_dni": "14234894",
+    "client_name": "TAPIA HECTOR ENRIQUE",
+    "contact_type": "llamada",
+    "phone_used": "3814599590"
   }
 ]
